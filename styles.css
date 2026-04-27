@@ -394,11 +394,12 @@ h1 {
 
 .hero-phone img {
   display: block;
+  max-width: none;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: -30px;
   bottom: auto;
-  width: 142%;
+  width: 155%;
   height: auto;
   transform: translateX(-50%);
   filter: drop-shadow(0 28px 42px rgba(19, 22, 28, 0.14));
@@ -797,6 +798,12 @@ figcaption {
     grid-column: 1 / -1;
     width: min(100%, 740px);
     order: 1;
+  }
+
+  .hero-phone img {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
   }
 
   .function-card {
