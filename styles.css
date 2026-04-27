@@ -190,16 +190,18 @@ h2 {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 48px;
 }
 
 .feature-grid article,
-.system-list article {
+.system-list article,
+.timeline-list article {
   padding-top: 28px;
 }
 
-.feature-grid span {
+.feature-grid span,
+.timeline-list span {
   display: block;
   margin-bottom: 26px;
   color: var(--muted);
@@ -215,16 +217,23 @@ h3 {
 }
 
 .feature-grid p,
-.system-list p {
+.system-list p,
+.timeline-list p {
   color: var(--muted);
   font-size: 18px;
   line-height: 1.65;
 }
 
 .system-list,
-.link-list {
+.link-list,
+.timeline-list {
   display: grid;
   gap: 18px;
+}
+
+.timeline-list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 36px;
 }
 
 .system-list article {
@@ -336,9 +345,17 @@ h3 {
   }
 
   .feature-grid,
+  .timeline-list,
   .system-list article,
   .link-list a {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1020px) {
+  .feature-grid,
+  .timeline-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

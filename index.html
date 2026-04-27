@@ -6,7 +6,7 @@
     <title>aDict · Dictionary lookup for reading</title>
     <meta
       name="description"
-      content="aDict is a dictionary and reading-tool ecosystem for iOS, iPadOS, and Apple platforms, built around fast lookup, local dictionaries, and long-term maintenance."
+      content="aDict is a dictionary and reading-tool ecosystem for iOS, iPadOS, and Apple platforms, built around fast lookup, MDict files, local dictionaries, and long-term maintenance."
     >
     <link rel="canonical" href="https://adict.ronniewong.cc/">
     <link rel="alternate" hreflang="en" href="https://adict.ronniewong.cc/">
@@ -57,6 +57,7 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#features">Features</a>
+        <a href="#history">History</a>
         <a href="#system">System</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
@@ -70,10 +71,11 @@
           <p class="eyebrow">Dictionary lookup · iOS · iPadOS · Apple platforms</p>
           <h1 id="hero-title">A quiet dictionary for reading.</h1>
           <p class="hero-text">
-            aDict keeps lookup fast, local, and predictable, so reading can continue without turning every word into a context switch.
+            aDict keeps lookup close to reading: quick entries, local dictionaries, and personal MDX / MDict files without turning every word into a context switch.
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597">App Store</a>
+            <a class="button" href="https://testflight.apple.com/join/dCGMvyw9">TestFlight beta</a>
             <a class="button" href="https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70">Product notes</a>
           </div>
         </div>
@@ -100,18 +102,52 @@
         <div class="feature-grid">
           <article>
             <span>01</span>
-            <h3>Offline dictionaries</h3>
-            <p>Use built-in and local dictionary sources for everyday Chinese-English and English-Chinese lookup.</p>
+            <h3>Comfortable lookup</h3>
+            <p>Started as a lightweight Mac and iOS lookup tool with careful typography, dark mode, and low-friction search.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>MDX / MDict support</h3>
-            <p>Keep personal dictionary collections useful inside a native reading workflow.</p>
+            <h3>Personal dictionary files</h3>
+            <p>Use MDX / MDict files, MDD resources, and matching CSS sidecars without converting a long-kept dictionary collection into an app-only format.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Apple platform fit</h3>
-            <p>Designed around iPhone, iPad, and the long-term maintenance of native app behavior.</p>
+            <h3>Reading data</h3>
+            <p>Words, lookup history, saved entries, iCloud documents, and dictionary files are treated as product data, not incidental UI state.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Enrichment layer</h3>
+            <p>The rewrite includes configurable Intelligence Enrichment fields that can append focused context to lookup results.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section history" id="history" aria-labelledby="history-title">
+        <div class="section-head">
+          <p class="eyebrow">History</p>
+          <h2 id="history-title">A small tool becoming a maintainable system.</h2>
+        </div>
+        <div class="timeline-list">
+          <article>
+            <span>2019</span>
+            <h3>Readable first</h3>
+            <p>aDict began as a simple, good-looking lookup utility for programming, reading, and everyday word checks.</p>
+          </article>
+          <article>
+            <span>2021</span>
+            <h3>Bring your own dictionaries</h3>
+            <p>Version 2.0 moved the product toward user-owned MDX files, Words, iCloud documents, and iPad workflows.</p>
+          </article>
+          <article>
+            <span>2024</span>
+            <h3>One-time purchase</h3>
+            <p>Version 2.4 dropped subscriptions because a low-frequency, long-lived dictionary tool should stay reliably available.</p>
+          </article>
+          <article>
+            <span>2026</span>
+            <h3>3.0 architecture work</h3>
+            <p>The current rewrite separates lookup protocol, providers, WebView rendering, local files, and user data, with public beta distribution now prepared.</p>
           </article>
         </div>
       </section>
@@ -119,20 +155,24 @@
       <section class="section system" id="system" aria-labelledby="system-title">
         <div class="section-head">
           <p class="eyebrow">System</p>
-          <h2 id="system-title">More than a single app surface.</h2>
+          <h2 id="system-title">A clearer local dictionary system.</h2>
         </div>
         <div class="system-list">
           <article>
-            <h3>Product</h3>
-            <p>The public app, product notes, support pages, and App Store presence.</p>
+            <h3>App shell</h3>
+            <p>The SwiftUI rewrite owns search, dictionary switching, favorites, settings, StoreKit entitlement state, and the Apple-platform experience.</p>
           </article>
           <article>
-            <h3>Data</h3>
-            <p>Dictionary formats, source lists, updates, and compatibility decisions.</p>
+            <h3>Providers</h3>
+            <p>Youdao, MDict, and StarDict are split into provider packages that emit the same aDictProtocol response envelope.</p>
           </article>
           <article>
-            <h3>Maintenance</h3>
-            <p>Rewrite work, protocol boundaries, platform behavior, and release notes.</p>
+            <h3>Dictionary files</h3>
+            <p>MDict and StarDict files are scanned from local or iCloud documents, including MDX, MDD, sidecar CSS, and StarDict bundle files.</p>
+          </article>
+          <article>
+            <h3>Persistence</h3>
+            <p>Lookup history, favorites, and enrichment rules use SQLite / GRDB with CloudKit sync, while generated enrichment cache stays local.</p>
           </article>
         </div>
       </section>
@@ -147,9 +187,21 @@
             <span>App Store</span>
             <strong>Download aDict</strong>
           </a>
+          <a href="https://testflight.apple.com/join/dCGMvyw9">
+            <span>Beta</span>
+            <strong>Join the aDict 3.0 public beta</strong>
+          </a>
           <a href="https://www.notion.so/qoli/adict-%E7%9A%84%E6%BC%94%E5%8C%96%E6%AD%B7%E5%8F%B2-%E5%BE%9E%E9%A0%86%E7%9C%BC%E7%9A%84%E6%9F%A5%E8%A9%9E%E5%B7%A5%E5%85%B7%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%A9%9E%E5%85%B8%E6%9E%B6%E6%A7%8B-34ec1b36c4018133ba41c6d9a03cbe2f?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link">
             <span>Writing</span>
             <strong>aDict evolution history</strong>
+          </a>
+          <a href="https://www.notion.so/256cd3473fd249bd80bf01b936892adc">
+            <span>Guide</span>
+            <strong>Using MDict dictionaries in aDict</strong>
+          </a>
+          <a href="https://www.notion.so/34dc1b36c4018194b3b9fbedca404d4f">
+            <span>Roadmap</span>
+            <strong>aDict 3.0 from the user side</strong>
           </a>
           <a href="https://ronniewong.cc/projects/adict/">
             <span>Project context</span>

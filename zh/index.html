@@ -6,7 +6,7 @@
     <title>aDict · 為閱讀而設計的詞典查詢工具</title>
     <meta
       name="description"
-      content="aDict 是面向 iOS、iPadOS 與 Apple 平台的詞典與閱讀工具系統，重視快速查詢、本地詞典，以及長期可維護的閱讀工作流。"
+      content="aDict 是面向 iOS、iPadOS 與 Apple 平台的詞典與閱讀工具系統，重視快速查詢、MDict 詞庫、本地詞典，以及長期可維護的閱讀工作流。"
     >
     <link rel="canonical" href="https://adict.ronniewong.cc/zh/">
     <link rel="alternate" hreflang="en" href="https://adict.ronniewong.cc/">
@@ -58,6 +58,7 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#features">功能</a>
+        <a href="#history">歷史</a>
         <a href="#system">系統</a>
         <a href="../support.html">支援</a>
         <a href="../privacy.html">隱私</a>
@@ -71,10 +72,11 @@
           <p class="eyebrow">詞典查詢 · iOS · iPadOS · Apple platforms</p>
           <h1 id="hero-title">一個安靜的閱讀詞典。</h1>
           <p class="hero-text">
-            aDict 讓查詞保持快速、本地和可預期，讓閱讀不必因為每一個詞而被切換走。
+            aDict 讓查詞保持貼近閱讀：快速入口、本地詞典，以及個人的 MDX / MDict 詞庫，不必因為每一個詞而被切換走。
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597">App Store</a>
+            <a class="button" href="https://testflight.apple.com/join/dCGMvyw9">TestFlight beta</a>
             <a class="button" href="https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70">產品筆記</a>
           </div>
         </div>
@@ -101,18 +103,52 @@
         <div class="feature-grid">
           <article>
             <span>01</span>
-            <h3>離線詞典</h3>
-            <p>使用內建與本地詞典資料，完成日常中英、英中查詢。</p>
+            <h3>舒服的查詞</h3>
+            <p>它從一個輕量 Mac 與 iOS 查詞工具開始，重視排版、深色模式，以及低摩擦的搜尋入口。</p>
           </article>
           <article>
             <span>02</span>
-            <h3>MDX / MDict 支援</h3>
-            <p>讓個人的詞典收藏保留在原生閱讀工作流裡持續可用。</p>
+            <h3>自己的詞典文件</h3>
+            <p>使用 MDX / MDict 文件、MDD 資源與同名 CSS，不需要把長期收藏的詞庫轉成 App 專用格式。</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Apple 平台整合</h3>
-            <p>圍繞 iPhone、iPad，以及長期維護原生 App 行為的要求設計。</p>
+            <h3>閱讀資料</h3>
+            <p>Words、查詞歷史、收藏條目、iCloud 文件與詞典文件都應被當作產品資料，而不是偶然的 UI 狀態。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>增強層</h3>
+            <p>新版包含可配置的 Intelligence Enrichment 欄位，能在查詞結果後追加聚焦的補充內容。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section history" id="history" aria-labelledby="history-title">
+        <div class="section-head">
+          <p class="eyebrow">歷史</p>
+          <h2 id="history-title">一個小工具正在變成可維護的系統。</h2>
+        </div>
+        <div class="timeline-list">
+          <article>
+            <span>2019</span>
+            <h3>先讓查詞可讀</h3>
+            <p>aDict 起初是一個簡單、順眼的查詞工具，服務編程、閱讀與日常用詞確認。</p>
+          </article>
+          <article>
+            <span>2021</span>
+            <h3>使用者自己的詞庫</h3>
+            <p>2.0 把產品推向自帶 MDX 文件、Words、iCloud 文件與 iPad 工作流。</p>
+          </article>
+          <article>
+            <span>2024</span>
+            <h3>一次性買斷</h3>
+            <p>2.4 取消訂閱，因為低頻但長期存在的詞典工具應該可靠地留在那裡。</p>
+          </article>
+          <article>
+            <span>2026</span>
+            <h3>3.0 架構重寫</h3>
+            <p>目前的重寫把查詞協議、Provider、WebView 渲染、本地文件與使用者資料拆開，並已準備公開 beta 分發。</p>
           </article>
         </div>
       </section>
@@ -120,20 +156,24 @@
       <section class="section system" id="system" aria-labelledby="system-title">
         <div class="section-head">
           <p class="eyebrow">系統</p>
-          <h2 id="system-title">它不只是一個 App 表面。</h2>
+          <h2 id="system-title">更清楚的本地詞典系統。</h2>
         </div>
         <div class="system-list">
           <article>
-            <h3>產品</h3>
-            <p>公開 App、產品筆記、支援頁面，以及 App Store 呈現。</p>
+            <h3>App 殼層</h3>
+            <p>SwiftUI 重寫負責搜尋、詞典切換、收藏、設定、StoreKit 權益狀態，以及 Apple 平台體驗。</p>
           </article>
           <article>
-            <h3>資料</h3>
-            <p>詞典格式、來源列表、更新流程，以及相容性判斷。</p>
+            <h3>Providers</h3>
+            <p>Youdao、MDict、StarDict 被拆成 provider packages，並輸出同一套 aDictProtocol response envelope。</p>
           </article>
           <article>
-            <h3>維護</h3>
-            <p>重寫工作、協議邊界、平台行為，以及版本記錄。</p>
+            <h3>詞典文件</h3>
+            <p>本地或 iCloud 文件會被掃描成 MDict 與 StarDict 詞典，包含 MDX、MDD、同名 CSS 與 StarDict bundle files。</p>
+          </article>
+          <article>
+            <h3>持久化</h3>
+            <p>查詞歷史、收藏與 enrichment rules 使用 SQLite / GRDB 並通過 CloudKit 同步；生成結果 cache 則保留在本地。</p>
           </article>
         </div>
       </section>
@@ -148,9 +188,21 @@
             <span>App Store</span>
             <strong>下載 aDict</strong>
           </a>
+          <a href="https://testflight.apple.com/join/dCGMvyw9">
+            <span>Beta</span>
+            <strong>加入 aDict 3.0 public beta</strong>
+          </a>
           <a href="https://www.notion.so/qoli/adict-%E7%9A%84%E6%BC%94%E5%8C%96%E6%AD%B7%E5%8F%B2-%E5%BE%9E%E9%A0%86%E7%9C%BC%E7%9A%84%E6%9F%A5%E8%A9%9E%E5%B7%A5%E5%85%B7%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%A9%9E%E5%85%B8%E6%9E%B6%E6%A7%8B-34ec1b36c4018133ba41c6d9a03cbe2f?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link">
             <span>Writing</span>
             <strong>aDict 的演化歷史</strong>
+          </a>
+          <a href="https://www.notion.so/256cd3473fd249bd80bf01b936892adc">
+            <span>Guide</span>
+            <strong>在 aDict 中使用 MDict 詞庫</strong>
+          </a>
+          <a href="https://www.notion.so/34dc1b36c4018194b3b9fbedca404d4f">
+            <span>Roadmap</span>
+            <strong>aDict 3.0：從使用者角度看這次重寫</strong>
           </a>
           <a href="https://ronniewong.cc/projects/adict/">
             <span>Project context</span>
