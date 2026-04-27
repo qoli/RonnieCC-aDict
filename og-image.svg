@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4efe4"/>
+  <text x="96" y="176" fill="#11100e" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="10">aDict</text>
+  <text x="96" y="302" fill="#11100e" font-family="Montserrat, Arial, sans-serif" font-size="76" font-weight="300">A quiet dictionary</text>
+  <text x="96" y="394" fill="#11100e" font-family="Montserrat, Arial, sans-serif" font-size="76" font-weight="300">for reading.</text>
+  <text x="96" y="476" fill="#5f574d" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="400">iOS / iPadOS / Apple platforms</text>
+  <g fill="none" stroke="#11100e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+    <path d="M862 146h138c42 0 76 34 76 76v262H938c-42 0-76-34-76-76Z"/>
+    <path d="M960 210h58c46 0 84 38 84 84v190H960"/>
+    <path d="M910 286h120M910 348h152M910 410h98"/>
+  </g>
+</svg>
