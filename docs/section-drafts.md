@@ -2,7 +2,7 @@
 
 > 建立日期：2026-04-28  
 > 用途：以這個文件為討論中心，逐區塊確定文案後再寫入 HTML。  
-> 不參考 `landing-page-copy-pack.md`。文案從 Notion 產品資料和源碼事實重新建立。
+> 不參考 `landing-page-copy-pack.md`。文案從 Notion 產品資料重新建立，只寫使用者在乎的事。
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 整體敘事節奏（二稿）
+## 整體敘事節奏
 
 Hero 做完情緒後，剩下的螢幕不超過三個。每一屏都要有圖。
 
@@ -34,14 +34,14 @@ Hero            → 手機 mockup + 兩張資訊卡 + copy
 
 Section 1       → 圖：詞典切換選單（dictionary-menu）
                   文：一句話講完 aDict 是什麼、接哪些來源
-                  因為 Hero 的兩張資訊卡已經預告了來源，這裡用圖證明
 
 Section 2       → 圖：MDict 查詞結果（mdict-lookup）
                   文：你的檔案、你的資料歸你
-                  用圖展示「自己的 mdx 直接跑」，文字補信任感
 
-Section 3 / FAQ → 可能不需要第三屏純文案區塊，直接 FAQ + CTA
-                  或者用 settings-pro 截圖收在 Pro 權益說明
+Section 3？     → 暫不決定。如果兩屏已夠，直接進 FAQ + CTA。
+                  如果需要第三屏，方向是使用者命題（免費/Pro、跨裝置等）
+
+FAQ + CTA       → 五題 FAQ + App Store / TestFlight
 ```
 
 ### 圖片分工
@@ -108,8 +108,8 @@ Your files. Your data. Not locked inside a service.
 **Body:**
 ```
 Drag in your MDX, MDD, and StarDict files. They render with their original
-structure and sidecar CSS. Your lookup history, favorites, and enrichment
-rules live in SQLite and CloudKit — exportable, syncable, yours.
+structure and sidecar styling. Your lookup history and favorites sync across
+your devices — exportable, portable, yours.
 ```
 
 ### 繁體中文草稿
@@ -121,12 +121,36 @@ rules live in SQLite and CloudKit — exportable, syncable, yours.
 
 **Body:**
 ```
-把你的 MDX、MDD 和 StarDict 檔案放進來，它們保留原有結構與同名 CSS 渲染。
-查詞歷史、收藏和 enrichment rules 放在 SQLite 和 CloudKit 裡——可匯出、可同步、是你的。
+把你的 MDX、MDD 和 StarDict 檔案放進來，它們保留原有結構與同名樣式。
+查詞歷史與收藏跨裝置同步——可匯出、可帶著走、是你的。
 ```
 
 ### 寫法說明
 
 - 圖（mdict-lookup）展示檔案原樣渲染，文字只需要承諾兩件事：檔案不轉格式、資料歸你
-- 「SQLite + CloudKit」具體點名技術，給進階使用者信心，但放 body 不當標題
 - 這個 section 同時吃掉原本的「信任」和「長期」——檔案和資料是同一個信任問題
+
+---
+
+## Section 3（待定：是否需要第三屏？）
+
+如果兩屏（S1 來源 + S2 檔案與資料）已經講完核心，可以不走第三屏，直接進 FAQ + CTA。
+
+如果需要第三屏，方向應該是使用者在乎的事，例如：
+- 免費 / Pro 的透明分界（settings-pro 截圖）
+- 跨裝置（iPhone + iPad + Mac）
+- 深色模式與閱讀舒適
+
+暫不展開，等 S1、S2 定稿後再判斷需不需要第三屏。
+
+---
+
+## FAQ + CTA（待展開）
+
+- 可以用自己的 MDict 檔案嗎？→ 可以，MDX/MDD/CSS 直接讀
+- 只有有道嗎？→ 有道是其中一個來源，也支援 MDict、StarDict
+- 需要帳號嗎？→ 本地詞典不需要，跨裝置同步可選
+- 免費版和 Pro 差在哪？→ 免費版包含有道查詞。Pro 解鎖本地詞典、收藏與跨裝置同步
+- 支援哪些平台？→ iPhone、iPad、Mac
+
+CTA：App Store badge + TestFlight badge（已在 hero 有，footer 可重複）
