@@ -577,12 +577,21 @@ h1 {
 }
 
 .source-section {
+  min-height: 120vh;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .source-visual {
-  width: min(100%, 430px);
+  width: min(100%, 980px);
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+
+.source-phone {
+  width: min(52vw, 430px);
   margin: 0 auto;
   overflow: hidden;
   border-radius: 32px;
@@ -590,10 +599,61 @@ h1 {
   background: #f7f7f8;
 }
 
-.source-visual img {
+.source-base {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.source-menu-layer {
+  width: min(40vw, 390px);
+  height: auto;
+  max-width: none;
+  display: block;
+}
+
+.source-float {
+  position: absolute;
+  z-index: 3;
+  left: calc(50% - 120px);
+  top: 36%;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.source-note {
+  width: 240px;
+  margin: 76px 0 0;
+  padding: 18px;
+  border: 1px solid rgba(7, 7, 7, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 18px 48px rgba(18, 22, 30, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.source-note span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.source-note strong {
+  display: block;
+  color: var(--ink);
+  font-size: 21px;
+  line-height: 1.12;
+  font-weight: 750;
+}
+
+.source-note p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.48;
 }
 
 .section-heading {
@@ -897,8 +957,27 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .source-visual {
+  .source-section {
+    min-height: auto;
+  }
+
+  .source-phone {
     width: min(100%, 380px);
+  }
+
+  .source-float {
+    left: calc(50% - 92px);
+    top: 38%;
+    gap: 14px;
+  }
+
+  .source-menu-layer {
+    width: min(45vw, 320px);
+  }
+
+  .source-note {
+    width: 210px;
+    margin-top: 58px;
   }
 }
 
@@ -987,9 +1066,39 @@ figcaption {
     padding: 72px 0;
   }
 
-  .source-visual {
+  .source-section {
+    gap: 32px;
+  }
+
+  .source-phone {
     width: min(100%, 340px);
     border-radius: 26px;
+  }
+
+  .source-float {
+    left: 22%;
+    top: 38%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .source-menu-layer {
+    width: min(72vw, 270px);
+  }
+
+  .source-note {
+    width: 220px;
+    margin: -16px 0 0 28px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .source-note strong {
+    font-size: 18px;
+  }
+
+  .source-note p {
+    font-size: 13px;
   }
 
   .benefit-grid article {
