@@ -65,6 +65,7 @@ img {
 .site-header,
 .footer,
 .hero,
+.text-title,
 .section,
 .logo-strip,
 .final-cta {
@@ -576,6 +577,27 @@ h1 {
   padding: 104px 0;
 }
 
+.text-title {
+  padding: 64px 0 48px;
+  text-align: center;
+}
+
+.text-title h2 {
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: clamp(32px, 3.6vw, 44px);
+  line-height: 1.14;
+}
+
+.text-title p {
+  max-width: 520px;
+  margin: 18px auto 0;
+  color: rgba(7, 7, 7, 0.56);
+  font-size: clamp(16px, 1.15vw, 17px);
+  font-weight: 500;
+  line-height: 1.52;
+}
+
 .source-section {
   min-height: 120vh;
   display: flex;
@@ -641,7 +663,7 @@ h1 {
   position: absolute;
   z-index: 3;
   left: calc(50% - 160px);
-  top: 50%;
+  bottom: -90px;
   display: flex;
   align-items: flex-start;
   gap: 18px;
@@ -652,35 +674,35 @@ h1 {
   z-index: 2;
   width: 240px;
   margin: auto 0;
-  padding: 18px;
-  border: 1px solid rgba(7, 7, 7, 0.08);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: 0 18px 48px rgba(18, 22, 30, 0.12);
-  backdrop-filter: blur(16px);
+  padding: 16px;
+  border: 1px solid rgba(7, 7, 7, 0.06);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 12px 30px rgba(18, 22, 30, 0.08);
+  backdrop-filter: blur(12px);
   margin-left: -200px;
 }
 
 .source-note span {
   display: block;
-  margin-bottom: 10px;
-  color: var(--red);
+  margin-bottom: 9px;
+  color: rgba(239, 49, 36, 0.82);
   font-size: 12px;
-  font-weight: 750;
+  font-weight: 650;
 }
 
 .source-note strong {
   display: block;
   color: var(--ink);
-  font-size: 21px;
-  line-height: 1.12;
-  font-weight: 750;
+  font-size: 19px;
+  line-height: 1.14;
+  font-weight: 650;
 }
 
 .source-note p {
-  margin: 12px 0 0;
-  color: var(--muted);
-  font-size: 14px;
+  margin: 10px 0 0;
+  color: rgba(7, 7, 7, 0.58);
+  font-size: 13.5px;
   line-height: 1.48;
 }
 
@@ -995,7 +1017,6 @@ figcaption {
 
   .source-float {
     left: calc(50% - 92px);
-    top: 38%;
     gap: 14px;
   }
 
@@ -1005,6 +1026,7 @@ figcaption {
   .site-header,
   .footer,
   .hero,
+  .text-title,
   .section,
   .logo-strip,
   .final-cta,
@@ -1086,6 +1108,21 @@ figcaption {
     padding: 72px 0;
   }
 
+  .text-title {
+    padding: 56px 0 42px;
+  }
+
+  .text-title h2 {
+    font-size: clamp(28px, 8.2vw, 36px);
+    line-height: 1.14;
+  }
+
+  .text-title p {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+
   .source-section {
     gap: 32px;
   }
@@ -1097,7 +1134,6 @@ figcaption {
 
   .source-float {
     left: 22%;
-    top: 38%;
     flex-direction: column;
     gap: 10px;
   }
