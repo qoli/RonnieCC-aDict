@@ -578,24 +578,24 @@ h1 {
 }
 
 .text-title {
-  padding: 64px 0 48px;
+  padding: 52px 0 38px;
   text-align: center;
 }
 
 .text-title h2 {
-  max-width: 780px;
+  max-width: 720px;
   margin: 0 auto;
-  font-size: clamp(32px, 3.6vw, 44px);
-  line-height: 1.14;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.18;
 }
 
 .text-title p {
-  max-width: 520px;
-  margin: 18px auto 0;
-  color: rgba(7, 7, 7, 0.56);
-  font-size: clamp(16px, 1.15vw, 17px);
+  max-width: 460px;
+  margin: 14px auto 0;
+  color: rgba(7, 7, 7, 0.3);
+  font-size: clamp(15px, 1vw, 16px);
   font-weight: 500;
-  line-height: 1.52;
+  line-height: 1.58;
 }
 
 .source-section {
@@ -1109,18 +1109,18 @@ figcaption {
   }
 
   .text-title {
-    padding: 56px 0 42px;
+    padding: 46px 0 34px;
   }
 
   .text-title h2 {
-    font-size: clamp(28px, 8.2vw, 36px);
-    line-height: 1.14;
+    font-size: clamp(26px, 7.5vw, 32px);
+    line-height: 1.18;
   }
 
   .text-title p {
-    margin-top: 16px;
-    font-size: 16px;
-    line-height: 1.62;
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 1.58;
   }
 
   .source-section {
