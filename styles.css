@@ -908,7 +908,6 @@ h1 {
   row-gap: 28px;
   align-items: end;
   padding-bottom: clamp(44px, 6vw, 78px);
-  border-bottom: 1px solid rgba(7, 7, 7, 0.14);
 }
 
 .local-dictionary-head .section-anchor {
@@ -1323,23 +1322,6 @@ figcaption {
 }
 
 @media (max-width: 980px) {
-  .site-header {
-    grid-template-columns: 1fr auto;
-    padding-top: 1em;
-  }
-
-  .site-header::after {
-    content: none;
-  }
-
-  .nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    justify-content: flex-start;
-    overflow-x: auto;
-    padding-bottom: 8px;
-  }
-
   .hero {
     padding-top: 40px;
     grid-template-columns: 1fr;
@@ -1372,7 +1354,7 @@ figcaption {
 
   .hero-copy .hero-text {
     padding-left: 0;
-    list-style-position: inside;
+    list-style: none;
   }
 
   .hero-copy .actions {
