@@ -289,6 +289,33 @@ h1 {
   margin-top: 50px;
 }
 
+.store-actions {
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.store-badge {
+  height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 auto;
+  text-decoration: none;
+}
+
+.app-store-badge img,
+.testflight-badge img {
+  display: block;
+  width: auto;
+  height: 54px;
+}
+
+.store-badge:focus-visible {
+  outline: 3px solid rgba(0, 122, 255, 0.44);
+  outline-offset: 4px;
+}
+
 .hero-link {
   display: inline-flex;
   margin-top: 12px;
@@ -837,6 +864,17 @@ figcaption {
   .nav {
     gap: 18px;
     font-size: 14px;
+  }
+
+  .store-actions {
+    gap: 8px;
+    margin-top: 38px;
+  }
+
+  .store-badge,
+  .app-store-badge img,
+  .testflight-badge img {
+    height: 40px;
   }
 
   .hero {
