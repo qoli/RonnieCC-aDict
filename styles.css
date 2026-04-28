@@ -560,29 +560,12 @@ h1 {
 }
 
 .source-section {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 0.78fr);
-  gap: clamp(44px, 6vw, 92px);
-  align-items: center;
-}
-
-.source-copy {
-  max-width: 620px;
-}
-
-.source-copy h2 {
-  margin-bottom: 24px;
-}
-
-.source-copy p {
-  color: var(--muted);
-  font-size: clamp(18px, 1.55vw, 22px);
-  line-height: 1.62;
+  display: flex;
+  justify-content: center;
 }
 
 .source-visual {
-  width: min(100%, 320px);
+  width: min(100%, 430px);
   margin: 0 auto;
   overflow: hidden;
   border-radius: 32px;
@@ -893,23 +876,12 @@ figcaption {
   }
 
   .showcase-grid,
-  .source-section,
   .split-feature {
     grid-template-columns: 1fr;
   }
 
-  .source-section {
-    min-height: auto;
-    gap: 38px;
-  }
-
-  .source-copy {
-    max-width: 720px;
-  }
-
   .source-visual {
-    width: min(100%, 320px);
-    justify-self: center;
+    width: min(100%, 380px);
   }
 }
 
@@ -998,16 +970,8 @@ figcaption {
     padding: 72px 0;
   }
 
-  .source-section {
-    gap: 32px;
-  }
-
-  .source-copy p {
-    font-size: 17px;
-  }
-
   .source-visual {
-    width: min(100%, 300px);
+    width: min(100%, 340px);
     border-radius: 26px;
   }
 
