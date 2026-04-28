@@ -168,53 +168,25 @@ img {
 
 .provider-badge.avatar {
   overflow: hidden;
-  background-color: #d8dde6;
+  background-color: #f2f2f2;
   background-position: center;
   background-size: cover;
 }
 
 .provider-badge.avatar::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  display: block;
-  background:
-    radial-gradient(circle at 50% 31%, rgba(55, 36, 28, 0.95) 0 16%, transparent 17%),
-    radial-gradient(circle at 50% 54%, rgba(246, 196, 156, 1) 0 19%, transparent 20%),
-    linear-gradient(180deg, transparent 0 58%, rgba(32, 42, 68, 0.95) 59% 100%);
+  content: none;
 }
 
 .provider-badge.avatar-one {
-  background: linear-gradient(135deg, #ffe5cf 0%, #e8795d 100%);
-}
-
-.provider-badge.avatar-one::before {
-  background:
-    radial-gradient(circle at 47% 26%, #3b241d 0 17%, transparent 18%),
-    radial-gradient(circle at 50% 49%, #f5bd92 0 19%, transparent 20%),
-    linear-gradient(180deg, transparent 0 58%, #202a44 59% 100%);
+  background-image: url("assets/proof-avatar-1.png");
 }
 
 .provider-badge.avatar-two {
-  background: linear-gradient(135deg, #dce8ff 0%, #6c74d8 100%);
-}
-
-.provider-badge.avatar-two::before {
-  background:
-    radial-gradient(circle at 54% 27%, #1f2434 0 18%, transparent 19%),
-    radial-gradient(circle at 50% 49%, #dca67f 0 19%, transparent 20%),
-    linear-gradient(180deg, transparent 0 58%, #ffffff 59% 100%);
+  background-image: url("assets/proof-avatar-2.png");
 }
 
 .provider-badge.avatar-three {
-  background: linear-gradient(135deg, #fff0bd 0%, #e79b24 100%);
-}
-
-.provider-badge.avatar-three::before {
-  background:
-    radial-gradient(circle at 50% 25%, #6d3d24 0 16%, transparent 17%),
-    radial-gradient(circle at 50% 49%, #f1c49b 0 19%, transparent 20%),
-    linear-gradient(180deg, transparent 0 58%, #2f7a5f 59% 100%);
+  background-image: url("assets/proof-avatar-3.png");
 }
 
 .red {
@@ -253,11 +225,6 @@ img {
   align-items: flex-start;
   line-height: 1.1;
   gap: 3px;
-}
-
-.proof-score {
-  color: var(--ink);
-  font-weight: 700;
 }
 
 .proof-caption {
@@ -397,7 +364,7 @@ h1 {
   max-width: none;
   position: absolute;
   left: 50%;
-  top: -30px;
+  /* top: -30px; */
   bottom: auto;
   width: 155%;
   height: auto;
@@ -405,46 +372,42 @@ h1 {
   filter: drop-shadow(0 28px 42px rgba(19, 22, 28, 0.14));
 }
 
-.function-card {
+.hero-info-card {
   position: absolute;
   z-index: 4;
-  width: 255px;
-  padding: 16px;
+  width: 270px;
+  padding: 18px;
   border: 1px solid rgba(7, 7, 7, 0.08);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.88);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 24px 70px rgba(18, 22, 30, 0.12);
   backdrop-filter: blur(18px);
   text-align: left;
-  animation: floatFunction 5.8s ease-in-out infinite;
+  animation: floatInfoCard 5.8s ease-in-out infinite;
 }
 
-.lookup-card {
+.source-card {
   left: 6%;
   top: 34%;
 }
 
-.import-card {
+.library-card {
   right: 7%;
   top: 52%;
   animation-delay: -2.2s;
 }
 
-.function-card-head,
-.function-card-row {
+.info-card-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
-}
-
-.function-card-head {
+  margin-bottom: 13px;
   color: rgba(7, 7, 7, 0.56);
   font-size: 12px;
   font-weight: 700;
 }
 
-.function-dot {
+.info-dot {
   width: 10px;
   height: 10px;
   border-radius: 999px;
@@ -459,34 +422,34 @@ h1 {
   background: #0b6b45;
 }
 
-.function-card pre {
-  margin: 14px 0;
-  padding: 12px 13px;
-  border-radius: 12px;
-  background: rgba(7, 7, 7, 0.04);
-  overflow: hidden;
-}
-
-.function-card code {
+.info-card-title {
+  display: block;
   color: var(--ink);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 13px;
-  font-weight: 700;
-  white-space: nowrap;
+  font-size: 21px;
+  line-height: 1.12;
+  font-weight: 800;
 }
 
-.function-card-row {
-  color: rgba(7, 7, 7, 0.56);
+.info-card-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 15px;
+}
+
+.info-card-pills span {
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(7, 7, 7, 0.05);
+  color: rgba(7, 7, 7, 0.68);
   font-size: 12px;
   font-weight: 700;
 }
 
-.function-card-row strong {
-  color: var(--ink);
-  font-size: 13px;
-}
-
-@keyframes floatFunction {
+@keyframes floatInfoCard {
   0%,
   100% {
     transform: translateY(0);
@@ -806,7 +769,7 @@ figcaption {
     width: 100%;
   }
 
-  .function-card {
+  .hero-info-card {
     display: none;
   }
 
