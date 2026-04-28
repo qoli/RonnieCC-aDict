@@ -659,6 +659,49 @@ h1 {
   display: block;
 }
 
+.favorites-float {
+  position: absolute;
+  z-index: 4;
+  left: calc(50% - 323px);
+  top: -34px;
+  margin-left: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.favorites-menu-frame {
+  --favorites-menu-width: 500px;
+  --favorites-blur-width: 281px;
+  --favorites-blur-height: 308px;
+  --favorites-blur-left: 110px;
+  --favorites-blur-top: 94px;
+  width: var(--favorites-menu-width);
+  flex: 0 0 var(--favorites-menu-width);
+  position: relative;
+}
+
+.favorites-menu-background-blur {
+  position: absolute;
+  z-index: 0;
+  left: var(--favorites-blur-left);
+  top: var(--favorites-blur-top);
+  width: var(--favorites-blur-width);
+  height: var(--favorites-blur-height);
+  border-radius: 32px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.favorites-menu-layer {
+  position: relative;
+  z-index: 1;
+  width: var(--favorites-menu-width);
+  height: auto;
+  max-width: none;
+  display: block;
+}
+
 .source-float {
   position: absolute;
   z-index: 3;
@@ -680,7 +723,25 @@ h1 {
   background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 12px 30px rgba(18, 22, 30, 0.08);
   backdrop-filter: blur(12px);
+}
+
+.source-float .source-note {
+  width: 310px;
   margin-left: -200px;
+}
+
+.source-float .source-note strong {
+  white-space: nowrap;
+}
+
+.favorites-note {
+  width: 300px;
+  margin-top: 118px;
+  margin-left: -190px;
+}
+
+.favorites-note strong {
+  white-space: nowrap;
 }
 
 .source-note span {
@@ -1015,6 +1076,25 @@ figcaption {
     width: min(100%, 380px);
   }
 
+  .favorites-float {
+    left: calc(50% - 288px);
+    top: -82px;
+  }
+
+  .favorites-menu-frame {
+    --favorites-menu-width: 440px;
+    --favorites-blur-width: 247px;
+    --favorites-blur-height: 271px;
+    --favorites-blur-left: 97px;
+    --favorites-blur-top: 83px;
+  }
+
+  .favorites-note {
+    width: 290px;
+    margin-top: 104px;
+    margin-left: -178px;
+  }
+
   .source-float {
     left: calc(50% - 92px);
     gap: 14px;
@@ -1130,6 +1210,26 @@ figcaption {
   .source-phone {
     width: min(100%, 340px);
     border-radius: 26px;
+  }
+
+  .favorites-float {
+    left: calc(50% - 247px);
+    top: -70px;
+    gap: 10px;
+  }
+
+  .favorites-menu-frame {
+    --favorites-menu-width: 380px;
+    --favorites-blur-width: 213px;
+    --favorites-blur-height: 234px;
+    --favorites-blur-left: 83px;
+    --favorites-blur-top: 71px;
+  }
+
+  .favorites-note {
+    width: 260px;
+    margin-top: 88px;
+    margin-left: -154px;
   }
 
   .source-float {
