@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>aDict · 為閱讀而設計的詞典查詢工具</title>
+    <title>aDict · 為閱讀而設計的本地詞典</title>
     <meta
       name="description"
-      content="aDict 是面向 iOS、iPadOS 與 Apple 平台的詞典與閱讀工具系統，重視快速查詢、MDict 詞庫、本地詞典，以及長期可維護的閱讀工作流。"
+      content="aDict 是面向 iOS、iPadOS 與 Apple 平台的本地優先詞典查詢工具，圍繞 MDict、StarDict、有道、iCloud 文件與快速閱讀工作流設計。"
     >
     <link rel="canonical" href="https://adict.ronniewong.cc/zh/">
     <link rel="alternate" hreflang="en" href="https://adict.ronniewong.cc/">
@@ -19,14 +19,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="zh_TW">
     <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:title" content="aDict · 為閱讀而設計的詞典查詢工具">
-    <meta property="og:description" content="一個面向 Apple 平台、本地詞典與長期閱讀工作流的安靜查詞工具。">
+    <meta property="og:title" content="aDict · 為閱讀而設計的本地詞典">
+    <meta property="og:description" content="一個面向個人 MDict、StarDict 與長期閱讀工作流的本地優先詞典 App。">
     <meta property="og:url" content="https://adict.ronniewong.cc/zh/">
-    <meta property="og:image" content="https://adict.ronniewong.cc/og-image.svg">
+    <meta property="og:image" content="https://adict.ronniewong.cc/assets/adict-3-main.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="aDict · 為閱讀而設計的詞典查詢工具">
-    <meta name="twitter:description" content="一個面向 Apple 平台、本地詞典與長期閱讀工作流的安靜查詞工具。">
-    <meta name="twitter:image" content="https://adict.ronniewong.cc/og-image.svg">
+    <meta name="twitter:title" content="aDict · 為閱讀而設計的本地詞典">
+    <meta name="twitter:description" content="一個面向個人 MDict、StarDict 與長期閱讀工作流的本地優先詞典 App。">
+    <meta name="twitter:image" content="https://adict.ronniewong.cc/assets/adict-3-main.png">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -35,7 +35,7 @@
         "applicationCategory": "EducationApplication",
         "operatingSystem": "iOS, iPadOS, macOS",
         "inLanguage": "zh-Hant",
-        "description": "aDict 是面向快速查詢、本地詞典與 Apple 平台閱讀工作流的詞典工具系統。",
+        "description": "aDict 是面向快速查詢、本地詞典文件與 Apple 平台閱讀工作流的本地優先詞典工具。",
         "url": "https://adict.ronniewong.cc/zh/",
         "downloadUrl": "https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597",
         "author": {
@@ -53,178 +53,201 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/zh/" aria-label="aDict home">
-        <span>aDict</span>
-      </a>
+      <a class="brand" href="/zh/" aria-label="aDict home">aDict</a>
       <nav class="nav" aria-label="Primary">
+        <a href="#benefits">好處</a>
         <a href="#features">功能</a>
-        <a href="#history">歷史</a>
         <a href="#system">系統</a>
-        <a href="../support.html">支援</a>
-        <a href="../privacy.html">隱私</a>
+        <a href="#faq">FAQ</a>
       </nav>
-      <a class="lang-switch" href="../" hreflang="en" lang="en">EN</a>
+      <a class="header-cta" href="https://testflight.apple.com/join/dCGMvyw9">試用 3.0</a>
     </header>
 
     <main>
       <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-proof" aria-label="支援的詞典 sessions">
+          <div class="provider-stack" aria-hidden="true">
+            <span class="provider-badge red">Y</span>
+            <span class="provider-badge purple">M</span>
+            <span class="provider-badge amber">st</span>
+            <span class="provider-badge count">3.0</span>
+          </div>
+          <span class="proof-stars" aria-hidden="true">★★★★★</span>
+          <span>Local-first sessions</span>
+        </div>
+
         <div class="hero-copy">
-          <p class="eyebrow">詞典查詢 · iOS · iPadOS · Apple platforms</p>
-          <h1 id="hero-title">一個安靜的閱讀詞典。</h1>
+          <p class="eyebrow">aDict 3.0 for iOS and iPadOS</p>
+          <h1 id="hero-title">把自己的詞典，放在一次快速查詢裡。</h1>
           <p class="hero-text">
-            aDict 讓查詞保持貼近閱讀：快速入口、本地詞典，以及個人的 MDX / MDict 詞庫，不必因為每一個詞而被切換走。
+            aDict 讓查詞保持貼近閱讀：快速入口、個人的 MDX 文件、StarDict session，以及清楚的本地文件工作流。
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597">App Store</a>
-            <a class="button" href="https://testflight.apple.com/join/dCGMvyw9">TestFlight beta</a>
-            <a class="button" href="https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70">產品筆記</a>
+            <a class="button secondary" href="https://testflight.apple.com/join/dCGMvyw9">加入 TestFlight</a>
           </div>
         </div>
-        <figure class="hero-shot">
-          <img src="../assets/adict-3-mdict-lookup.png" alt="aDict 3.0 在 iPhone 上顯示 OxfordA MDict 的 ask 查詞結果">
-        </figure>
-      </section>
 
-      <section class="section statement" aria-label="Product statement">
-        <p>
-          它為跨語言閱讀、收藏詞典、並希望查詞工具像基礎設施一樣穩定工作的人而設計。
-        </p>
-      </section>
-
-      <section class="section screenshots" aria-labelledby="screenshots-title">
-        <div class="section-head">
-          <p class="eyebrow">aDict 3.0</p>
-          <h2 id="screenshots-title">來自重寫版本的真實 App 畫面。</h2>
-        </div>
-        <div class="screenshot-grid">
-          <figure>
-            <img src="../assets/adict-3-dictionary-menu.png" alt="aDict 3.0 詞典選單，顯示 StarDict、MDict 與 Youdao 詞典">
-            <figcaption>跨 StarDict、MDict 與 Youdao 的詞典 session。</figcaption>
+        <div class="hero-stage" aria-label="aDict app preview">
+          <figure class="hero-phone">
+            <img src="../assets/youdao-phone-mockup.png" alt="aDict 3.0 在傾斜 iPhone 上顯示有道查詞 mockup">
           </figure>
-          <figure>
-            <img src="../assets/adict-3-suggestions.png" alt="aDict 3.0 針對 Ask 查詢顯示 MDict 候選詞">
-            <figcaption>打開結果前的本地 MDict 候選詞。</figcaption>
-          </figure>
-          <figure>
-            <img src="../assets/adict-3-settings-pro.png" alt="aDict 3.0 設定頁顯示 Pro、詞典文件與 Intelligence">
-            <figcaption>Pro、詞典文件與 Intelligence 的設定表面。</figcaption>
-          </figure>
-        </div>
-      </section>
 
-      <section class="section grid-section" id="features" aria-labelledby="features-title">
-        <div class="section-head">
-          <p class="eyebrow">功能</p>
-          <h2 id="features-title">查詢應該貼近閱讀。</h2>
-        </div>
-        <div class="feature-grid">
-          <article>
-            <span>01</span>
-            <h3>舒服的查詞</h3>
-            <p>它從一個輕量 Mac 與 iOS 查詞工具開始，重視排版、深色模式，以及低摩擦的搜尋入口。</p>
+          <article class="status-card files-card">
+            <span>iCloud Documents</span>
+            <strong>MDX · MDD · CSS</strong>
           </article>
-          <article>
-            <span>02</span>
-            <h3>自己的詞典文件</h3>
-            <p>使用 MDX / MDict 文件、MDD 資源與同名 CSS，不需要把長期收藏的詞庫轉成 App 專用格式。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>閱讀資料</h3>
-            <p>Words、查詞歷史、收藏條目、iCloud 文件與詞典文件都應被當作產品資料，而不是偶然的 UI 狀態。</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>增強層</h3>
-            <p>新版包含可配置的 Intelligence Enrichment 欄位，能在查詞結果後追加聚焦的補充內容。</p>
+          <article class="status-card pro-card">
+            <span>Intelligence</span>
+            <strong>Enrichment ready</strong>
           </article>
         </div>
       </section>
 
-      <section class="section history" id="history" aria-labelledby="history-title">
-        <div class="section-head">
-          <p class="eyebrow">歷史</p>
-          <h2 id="history-title">一個小工具正在變成可維護的系統。</h2>
+      <section class="logo-strip" aria-label="aDict core sessions">
+        <span>Dictionary files</span>
+        <span>Lookup history</span>
+        <span>Favorites</span>
+        <span>CloudKit sync</span>
+        <span>Provider packages</span>
+      </section>
+
+      <section class="section benefits" id="benefits" aria-labelledby="benefits-title">
+        <div class="section-heading centered">
+          <p class="eyebrow">Benefits</p>
+          <h2 id="benefits-title">為那些帶著自己詞典閱讀的人設計。</h2>
+          <p>
+            aDict 把詞典文件、查詞歷史與收藏詞當作長期閱讀資料，而不是臨時 UI 狀態。
+          </p>
         </div>
-        <div class="timeline-list">
+        <div class="benefit-grid">
           <article>
-            <span>2019</span>
-            <h3>先讓查詞可讀</h3>
-            <p>aDict 起初是一個簡單、順眼的查詞工具，服務編程、閱讀與日常用詞確認。</p>
+            <span class="card-icon">01</span>
+            <h3>查詞不打斷閱讀</h3>
+            <p>快速搜尋、比較 session，再回到原本的閱讀節奏，不讓每一個詞都變成一次上下文切換。</p>
           </article>
           <article>
-            <span>2021</span>
-            <h3>使用者自己的詞庫</h3>
-            <p>2.0 把產品推向自帶 MDX 文件、Words、iCloud 文件與 iPad 工作流。</p>
+            <span class="card-icon">02</span>
+            <h3>使用自己的 MDX 文件</h3>
+            <p>支援 MDX、MDD 資源與同名 CSS sidecar，可以從本地或 iCloud 文件中使用。</p>
           </article>
           <article>
-            <span>2024</span>
-            <h3>一次性買斷</h3>
-            <p>2.4 取消訂閱，因為低頻但長期存在的詞典工具應該可靠地留在那裡。</p>
+            <span class="card-icon">03</span>
+            <h3>多個 provider，一個結果形狀</h3>
+            <p>Youdao、MDict 與 StarDict 進入同一套 response model，讓閱讀界面保持可預期。</p>
           </article>
           <article>
-            <span>2026</span>
-            <h3>3.0 架構重寫</h3>
-            <p>目前的重寫把查詞協議、Provider、WebView 渲染、本地文件與使用者資料拆開，並已準備公開 beta 分發。</p>
+            <span class="card-icon">04</span>
+            <h3>保存的詞要長期有用</h3>
+            <p>查詞歷史、收藏與 enrichment rules 都是 App 系統的一部分，可以服務更長的閱讀工作流。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section showcase" aria-labelledby="showcase-title">
+        <div class="section-heading">
+          <p class="eyebrow">Product surfaces</p>
+          <h2 id="showcase-title">來自 aDict 3.0 重寫版本的真實畫面。</h2>
+        </div>
+        <div class="showcase-grid">
+          <figure class="showcase-large">
+            <img src="../assets/adict-3-mdict-lookup.png" alt="aDict 3.0 MDict 查詞結果">
+            <figcaption>MDict 查詞結果、本地詞典內容，以及隨時可用的搜尋欄。</figcaption>
+          </figure>
+          <div class="showcase-stack">
+            <figure>
+              <img src="../assets/adict-3-dictionary-menu.png" alt="aDict 詞典 session 選單">
+              <figcaption>在 Youdao、MDict 與 StarDict sessions 之間切換。</figcaption>
+            </figure>
+            <figure>
+              <img src="../assets/adict-3-suggestions.png" alt="aDict MDict 候選詞">
+              <figcaption>打開完整條目前，先看到本地詞典候選詞。</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split-feature" id="features" aria-labelledby="features-title">
+        <div class="feature-copy">
+          <p class="eyebrow">Features</p>
+          <h2 id="features-title">一個像閱讀基礎設施一樣工作的詞典 App。</h2>
+          <p>
+            3.0 重寫把 App shell、providers、渲染、文件與持久化拆開，讓查詢流程可以持續改進，同時不破壞個人的詞庫收藏。
+          </p>
+          <a class="text-link" href="https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70">閱讀產品筆記</a>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Provider packages</h3>
+            <p>Youdao、MDict 與 StarDict 可以獨立演化，但仍輸出同一套查詞 response envelope。</p>
+          </article>
+          <article>
+            <h3>本地文件掃描</h3>
+            <p>從本地與 iCloud folders 發現詞典文件，包含 MDX、MDD、CSS 與 StarDict bundle files。</p>
+          </article>
+          <article>
+            <h3>Intelligence enrichment</h3>
+            <p>可配置的 enrichment 欄位能在詞典結果後追加聚焦內容，生成 cache 則保留在本地。</p>
           </article>
         </div>
       </section>
 
       <section class="section system" id="system" aria-labelledby="system-title">
-        <div class="section-head">
-          <p class="eyebrow">系統</p>
-          <h2 id="system-title">更清楚的本地詞典系統。</h2>
+        <div class="section-heading centered">
+          <p class="eyebrow">System</p>
+          <h2 id="system-title">小型查詞工具，變成更清楚的本地詞典系統。</h2>
         </div>
-        <div class="system-list">
+        <div class="timeline">
           <article>
-            <h3>App 殼層</h3>
-            <p>SwiftUI 重寫負責搜尋、詞典切換、收藏、設定、StoreKit 權益狀態，以及 Apple 平台體驗。</p>
+            <span>2019</span>
+            <h3>先讓查詞可讀</h3>
+            <p>aDict 起初是一個簡單查詞工具，服務編程、閱讀與日常用詞確認。</p>
           </article>
           <article>
-            <h3>Providers</h3>
-            <p>Youdao、MDict、StarDict 被拆成 provider packages，並輸出同一套 aDictProtocol response envelope。</p>
+            <span>2021</span>
+            <h3>使用者自己的詞庫</h3>
+            <p>2.0 加入 MDX 文件、Words、iCloud documents 與 iPad 工作流。</p>
           </article>
           <article>
-            <h3>詞典文件</h3>
-            <p>本地或 iCloud 文件會被掃描成 MDict 與 StarDict 詞典，包含 MDX、MDD、同名 CSS 與 StarDict bundle files。</p>
+            <span>2024</span>
+            <h3>一次性買斷</h3>
+            <p>2.4 移除訂閱，讓低頻但長期存在的詞典工具可靠地留在那裡。</p>
           </article>
           <article>
-            <h3>持久化</h3>
-            <p>查詞歷史、收藏與 enrichment rules 使用 SQLite / GRDB 並通過 CloudKit 同步；生成結果 cache 則保留在本地。</p>
+            <span>2026</span>
+            <h3>3.0 架構</h3>
+            <p>這次重寫拆開 providers、protocol、WebView rendering、files 與 user data，並準備 public beta 分發。</p>
           </article>
         </div>
       </section>
 
-      <section class="section links" aria-labelledby="links-title">
-        <div class="section-head">
-          <p class="eyebrow">參考</p>
-          <h2 id="links-title">公開痕跡。</h2>
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">讀者通常會問的問題。</h2>
         </div>
-        <div class="link-list">
-          <a href="https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597">
-            <span>App Store</span>
-            <strong>下載 aDict</strong>
-          </a>
-          <a href="https://testflight.apple.com/join/dCGMvyw9">
-            <span>Beta</span>
-            <strong>加入 aDict 3.0 public beta</strong>
-          </a>
-          <a href="https://www.notion.so/qoli/adict-%E7%9A%84%E6%BC%94%E5%8C%96%E6%AD%B7%E5%8F%B2-%E5%BE%9E%E9%A0%86%E7%9C%BC%E7%9A%84%E6%9F%A5%E8%A9%9E%E5%B7%A5%E5%85%B7%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%A9%9E%E5%85%B8%E6%9E%B6%E6%A7%8B-34ec1b36c4018133ba41c6d9a03cbe2f?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link">
-            <span>Writing</span>
-            <strong>aDict 的演化歷史</strong>
-          </a>
-          <a href="https://www.notion.so/256cd3473fd249bd80bf01b936892adc">
-            <span>Guide</span>
-            <strong>在 aDict 中使用 MDict 詞庫</strong>
-          </a>
-          <a href="https://www.notion.so/34dc1b36c4018194b3b9fbedca404d4f">
-            <span>Roadmap</span>
-            <strong>aDict 3.0：從使用者角度看這次重寫</strong>
-          </a>
-          <a href="https://ronniewong.cc/projects/adict/">
-            <span>Project context</span>
-            <strong>RonnieCC 項目頁面</strong>
-          </a>
+        <div class="faq-list">
+          <article>
+            <h3>可以使用既有 MDict 文件嗎？</h3>
+            <p>可以。aDict 圍繞個人詞典文件設計，包含 MDX、MDD 資源與 sidecar CSS。</p>
+          </article>
+          <article>
+            <h3>查詞需要帳號嗎？</h3>
+            <p>不需要。一般查詞是本地閱讀工具的體驗，不需要帳號才能使用。</p>
+          </article>
+          <article>
+            <h3>3.0 新在哪裡？</h3>
+            <p>重寫後的 provider 邊界、本地文件掃描、持久化、StoreKit 權益狀態與 enrichment rules 都更清楚。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <p class="eyebrow">Public beta</p>
+        <h2 id="final-title">用自己的詞典 stack 開始閱讀。</h2>
+        <div class="actions centered-actions">
+          <a class="button primary" href="https://testflight.apple.com/join/dCGMvyw9">加入 TestFlight</a>
+          <a class="button secondary" href="https://www.notion.so/256cd3473fd249bd80bf01b936892adc">MDict 指南</a>
         </div>
       </section>
     </main>
@@ -232,7 +255,7 @@
     <footer class="footer">
       <p>aDict</p>
       <nav aria-label="Footer links">
-        <a href="https://ronniewong.cc/">Ronnie Wong</a>
+        <a href="../" hreflang="en" lang="en">EN</a>
         <a href="../support.html">支援</a>
         <a href="../privacy.html">隱私</a>
       </nav>
