@@ -631,7 +631,7 @@ h1 {
   background: rgba(255, 255, 255, 0.88);
   box-shadow: 0 18px 48px rgba(18, 22, 30, 0.12);
   backdrop-filter: blur(16px);
-  margin-left: 76px;
+  margin-left: -76px;
 }
 
 .source-note span {
