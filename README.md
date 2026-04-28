@@ -44,6 +44,8 @@ scripts/optimize-images.sh
 
 The script uses `oxipng` for lossless PNG compression and `cwebp` at quality 90 by default. Override with `WEBP_QUALITY=92 scripts/optimize-images.sh` when a specific image needs a higher WebP quality setting.
 
+See `docs/image-optimization-sop.md` for the full repeatable workflow and GitHub Pages verification steps.
+
 ## Deployment
 
 The repository is prepared for GitHub Pages with a GitHub Actions workflow. Configure the repository Pages source as GitHub Actions, then point DNS for `adict.ronniewong.cc` at GitHub Pages.
