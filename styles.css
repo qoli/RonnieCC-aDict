@@ -129,23 +129,12 @@ img {
 
 .hero {
   min-height: calc(100vh - var(--header-h));
-  padding: 64px 0 0;
-  text-align: center;
-}
-
-.hero-proof {
-  width: fit-content;
-  margin: 0 auto 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.86fr);
+  gap: clamp(36px, 5vw, 78px);
   align-items: center;
-  gap: 14px;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.hero-proof strong {
-  color: var(--ink);
-  font-weight: 700;
+  padding: 36px 0 0;
+  text-align: left;
 }
 
 .provider-stack {
@@ -272,6 +261,16 @@ h1 {
   font-weight: 800;
 }
 
+.hero-copy {
+  max-width: 640px;
+  justify-self: start;
+}
+
+.hero-copy h1 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .hero-text {
   max-width: 700px;
   margin: 0 auto;
@@ -281,12 +280,23 @@ h1 {
   font-weight: 200;
 }
 
+.hero-copy .hero-text {
+  max-width: 620px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .actions {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
+}
+
+.hero-copy .actions {
+  justify-content: flex-start;
+  margin-top: 44px;
 }
 
 .store-actions {
@@ -365,20 +375,19 @@ h1 {
 
 .hero-stage {
   position: relative;
-  width: min(100%, 1140px);
-  min-height: clamp(440px, 42vw, 560px);
-  margin: 18px auto 0;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
   overflow: visible;
 }
 
 .hero-phone {
-  width: min(66vw, 740px);
-  height: clamp(440px, 42vw, 560px);
-  margin: 22px auto 0;
+  width: min(100%, 430px);
+  height: clamp(540px, 52vw, 660px);
+  margin: 0 auto;
   position: relative;
   z-index: 2;
   overflow: hidden;
-  /* Fade-out should not introduce any color blocks; use a mask (alpha) instead of a white overlay. */
   -webkit-mask-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
@@ -409,13 +418,12 @@ h1 {
   display: block;
   max-width: none;
   position: absolute;
-  left: 50%;
-  /* top: -30px; */
+  left: 0;
+  top: 0;
   bottom: auto;
-  width: 155%;
+  width: 100%;
   height: auto;
-  transform: translateX(-50%);
-  filter: drop-shadow(0 28px 42px rgba(19, 22, 28, 0.14));
+  transform: none;
 }
 
 .hero-info-card {
@@ -798,6 +806,12 @@ figcaption {
 
   .hero {
     padding-top: 40px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero-copy {
+    order: -1;
   }
 
   .hero-stage {
@@ -809,14 +823,12 @@ figcaption {
   }
 
   .hero-phone {
-    grid-column: 1 / -1;
-    width: min(100%, 740px);
+    width: 500px;
+    height: 500px;
     order: 1;
   }
 
   .hero-phone img {
-    max-width: 100%;
-    top: 0;
     width: 100%;
   }
 
@@ -880,14 +892,7 @@ figcaption {
   .hero {
     min-height: auto;
     padding: 34px 0 54px;
-  }
-
-  .hero-proof {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 26px;
-    width: 100%;
+    text-align: left;
   }
 
   .proof-rating {
@@ -901,7 +906,7 @@ figcaption {
   }
 
   h1 {
-    font-size: clamp(42px, 13vw, 62px);
+    font-size: clamp(42px, 13vw, 52px);
   }
 
   h2 {
@@ -914,11 +919,8 @@ figcaption {
     font-size: 17px;
   }
 
-  .hero-stage,
-  .benefit-grid,
-  .timeline,
-  .faq-list article {
-    grid-template-columns: 1fr;
+  .hero-copy .actions {
+    justify-content: flex-start;
   }
 
   .section {
