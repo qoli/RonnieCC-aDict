@@ -36,13 +36,13 @@ http://127.0.0.1:4190/
 
 ## Image Optimization
 
-The landing page serves WebP images with PNG fallbacks. After replacing or adding top-level PNG files in `assets/`, regenerate WebP files with:
+The landing page serves WebP images with optimized PNG fallbacks. After replacing or adding PNG files in `assets/`, optimize PNG files and regenerate top-level WebP files with:
 
 ```sh
 scripts/optimize-images.sh
 ```
 
-The script uses `cwebp` at quality 90 by default. Override with `WEBP_QUALITY=92 scripts/optimize-images.sh` when a specific image needs a higher quality setting.
+The script uses `oxipng` for lossless PNG compression and `cwebp` at quality 90 by default. Override with `WEBP_QUALITY=92 scripts/optimize-images.sh` when a specific image needs a higher WebP quality setting.
 
 ## Deployment
 

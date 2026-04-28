@@ -9,6 +9,13 @@ if ! command -v cwebp >/dev/null 2>&1; then
   exit 1
 fi
 
+if ! command -v oxipng >/dev/null 2>&1; then
+  echo "oxipng is required. Install it with: brew install oxipng" >&2
+  exit 1
+fi
+
+oxipng -o 4 --strip safe --recursive "$ROOT_DIR/assets"
+
 find "$ROOT_DIR/assets" -maxdepth 1 -type f -name "*.png" -print0 |
   while IFS= read -r -d '' image; do
     output="${image%.png}.webp"
