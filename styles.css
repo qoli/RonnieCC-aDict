@@ -895,6 +895,122 @@ h1 {
   line-height: 1.36;
 }
 
+.local-dictionary-section {
+  min-height: 100vh;
+  padding-top: clamp(112px, 12vw, 172px);
+  padding-bottom: clamp(100px, 10vw, 150px);
+}
+
+.local-dictionary-head {
+  display: grid;
+  grid-template-columns: minmax(0, 0.64fr) minmax(300px, 0.36fr);
+  column-gap: clamp(42px, 8vw, 112px);
+  row-gap: 28px;
+  align-items: end;
+  padding-bottom: clamp(44px, 6vw, 78px);
+  border-bottom: 1px solid rgba(7, 7, 7, 0.14);
+}
+
+.local-dictionary-head .eyebrow {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.local-dictionary-head h2 {
+  max-width: 830px;
+  margin: 0;
+  font-size: clamp(56px, 8.4vw, 118px);
+  line-height: 0.94;
+  text-wrap: balance;
+}
+
+.local-dictionary-head p {
+  max-width: 430px;
+  margin: 0 0 0 auto;
+  color: rgba(7, 7, 7, 0.58);
+  font-size: clamp(17px, 1.3vw, 20px);
+  line-height: 1.58;
+  font-weight: 420;
+}
+
+.format-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+  margin: 24px 0 clamp(46px, 6vw, 78px);
+  color: rgba(7, 7, 7, 0.48);
+  font-size: clamp(12px, 1vw, 14px);
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
+.format-strip span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+}
+
+.format-strip span + span::before {
+  content: "/";
+  margin: 0 13px;
+  color: rgba(7, 7, 7, 0.22);
+  font-weight: 500;
+}
+
+.local-narratives {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid rgba(7, 7, 7, 0.12);
+  border-bottom: 1px solid rgba(7, 7, 7, 0.12);
+}
+
+.local-narratives article {
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 24px 32px;
+  border-left: 1px solid rgba(7, 7, 7, 0.12);
+}
+
+.local-narratives article:first-child {
+  border-left: 0;
+}
+
+.narrative-index {
+  display: block;
+  margin-bottom: clamp(42px, 6vw, 84px);
+  color: rgba(239, 49, 36, 0.72);
+  font-size: 12px;
+  font-weight: 780;
+}
+
+.local-narratives h3 {
+  max-width: 260px;
+  margin: 0 0 22px;
+  font-family:
+    "Inter Tight",
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: clamp(25px, 2.45vw, 34px);
+  line-height: 1.02;
+  font-weight: 760;
+  text-wrap: balance;
+}
+
+.local-narratives p {
+  margin: auto 0 0;
+  color: rgba(7, 7, 7, 0.56);
+  font-size: clamp(15px, 1.08vw, 17px);
+  line-height: 1.55;
+  font-weight: 420;
+}
+
 .section-heading {
   max-width: 690px;
   margin-bottom: 48px;
@@ -1106,10 +1222,79 @@ figcaption {
   color: var(--muted);
 }
 
+.landing-footer {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) auto auto;
+  gap: clamp(28px, 5vw, 72px);
+  align-items: end;
+  padding-top: 46px;
+  border-top: 1px solid rgba(7, 7, 7, 0.14);
+}
+
 .footer p {
   margin: 0;
   color: var(--ink);
   font-weight: 850;
+}
+
+.footer-brand {
+  display: grid;
+  gap: 18px;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  width: max-content;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.footer-logo img {
+  width: 42px;
+  height: 42px;
+  display: block;
+  border-radius: 10px;
+  box-shadow:
+    0 0 0 1px rgba(7, 7, 7, 0.06),
+    0 14px 34px rgba(18, 22, 30, 0.08);
+}
+
+.footer-logo span {
+  font-family:
+    "DM Serif Display",
+    Georgia,
+    "Times New Roman",
+    serif;
+  font-size: clamp(34px, 3.5vw, 52px);
+  line-height: 0.94;
+}
+
+.landing-footer .footer-brand p {
+  max-width: 360px;
+  color: rgba(7, 7, 7, 0.46);
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 520;
+}
+
+.footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 720;
+}
+
+.footer-actions a {
+  text-decoration: none;
+}
+
+.footer-actions a:hover,
+.footer-actions a:focus-visible {
+  color: var(--red);
 }
 
 .page {
@@ -1237,6 +1422,41 @@ figcaption {
 
   .source-float {
     gap: 14px;
+  }
+
+  .local-dictionary-section {
+    padding-top: 112px;
+  }
+
+  .local-dictionary-head {
+    grid-template-columns: 1fr;
+  }
+
+  .local-dictionary-head p {
+    max-width: 620px;
+    margin-left: 0;
+  }
+
+  .local-narratives {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .local-narratives article:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .local-narratives article:nth-child(n + 3) {
+    border-top: 1px solid rgba(7, 7, 7, 0.12);
+  }
+
+  .landing-footer {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .landing-footer nav,
+  .footer-actions {
+    justify-content: flex-start;
   }
 
 }
@@ -1404,6 +1624,60 @@ figcaption {
     margin-top: 50px;
   }
 
+  .local-dictionary-section {
+    padding-top: 86px;
+    padding-bottom: 86px;
+  }
+
+  .local-dictionary-head {
+    padding-bottom: 40px;
+  }
+
+  .local-dictionary-head h2 {
+    font-size: clamp(42px, 13vw, 64px);
+    line-height: 0.98;
+  }
+
+  .local-dictionary-head p {
+    font-size: 16.5px;
+    line-height: 1.58;
+  }
+
+  .format-strip {
+    margin-top: 20px;
+    margin-bottom: 38px;
+  }
+
+  .local-narratives {
+    grid-template-columns: 1fr;
+  }
+
+  .local-narratives article,
+  .local-narratives article:nth-child(odd) {
+    min-height: 0;
+    padding: 24px 0 28px;
+    border-left: 0;
+  }
+
+  .local-narratives article + article,
+  .local-narratives article:nth-child(n + 3) {
+    border-top: 1px solid rgba(7, 7, 7, 0.12);
+  }
+
+  .narrative-index {
+    margin-bottom: 38px;
+  }
+
+  .local-narratives h3 {
+    max-width: 100%;
+    font-size: clamp(27px, 8vw, 36px);
+  }
+
+  .local-narratives p {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
   .benefit-grid article {
     min-height: 0;
   }
@@ -1427,8 +1701,25 @@ figcaption {
     flex-direction: column;
   }
 
+  .landing-footer {
+    display: grid;
+    gap: 24px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .footer-logo img {
+    width: 38px;
+    height: 38px;
+  }
+
   .footer nav {
     justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .footer-actions {
     flex-wrap: wrap;
     gap: 18px;
   }
