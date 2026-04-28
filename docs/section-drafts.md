@@ -194,11 +194,10 @@ Hero 後面接一個獨立文字標題區。
 
 | 區域 | 實作 |
 |------|------|
-| Top line | 小字 eyebrow：`Local dictionaries, intact` |
+| Top line | 小型紅字 anchor label：`# Local dictionaries, intact` |
 | Main line | 大字 H2，佔 2-3 行，作為整段視覺中心 |
 | Definition line | 一段短 body，控制在 2-3 行內 |
 | Feature row | 三到四段使用者敘事，使用短標題 + 一句完整場景 |
-| Format strip | 一行格式 token：`MDX` / `MDD` / `CSS` / `StarDict` |
 
 ### 功能敘事
 
@@ -227,7 +226,6 @@ Hero 後面接一個獨立文字標題區。
 | Eyebrow | `Local dictionaries, intact` |
 | H2 | `The dictionaries you collected still have a place to live.` |
 | Body | `Bring the files you already trust into aDict, then read them in the flow of your day. Their structure, resources, and familiar rhythm stay close, while history and favorites remember where each word came from.` |
-| Format strip | `MDX / MDD / CSS / StarDict` |
 
 ### 繁體中文對照
 
@@ -236,15 +234,14 @@ Hero 後面接一個獨立文字標題區。
 | Eyebrow | `本地詞典，保持原貌` |
 | H2 | `你收集的詞典，仍然有地方好好放著。` |
 | Body | `把你已經信任的檔案帶進 aDict，然後在每天閱讀的節奏裡使用它們。結構、資源與熟悉的閱讀感留在身邊；歷史與收藏也記得每個詞來自哪一本來源。` |
-| Format strip | `MDX / MDD / CSS / StarDict` |
 
 ### 視覺語法備註
 
 - 不使用手機截圖、產品 mockup 或圖片卡。
 - H2 應該是這段的主視覺，不要被功能點搶走。
+- Eyebrow 使用小尺寸紅色 anchor label，不作為正文段落處理。
 - 功能點用連續敘事排列，不做一般 card grid，也不要寫成規格表。
 - 每個功能點都要從使用者語境出發，再自然帶出功能；避免用 provider、protocol、SQLite、render model 這類工程詞做可見文案。
-- Format strip 可以做成單行 inline tokens，但應該保持克制，不要變成 hero 資訊卡的重複。
 
 ### 可替換標題
 
@@ -277,7 +274,7 @@ Hero 後面接一個獨立文字標題區。
 | Nav 1 | `Support` → `support.html` |
 | Nav 2 | `Privacy` → `privacy.html` |
 
-設計語法：頂線分隔、大字品牌、低彩度 tagline、緊湊文字連結；不使用卡片或大型 CTA 區塊。
+設計語法：頂線分隔、大字品牌、低彩度 tagline 使用 400 字重；四個 footer 連結使用同一個 grid 保持等距；`Support` / `Privacy` 作為次要連結使用更高透明度；不使用卡片或大型 CTA 區塊。
 
 ---
 
