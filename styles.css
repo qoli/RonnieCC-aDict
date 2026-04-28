@@ -76,12 +76,29 @@ img {
   gap: 24px;
 }
 
+.site-header::after {
+  content: "";
+  width: 48px;
+  height: 48px;
+  justify-self: end;
+}
+
 .brand {
   justify-self: start;
-  color: var(--ink);
-  font-size: 25px;
-  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+}
+
+.brand img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 12px;
+  box-shadow:
+    0 0 0 1px rgba(7, 7, 7, 0.06),
+    0 16px 64px rgba(18, 22, 30, 0.08);
 }
 
 .nav,
@@ -105,26 +122,6 @@ img {
 .footer a:hover,
 .footer a:focus-visible {
   color: var(--ink);
-}
-
-.header-cta {
-  justify-self: end;
-  min-height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 18px;
-  border-radius: 999px;
-  background: linear-gradient(
-    180deg,
-    rgba(41, 41, 41, 1) 0%,
-    rgba(12, 12, 12, 1) 100%
-  );
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 16px 26px rgba(7, 7, 7, 0.16);
 }
 
 .hero {
@@ -249,7 +246,8 @@ img {
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin-top: 0;
 }
 
@@ -274,16 +272,26 @@ h1 {
 .hero-text {
   max-width: 700px;
   margin: 0 auto;
+  padding-left: 1.1em;
   color: var(--muted);
-  font-size: clamp(18px, 1.45vw, 22px);
-  line-height: 1.48;
-  font-weight: 200;
+  font-size: clamp(15px, 1.1vw, 18px);
+  font-style: italic;
+  line-height: 1.56;
+  font-weight: 300;
 }
 
 .hero-copy .hero-text {
   max-width: 620px;
   margin-right: 0;
   margin-left: 0;
+}
+
+.hero-text li + li {
+  margin-top: 8px;
+}
+
+.hero-text li::marker {
+  color: rgba(7, 7, 7, 0.35);
 }
 
 .actions {
@@ -790,6 +798,11 @@ figcaption {
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: 1fr auto;
+    padding-top: 1em;
+  }
+
+  .site-header::after {
+    content: none;
   }
 
   .nav {
@@ -798,10 +811,6 @@ figcaption {
     justify-content: flex-start;
     overflow-x: auto;
     padding-bottom: 8px;
-  }
-
-  .header-cta {
-    grid-column: 2;
   }
 
   .hero {
@@ -864,13 +873,14 @@ figcaption {
   }
 
   .brand {
-    font-size: 22px;
+    width: 44px;
+    height: 44px;
   }
 
-  .header-cta {
-    min-height: 40px;
-    padding: 0 16px;
-    font-size: 13px;
+  .brand img {
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
   }
 
   .nav {
@@ -917,6 +927,10 @@ figcaption {
   .section-heading p,
   .feature-copy p {
     font-size: 17px;
+  }
+
+  .hero-text {
+    font-size: 15.5px;
   }
 
   .hero-copy .actions {
