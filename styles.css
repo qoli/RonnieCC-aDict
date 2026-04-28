@@ -14,6 +14,7 @@
   --soft-shadow: 0 14px 34px rgba(18, 22, 30, 0.1);
   --max: 1160px;
   --header-h: 88px;
+  --hero-media-width: 500px;
 }
 
 * {
@@ -127,7 +128,7 @@ img {
 .hero {
   min-height: calc(100vh - var(--header-h));
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.86fr);
+  grid-template-columns: var(--hero-media-width) minmax(0, 1fr);
   gap: clamp(36px, 5vw, 78px);
   align-items: center;
   padding: 36px 0 0;
@@ -383,9 +384,10 @@ h1 {
 
 .hero-stage {
   position: relative;
-  width: 100%;
+  width: var(--hero-media-width);
   min-height: 0;
   margin: 0;
+  justify-self: start;
   overflow: visible;
 }
 
@@ -824,6 +826,7 @@ figcaption {
   }
 
   .hero-stage {
+    width: 100%;
     min-height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
