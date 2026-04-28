@@ -34,6 +34,16 @@ Then open:
 http://127.0.0.1:4190/
 ```
 
+## Image Optimization
+
+The landing page serves WebP images with PNG fallbacks. After replacing or adding top-level PNG files in `assets/`, regenerate WebP files with:
+
+```sh
+scripts/optimize-images.sh
+```
+
+The script uses `cwebp` at quality 90 by default. Override with `WEBP_QUALITY=92 scripts/optimize-images.sh` when a specific image needs a higher quality setting.
+
 ## Deployment
 
 The repository is prepared for GitHub Pages with a GitHub Actions workflow. Configure the repository Pages source as GitHub Actions, then point DNS for `adict.ronniewong.cc` at GitHub Pages.

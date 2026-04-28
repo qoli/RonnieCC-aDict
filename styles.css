@@ -187,14 +187,26 @@ img {
 
 .provider-badge.avatar-one {
   background-image: url("assets/proof-avatar-1.png");
+  background-image: image-set(
+    url("assets/proof-avatar-1.webp") type("image/webp"),
+    url("assets/proof-avatar-1.png") type("image/png")
+  );
 }
 
 .provider-badge.avatar-two {
   background-image: url("assets/proof-avatar-2.png");
+  background-image: image-set(
+    url("assets/proof-avatar-2.webp") type("image/webp"),
+    url("assets/proof-avatar-2.png") type("image/png")
+  );
 }
 
 .provider-badge.avatar-three {
   background-image: url("assets/proof-avatar-3.png");
+  background-image: image-set(
+    url("assets/proof-avatar-3.webp") type("image/webp"),
+    url("assets/proof-avatar-3.png") type("image/png")
+  );
 }
 
 .red {
@@ -448,6 +460,12 @@ h1 {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.source-phone picture,
+.source-menu-frame picture,
+.favorites-menu-frame picture {
+  display: block;
 }
 
 .hero-phone img {

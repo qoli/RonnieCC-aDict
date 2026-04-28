@@ -11,6 +11,7 @@
     <link rel="canonical" href="https://adict.ronniewong.cc/">
     <link rel="alternate" hreflang="x-default" href="https://adict.ronniewong.cc/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preload" as="image" href="assets/main-hero-light.webp" type="image/webp" fetchpriority="high">
     <meta name="author" content="Ronnie Wong">
     <meta name="robots" content="index, follow">
     <meta property="og:site_name" content="aDict">
@@ -75,7 +76,17 @@
           </article>
 
           <figure class="hero-phone">
-            <img src="assets/main-hero-light.png?v=trimmed-alpha" alt="aDict 3.0 showing a dictionary lookup interface on iPhone">
+            <picture>
+              <source srcset="assets/main-hero-light.webp" type="image/webp">
+              <img
+                src="assets/main-hero-light.png?v=trimmed-alpha"
+                alt="aDict 3.0 showing a dictionary lookup interface on iPhone"
+                width="603"
+                height="1143"
+                decoding="async"
+                fetchpriority="high"
+              >
+            </picture>
           </figure>
 
           <article class="hero-info-card library-card" aria-label="aDict local dictionary library">
@@ -121,27 +132,35 @@
       <section class="section source-section" data-source-feature="favorites" aria-label="aDict dictionary source menu">
         <figure class="source-visual">
           <div class="source-phone">
-            <img
-              class="source-base"
-              src="assets/adict-3-no-menu.png"
-              alt=""
-              width="1206"
-              height="2622"
-              loading="lazy"
-            >
+            <picture>
+              <source srcset="assets/adict-3-no-menu.webp" type="image/webp">
+              <img
+                class="source-base"
+                src="assets/adict-3-no-menu.png"
+                alt=""
+                width="1206"
+                height="2622"
+                loading="lazy"
+                decoding="async"
+              >
+            </picture>
           </div>
 
           <div class="favorites-float" aria-label="Favorites menu">
             <div class="favorites-menu-frame">
               <span class="favorites-menu-background-blur" aria-hidden="true"></span>
-              <img
-                class="favorites-menu-layer"
-                src="assets/favorites-menu-3x.png"
-                alt=""
-                width="1326"
-                height="1314"
-                loading="lazy"
-              >
+              <picture>
+                <source srcset="assets/favorites-menu-3x.webp" type="image/webp">
+                <img
+                  class="favorites-menu-layer"
+                  src="assets/favorites-menu-3x.png"
+                  alt=""
+                  width="1326"
+                  height="1314"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </picture>
             </div>
             <figcaption class="source-note favorites-note">
               <span>Favorites</span>
@@ -152,14 +171,18 @@
           <div class="source-float" aria-label="Dictionary source menu">
             <div class="source-menu-frame">
               <span class="source-menu-background-blur" aria-hidden="true"></span>
-              <img
-                class="source-menu-layer"
-                src="assets/dictionary-menu-3x.png"
-                alt=""
-                width="1656"
-                height="1968"
-                loading="lazy"
-              >
+              <picture>
+                <source srcset="assets/dictionary-menu-3x.webp" type="image/webp">
+                <img
+                  class="source-menu-layer"
+                  src="assets/dictionary-menu-3x.png"
+                  alt=""
+                  width="1656"
+                  height="1968"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </picture>
             </div>
             <figcaption class="source-note">
               <span>Dictionarys</span>
