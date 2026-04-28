@@ -1264,7 +1264,7 @@ figcaption {
     Georgia,
     "Times New Roman",
     serif;
-  font-size: clamp(34px, 3.5vw, 52px);
+  font-size: clamp(25.5px, 2.625vw, 39px);
   line-height: 0.94;
 }
 
@@ -1344,10 +1344,14 @@ figcaption {
     padding-top: 40px;
     grid-template-columns: 1fr;
     gap: 30px;
+    justify-items: center;
+    text-align: center;
   }
 
   .hero-copy {
     order: -1;
+    justify-self: center;
+    max-width: 680px;
   }
 
   .hero-stage {
@@ -1357,6 +1361,22 @@ figcaption {
     grid-template-columns: 1fr;
     gap: 16px;
     align-items: start;
+    justify-items: center;
+  }
+
+  .hero-copy h1,
+  .hero-copy .hero-text {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-copy .hero-text {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .hero-copy .actions {
+    justify-content: center;
   }
 
   .hero-phone {
@@ -1509,7 +1529,6 @@ figcaption {
   .hero {
     min-height: auto;
     padding: 34px 0 54px;
-    text-align: left;
   }
 
   .proof-rating {
@@ -1538,10 +1557,6 @@ figcaption {
 
   .hero-text {
     font-size: 15.5px;
-  }
-
-  .hero-copy .actions {
-    justify-content: flex-start;
   }
 
   .section {
