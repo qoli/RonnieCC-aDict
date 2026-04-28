@@ -416,6 +416,11 @@ h1 {
   animation-delay: -2.2s;
 }
 
+.source-card,
+.library-card {
+  display: none;
+}
+
 .info-card-head {
   display: flex;
   align-items: center;
