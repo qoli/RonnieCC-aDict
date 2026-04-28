@@ -1586,11 +1586,11 @@ figcaption {
     --favorites-top: -8px;
     --favorites-shift: 10px;
     --favorites-note-top: 196px;
-    --favorites-note-overlap: -180px;
+    --favorites-note-overlap: -190px;
     --source-left-offset: 146px;
     --source-bottom: -58px;
-    --source-note-overlap: -255px;
-    --source-note-bottom-offset: -30px;
+    --source-note-overlap: -220px;
+    --source-note-bottom-offset: 0;
   }
 
   .source-phone {
@@ -1603,11 +1603,11 @@ figcaption {
   }
 
   .favorites-note {
-    width: 270px;
+    width: 210px;
   }
 
   .source-float .source-note {
-    width: 270px;
+    width: 210px;
   }
 
   .source-note p {

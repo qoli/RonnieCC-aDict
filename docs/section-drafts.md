@@ -121,17 +121,15 @@ Hero 後面接一個獨立文字標題區。
 | Figcaption body | `Return to the words you marked without leaving the current lookup.` |
 | Indicator aria-label | `Show Favorites highlight` |
 
-### 狀態 2：Dictionarys
+### 狀態 2：Dictionaries
 
 | 元素 | 內容 |
 |------|------|
 | Floating menu source | `assets/dictionary-menu-3x.webp` |
 | Floating menu fallback | `assets/dictionary-menu-3x.png` |
-| Figcaption label | `Dictionarys` |
-| Figcaption body | `Move between Youdao, StarDict, and local MDict files without restarting the lookup.` |
+| Figcaption label | `Dictionaries` |
+| Figcaption body | `Switch between Youdao, StarDict, and local MDict in one lookup.` |
 | Indicator aria-label | `Show Dictionarys highlight` |
-
-`Dictionarys` 是目前 `index.html` 中的實際字串；本文照實記錄，不在文檔層修改。
 
 ### 互動行為
 
