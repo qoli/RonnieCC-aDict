@@ -616,7 +616,7 @@ h1 {
   position: absolute;
   z-index: 3;
   left: calc(50% - 120px);
-  top: 36%;
+  top: 54%;
   display: flex;
   align-items: flex-start;
   gap: 18px;
@@ -624,13 +624,14 @@ h1 {
 
 .source-note {
   width: 240px;
-  margin: 76px 0 0;
+  margin: 53px 0 0;
   padding: 18px;
   border: 1px solid rgba(7, 7, 7, 0.08);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.88);
   box-shadow: 0 18px 48px rgba(18, 22, 30, 0.12);
   backdrop-filter: blur(16px);
+  margin-left: 76px;
 }
 
 .source-note span {
@@ -972,7 +973,7 @@ figcaption {
   }
 
   .source-menu-layer {
-    width: min(45vw, 320px);
+    width: 500px;
   }
 
   .source-note {
