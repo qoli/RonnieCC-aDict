@@ -618,13 +618,14 @@ h1 {
   --favorites-blur-left: 110px;
   --favorites-blur-top: 94px;
   --favorites-left-offset: 323px;
-  --favorites-top: 12px;
+  --favorites-top: -28px;
   --favorites-shift: 16px;
   --favorites-note-top: 118px;
   --favorites-note-overlap: -190px;
   --source-left-offset: 160px;
   --source-bottom: -90px;
-  --source-note-overlap: -200px;
+  --source-note-overlap: -300px;
+  --source-note-bottom-offset: 40px;
   width: min(100%, 980px);
   margin: 0 auto;
   position: relative;
@@ -737,6 +738,7 @@ h1 {
 .source-float .source-note {
   width: 310px;
   margin-left: var(--source-note-overlap);
+  margin-bottom: var(--source-note-bottom-offset);
 }
 
 .favorites-note {
@@ -1078,13 +1080,14 @@ figcaption {
     --favorites-blur-left: 97px;
     --favorites-blur-top: 83px;
     --favorites-left-offset: 284px;
-    --favorites-top: 32px;
+    --favorites-top: -24px;
     --favorites-shift: 14px;
     --favorites-note-top: 104px;
     --favorites-note-overlap: -167px;
     --source-left-offset: 141px;
     --source-bottom: -79px;
-    --source-note-overlap: -176px;
+    --source-note-overlap: -226px;
+    --source-note-bottom-offset: 20px;
   }
 
   .source-phone {
@@ -1222,14 +1225,15 @@ figcaption {
     --favorites-blur-height: 197px;
     --favorites-blur-left: 70px;
     --favorites-blur-top: 60px;
-    --favorites-left-offset: 210px;
-    --favorites-top: 40px;
+    --favorites-left-offset: 236px;
+    --favorites-top: -8px;
     --favorites-shift: 10px;
-    --favorites-note-top: 76px;
-    --favorites-note-overlap: -210px;
+    --favorites-note-top: 196px;
+    --favorites-note-overlap: -180px;
     --source-left-offset: 146px;
     --source-bottom: -58px;
-    --source-note-overlap: -260px;
+    --source-note-overlap: -255px;
+    --source-note-bottom-offset: -30px;
   }
 
   .source-phone {
