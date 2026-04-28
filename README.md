@@ -4,10 +4,9 @@ Static landing page for `adict.ronniewong.cc`.
 
 This site is the product-facing home for aDict. RonnieCC remains the portfolio and project index at `ronniewong.cc`; this repository keeps the aDict landing page, support page, privacy page, and GitHub Pages custom-domain configuration separate.
 
-The landing page uses SEO-friendly bilingual static URLs:
+The landing page currently publishes the English static URL while the Chinese version is being rebuilt:
 
 - English: `https://adict.ronniewong.cc/`
-- Traditional Chinese: `https://adict.ronniewong.cc/zh/`
 
 ## Pages
 
