@@ -951,7 +951,7 @@ h1 {
   color: rgba(7, 7, 7, 0.58);
   font-size: clamp(17px, 1.3vw, 20px);
   line-height: 1.58;
-  font-weight: 420;
+  font-weight: 300;
 }
 
 .local-narratives {
@@ -1273,7 +1273,7 @@ figcaption {
   color: rgba(7, 7, 7, 0.46);
   font-size: 15px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .footer-links {

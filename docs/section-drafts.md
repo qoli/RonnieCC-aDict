@@ -196,7 +196,7 @@ Hero 後面接一個獨立文字標題區。
 |------|------|
 | Top line | 小型紅字 anchor label：`# Local dictionaries, intact` |
 | Main line | 大字 H2，佔 2-3 行，作為整段視覺中心 |
-| Definition line | 一段短 body，控制在 2-3 行內 |
+| Definition line | 一段短 body，控制在 2-3 行內，使用 300 字重 |
 | Feature row | 三到四段使用者敘事，使用短標題 + 一句完整場景 |
 
 ### 功能敘事
@@ -274,7 +274,7 @@ Hero 後面接一個獨立文字標題區。
 | Nav 1 | `Support` → `support.html` |
 | Nav 2 | `Privacy` → `privacy.html` |
 
-設計語法：頂線分隔、大字品牌、低彩度 tagline 使用 400 字重；四個 footer 連結使用同一個 grid 保持等距；`Support` / `Privacy` 作為次要連結使用更高透明度；不使用卡片或大型 CTA 區塊。
+設計語法：頂線分隔、大字品牌、低彩度 tagline 使用 300 字重；四個 footer 連結使用同一個 grid 保持等距；`Support` / `Privacy` 作為次要連結使用更高透明度；不使用卡片或大型 CTA 區塊。
 
 ---
 
