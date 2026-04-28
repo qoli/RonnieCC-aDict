@@ -118,7 +118,7 @@
         <p>Listen to the word as each source hears it.</p>
       </section>
 
-      <section class="section source-section" aria-label="aDict dictionary source menu">
+      <section class="section source-section" data-source-feature="favorites" aria-label="aDict dictionary source menu">
         <figure class="source-visual">
           <div class="source-phone">
             <img
@@ -167,7 +167,24 @@
             </figcaption>
           </div>
         </figure>
+        <div class="source-indicators" aria-label="Feature highlight controls">
+          <button
+            class="dot-indicator is-active"
+            type="button"
+            data-source-target="favorites"
+            aria-label="Show Favorites highlight"
+            aria-pressed="true"
+          ></button>
+          <button
+            class="dot-indicator"
+            type="button"
+            data-source-target="source"
+            aria-label="Show Dictionarys highlight"
+            aria-pressed="false"
+          ></button>
+        </div>
       </section>
     </main>
+    <script src="source-feature.js" defer></script>
   </body>
 </html>
