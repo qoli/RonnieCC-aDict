@@ -262,6 +262,7 @@ h1 {
 
 .hero-copy {
   max-width: 640px;
+  min-width: 0;
   justify-self: start;
 }
 
@@ -385,6 +386,7 @@ h1 {
 .hero-stage {
   position: relative;
   width: var(--hero-media-width);
+  min-width: 0;
   min-height: 0;
   margin: 0;
   justify-self: start;
@@ -555,6 +557,43 @@ h1 {
 
 .section {
   padding: 104px 0;
+}
+
+.source-section {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 0.78fr);
+  gap: clamp(44px, 6vw, 92px);
+  align-items: center;
+}
+
+.source-copy {
+  max-width: 620px;
+}
+
+.source-copy h2 {
+  margin-bottom: 24px;
+}
+
+.source-copy p {
+  color: var(--muted);
+  font-size: clamp(18px, 1.55vw, 22px);
+  line-height: 1.62;
+}
+
+.source-visual {
+  width: min(100%, 320px);
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+  background: #f7f7f8;
+}
+
+.source-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .section-heading {
@@ -829,13 +868,13 @@ figcaption {
     width: 100%;
     min-height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 16px;
     align-items: start;
   }
 
   .hero-phone {
-    width: 500px;
+    width: min(100%, 500px);
     height: 500px;
     order: 1;
   }
@@ -854,8 +893,23 @@ figcaption {
   }
 
   .showcase-grid,
+  .source-section,
   .split-feature {
     grid-template-columns: 1fr;
+  }
+
+  .source-section {
+    min-height: auto;
+    gap: 38px;
+  }
+
+  .source-copy {
+    max-width: 720px;
+  }
+
+  .source-visual {
+    width: min(100%, 320px);
+    justify-self: center;
   }
 }
 
@@ -942,6 +996,19 @@ figcaption {
 
   .section {
     padding: 72px 0;
+  }
+
+  .source-section {
+    gap: 32px;
+  }
+
+  .source-copy p {
+    font-size: 17px;
+  }
+
+  .source-visual {
+    width: min(100%, 300px);
+    border-radius: 26px;
   }
 
   .benefit-grid article {
