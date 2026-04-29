@@ -1,7 +1,7 @@
 # aDict Landing Page 文字素材包
 
 建立日期：2026-04-28
-版本：v3，以目前 `index.html` 首屏內容為準
+版本：v4，以目前 `index.html` 內容與搜尋摘要為準
 來源：目前 `index.html`、Notion aDict 產品材料、本機 `/Volumes/Data/Github/aDicts` 源碼目錄校驗。本文只整理可公開轉化的產品敘事，不包含原始聊天紀錄或私有 log。
 
 ## 0. 本版範圍
@@ -12,9 +12,10 @@
 
 - Header：app icon brand、Support、Privacy。
 - Hero：左側產品畫面與兩張資訊卡，右側英文文案與 App Store / TestFlight badge。
+- 首屏以下：dictionary source highlight、local dictionary narrative、footer CTA links。
 - 沒有 hero-proof。
 - 沒有頂部 `Join beta` CTA。
-- 沒有首屏以下的 feature sections、FAQ、proof strip 或額外 marketing blocks。
+- 沒有 FAQ、proof strip 或額外 testimonial blocks。
 - 繁中版本暫不重建；等英文版確認後，再以本文件的英文定稿為基準重建。
 
 ## 1. 目前 HTML 文案總表
@@ -24,25 +25,25 @@
 Title:
 
 ```text
-aDict · A quiet dictionary for reading
+aDict - MDict, StarDict, and Youdao Dictionary App
 ```
 
 Meta description:
 
 ```text
-aDict is an Apple-platform dictionary app for reading, personal MDict and StarDict files, Youdao lookup, iCloud documents, and durable lookup history.
+aDict is a dictionary app for iPhone, iPad, and Mac with Youdao lookup, local MDict and StarDict files, MDX/MDD resources, history, and favorites.
 ```
 
 Open Graph / Twitter description:
 
 ```text
-An Apple-platform dictionary app for reading, personal MDict and StarDict files, Youdao lookup, iCloud documents, and durable lookup history.
+A dictionary app for iPhone, iPad, and Mac with Youdao lookup, local MDict and StarDict files, MDX/MDD resources, history, and favorites.
 ```
 
 Structured data description:
 
 ```text
-aDict is an Apple-platform dictionary app for reading, personal MDict and StarDict files, Youdao lookup, iCloud documents, and durable lookup history.
+aDict is a dictionary app for iPhone, iPad, and Mac with Youdao lookup, local MDict and StarDict files, MDX/MDD resources, history, and favorites.
 ```
 
 ### Header
@@ -107,7 +108,7 @@ MDX · MDD · CSS · StarDict
 Eyebrow:
 
 ```text
-aDict 3.0 · For the words between the lines
+For the words between the lines
 ```
 
 Headline:
@@ -198,7 +199,7 @@ View in TestFlight
 - function-call 式文案，例如 `lookup(...)`、`attach(...)`。
 - 無根據數字，例如使用者數、速度、rating、查詞量。
 - 頂部重複 CTA，例如右上角再放一次 `Join beta`。
-- hero-proof、proof strip、額外 testimonial 或首屏以下 section，除非 HTML 重新加入。
+- hero-proof、proof strip、額外 testimonial，除非 HTML 重新加入。
 
 ## 4. 產品事實依據
 
@@ -210,14 +211,14 @@ View in TestFlight
 - MDict 相關文件包含 MDX、MDD 和 sidecar CSS。
 - 使用者可以帶入自己信任的詞典文件。
 - 產品方向是讓查詞貼近閱讀，而不是把閱讀帶離原頁面。
-- iCloud documents、lookup history、favorites 是可延伸到 meta / future copy 的可信素材，但目前沒有出現在 hero 可見文案裡。
+- lookup history、favorites 是可延伸到 meta / future copy 的可信素材；iCloud documents 可保留為未來文案素材，但目前不放入搜尋摘要。
 
 ## 5. 當前 HTML 可用文案塊
 
 首屏重建時，應以這組英文為基準：
 
 ```text
-aDict 3.0 · For the words between the lines
+For the words between the lines
 
 Your dictionaries belong on every page you read.
 
