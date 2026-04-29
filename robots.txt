@@ -2,5 +2,6 @@ User-agent: *
 Disallow:
 
 Sitemap: https://adict.ronniewong.cc/sitemap.xml
+Sitemap: https://adict.ronniewong.cc/sitemap/sitemap.xml
 Sitemap: https://adict.ronniewong.cc/sitemap-gsc.xml
 Sitemap: https://adict.ronniewong.cc/sitemap.txt
