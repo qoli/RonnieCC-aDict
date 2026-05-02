@@ -46,6 +46,12 @@ The script uses `oxipng` for lossless PNG compression and `cwebp` at quality 90 
 
 See `docs/image-optimization-sop.md` for the full repeatable workflow and GitHub Pages verification steps.
 
+## SEO Roadmap
+
+SEO follow-up work is tracked in `docs/seo-roadmap.md`. It records the local
+`claude-seo-1.9.6` guide paths, current Search Console sitemap decision, and the
+next landing-page SEO priorities.
+
 ## Deployment
 
 The repository is prepared for GitHub Pages with a GitHub Actions workflow. Configure the repository Pages source as GitHub Actions, then point DNS for `adict.ronniewong.cc` at GitHub Pages.
