@@ -1,8 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://adict.ronniewong.cc/sitemap.xml
-Sitemap: https://adict.ronniewong.cc/sitemap-index.xml
-Sitemap: https://adict.ronniewong.cc/sitemap/sitemap.xml
-Sitemap: https://adict.ronniewong.cc/sitemap-gsc.xml
-Sitemap: https://adict.ronniewong.cc/sitemap.txt
+Sitemap: https://ronniewong-sitemaps.ronnie.workers.dev/adict.xml
