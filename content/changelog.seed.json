@@ -1,0 +1,3546 @@
+{
+  "source": {
+    "id": "98075976818745c9bc3657e1088fdf7b",
+    "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
+    "title": "aDict 更新日誌",
+    "syncedAt": "2026-05-19T23:47:01.688Z"
+  },
+  "blocks": [
+    {
+      "id": "34dc1b36c401804f8fc4ec5b47fb042a",
+      "type": "header",
+      "richText": [
+        {
+          "text": "新版 3.0 測試",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新版 3.0 測試",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c40180e59e85e59a8a6067a7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "https://testflight.apple.com/join/dCGMvyw9",
+          "annotations": [
+            "a"
+          ],
+          "href": "https://testflight.apple.com/join/dCGMvyw9"
+        }
+      ],
+      "plainText": "https://testflight.apple.com/join/dCGMvyw9",
+      "children": []
+    },
+    {
+      "id": "365c1b36c40180f88e41cd8a7ca793e0",
+      "type": "text",
+      "richText": [
+        {
+          "text": "目前 3.0 並未更新到 App Store，3.0 依然處於 TestFlight 測試狀態",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "目前 3.0 並未更新到 App Store，3.0 依然處於 TestFlight 測試狀態",
+      "children": []
+    },
+    {
+      "id": "352c1b36c40180c4b71dc5a0413a6320",
+      "type": "header",
+      "richText": [
+        {
+          "text": "更新日誌",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "365c1b36c40180609c39ff3e514e7ed7",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 9",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 9",
+      "children": []
+    },
+    {
+      "id": "365c1b36c401807e9f0cda2ac8485acb",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "365c1b36c40180c69ebbc7852c53b648",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "完善 Apple 智能相關增強功能，現在用戶可自定義 Apple 智能規則",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "完善 Apple 智能相關增強功能，現在用戶可自定義 Apple 智能規則",
+      "children": []
+    },
+    {
+      "id": "365c1b36c40180649d77d6467a03080a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "完善詞典頁面的操作說明",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "完善詞典頁面的操作說明",
+      "children": []
+    },
+    {
+      "id": "365c1b36c40180a9a41ec04c2339cf16",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "詞典掃描支持子文件夾的形式",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "詞典掃描支持子文件夾的形式",
+      "children": []
+    },
+    {
+      "id": "361c1b36c401802b942ccdfaae944159",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 8",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 8",
+      "children": []
+    },
+    {
+      "id": "361c1b36c40180c4bbbece5df7c98da7",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": []
+    },
+    {
+      "id": "361c1b36c4018046b8d1eb8da49d76ac",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "打字小貓和它的開關選項",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "打字小貓和它的開關選項",
+      "children": []
+    },
+    {
+      "id": "361c1b36c40180088fa3ca8b3806b8d2",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "361c1b36c4018079a4e9d6cb6b33d8ec",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 Youdao 詞典的 CE 模式下的內容拼裝問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 Youdao 詞典的 CE 模式下的內容拼裝問題",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c40180c29d83d61db6b7eaef",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 7",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 7",
+      "children": []
+    },
+    {
+      "id": "352c1b36c40180219944c6d5d12af578",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增 V2EX 辭典作為線上來源",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增 V2EX 辭典作為線上來源",
+      "children": []
+    },
+    {
+      "id": "352c1b36c40180d381bcf8a256d15074",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 2",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 2",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c40180289bb3c223b1fd619a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "完整重寫，重建 Host app 基礎 UI/UX 與查詞主流程",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "完整重寫，重建 Host app 基礎 UI/UX 與查詞主流程",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c4018170943cd74176c6c417",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "接入 Youdao、MDict、StarDict Provider",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "接入 Youdao、MDict、StarDict Provider",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c401818fbdbfc02d8fd61882",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "支援 iCloud Folder 辭典文件管理",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "支援 iCloud Folder 辭典文件管理",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c40181f39d61d4dd7770c66a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增收藏與查詞歷史基礎能力",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增收藏與查詞歷史基礎能力",
+      "children": []
+    },
+    {
+      "id": "34dc1b36c401813b9e81f22f7866c100",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增 Intelligence Enrichment 基礎能力",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增 Intelligence Enrichment 基礎能力",
+      "children": []
+    },
+    {
+      "id": "f5c044eec23d481b912c087a11d35155",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "2.4 Build 50",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.4 Build 50",
+      "children": []
+    },
+    {
+      "id": "d6d842e806994425a1acf0c378ae82da",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除訂閱功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除訂閱功能",
+      "children": []
+    },
+    {
+      "id": "3fb39a41f64f4bc58abfba38c4978e17",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "加入買斷功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "加入買斷功能",
+      "children": []
+    },
+    {
+      "id": "9769cb6239d246f99ce6c23c04cc1412",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正錯誤的英文內容",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正錯誤的英文內容",
+      "children": []
+    },
+    {
+      "id": "20a89d98c2c0414aaa0434f3df98852d",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.3 Build 49 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.3 Build 49 TestFlight",
+      "children": []
+    },
+    {
+      "id": "99f4fea8f8e74853ad6b61f1962951b4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 iOS 14 的 CoreData 崩潰問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 iOS 14 的 CoreData 崩潰問題",
+      "children": []
+    },
+    {
+      "id": "1b3c27c2d49640debf8968dfa9683b9a",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.2 Build 48 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.2 Build 48 TestFlight",
+      "children": []
+    },
+    {
+      "id": "149b448c85994b95ada52eaf8fb024f7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "url scheme 的辭典選擇修改為大小寫不敏感",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "url scheme 的辭典選擇修改為大小寫不敏感",
+      "children": []
+    },
+    {
+      "id": "6039c6714f69498a94e8abe9202ecd16",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.1 Build 46 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.1 Build 46 TestFlight",
+      "children": []
+    },
+    {
+      "id": "79683fb746f244ab9d34b1e6c6588d52",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善 mdict 的搜索匹配，修改找不到單詞的顯示效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善 mdict 的搜索匹配，修改找不到單詞的顯示效果",
+      "children": []
+    },
+    {
+      "id": "b20e9998b3844b958be215d8937dbf5e",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 45",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 45",
+      "children": []
+    },
+    {
+      "id": "7a183a42c58544e89f31d5a2daff088a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "已上架",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "已上架",
+      "children": []
+    },
+    {
+      "id": "491c1a5f53f14b76961c55f4bc08901e",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 44,45 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 44,45 TestFlight",
+      "children": []
+    },
+    {
+      "id": "09354582aae64cb49e66048798a7ad1d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正在 Search 輸入空白的閃退錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正在 Search 輸入空白的閃退錯誤",
+      "children": []
+    },
+    {
+      "id": "807debe70eb14bd28cd74d389954dfaa",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "內購界面的 UI 抖動問題改善",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "內購界面的 UI 抖動問題改善",
+      "children": []
+    },
+    {
+      "id": "c28c47ac4363458d8dbd4a5e8c493581",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 43 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 43 TestFlight",
+      "children": []
+    },
+    {
+      "id": "506dd6b2593f453aba8d3dc7593c399c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善小組件的隨機單詞狀態",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善小組件的隨機單詞狀態",
+      "children": []
+    },
+    {
+      "id": "ab5616093de94de2b94c3ab7617dfa88",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 42 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 42 TestFlight",
+      "children": []
+    },
+    {
+      "id": "cbd089e85aed4f4386d78094ed3a3f37",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加小組件功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加小組件功能",
+      "children": []
+    },
+    {
+      "id": "bb6162e17fcc44e8af67795f82222a13",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "準備提交上架",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "準備提交上架",
+      "children": []
+    },
+    {
+      "id": "e6df1230bb0a45ef91bb6d482580c7bc",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 41 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 41 TestFlight",
+      "children": []
+    },
+    {
+      "id": "bed7663a4b9348d7867f6964f44cfcff",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善內購流程的體驗",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善內購流程的體驗",
+      "children": []
+    },
+    {
+      "id": "292aa863c3dd47358b26c0696ad396b6",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善內購後，部分界面未能及時刷新內容",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善內購後，部分界面未能及時刷新內容",
+      "children": []
+    },
+    {
+      "id": "0d4e1bf24689455aa41e451e3fb7a310",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 40 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 40 TestFlight",
+      "children": []
+    },
+    {
+      "id": "64d57f4ad1524cea92b121e5d6673f56",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 iPad 界面錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 iPad 界面錯誤",
+      "children": []
+    },
+    {
+      "id": "d62fb49594a74f46ad165470f25fa105",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除用於開發的展示內購頁面的代碼",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除用於開發的展示內購頁面的代碼",
+      "children": []
+    },
+    {
+      "id": "6df7967a7df84f8b8d792fd4f7d16e35",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 39 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 39 TestFlight",
+      "children": []
+    },
+    {
+      "id": "840e5490c66c4c54aa6f52dc4366074c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "內購界面製作完畢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "內購界面製作完畢",
+      "children": []
+    },
+    {
+      "id": "f8ca9d8b0d3947b38cfe3a130ed069d0",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 38 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 38 TestFlight",
+      "children": []
+    },
+    {
+      "id": "62c37efa6d2a4e8ca96b5d18abfe0477",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正了 mdict 查詢時候，沒有匹配結果的顯示",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正了 mdict 查詢時候，沒有匹配結果的顯示",
+      "children": []
+    },
+    {
+      "id": "3244d80f363f438b9446da28d8323549",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加內購功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加內購功能",
+      "children": []
+    },
+    {
+      "id": "bec74ccf09924b7e9346a0a9ed02624b",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 37 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 37 TestFlight",
+      "children": []
+    },
+    {
+      "id": "4a67f2843fc4472ab9a99c2119c7dcf2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "Works 現在支持篩選功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Works 現在支持篩選功能",
+      "children": []
+    },
+    {
+      "id": "29848ca029084b9ebe22d88cd2656023",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "添加新的 Work 現在不允許添加重複單詞（不同字典的可添加）",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "添加新的 Work 現在不允許添加重複單詞（不同字典的可添加）",
+      "children": []
+    },
+    {
+      "id": "fe7ca9ce36724c4abc2488843b49aabd",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "現在有符合 iPad 樣式的外觀了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "現在有符合 iPad 樣式的外觀了",
+      "children": []
+    },
+    {
+      "id": "88ab347e566c46c7baee41f80665f459",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "適配了 iPad 的分屏樣式、小窗口樣式",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "適配了 iPad 的分屏樣式、小窗口樣式",
+      "children": []
+    },
+    {
+      "id": "78c9e336d83f4938bfc1467a91886c28",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 36 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 36 TestFlight",
+      "children": []
+    },
+    {
+      "id": "c9ef89966e4a44a4a2adf0ade182c552",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 URL Scheme 對中文辭典名稱的支持",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 URL Scheme 對中文辭典名稱的支持",
+      "children": []
+    },
+    {
+      "id": "0f1b10d0a8e747c2805ca89216f76586",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正非局域網狀態下的 mdict 查詢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正非局域網狀態下的 mdict 查詢",
+      "children": []
+    },
+    {
+      "id": "dc08cd36e4c94b9b9d70ad7623576ba3",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 35 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 35 TestFlight",
+      "children": []
+    },
+    {
+      "id": "710a8ca92b064f7781f1f4d91cfa07af",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善 mdict 查詢的 Dark mode 效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善 mdict 查詢的 Dark mode 效果",
+      "children": []
+    },
+    {
+      "id": "8570619a1c49489591549cbcbb6d6494",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "追加了錯誤反饋功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "追加了錯誤反饋功能",
+      "children": []
+    },
+    {
+      "id": "316708ec72d74f6da8b737685e212a6c",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 34 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 34 TestFlight",
+      "children": []
+    },
+    {
+      "id": "4903eecbbc7f4c2ba13a309d6a836017",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善 Tint 色彩效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善 Tint 色彩效果",
+      "children": []
+    },
+    {
+      "id": "b8cf998e734d4a7a83fb46ab5e8f0557",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加了對中文文件名字的支持",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加了對中文文件名字的支持",
+      "children": []
+    },
+    {
+      "id": "2ad48c7b917443788d2e70dacc246c3b",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 33 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 33 TestFlight",
+      "children": []
+    },
+    {
+      "id": "4c274ce8565c463a959b81c40fd0a5cd",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "Mdict 查詢修正現在可以在真機正常使用 Mdict 查詢了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Mdict 查詢修正現在可以在真機正常使用 Mdict 查詢了",
+      "children": []
+    },
+    {
+      "id": "3264530a1bf747429ef38a543cc6b77c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "Mdict Management 增加了嘗試解決查詢錯誤功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Mdict Management 增加了嘗試解決查詢錯誤功能",
+      "children": []
+    },
+    {
+      "id": "5edeabadb6484cd7ac25c5014b683a52",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "使用色彩反轉方案為 mdict 辭典的查詢改善 Dark mode 效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "使用色彩反轉方案為 mdict 辭典的查詢改善 Dark mode 效果",
+      "children": []
+    },
+    {
+      "id": "bcb589c5a82943eda0043ed7f94aa81c",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 32 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 32 TestFlight",
+      "children": []
+    },
+    {
+      "id": "03e085c226de4a23b387e20cb17c2a2f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "翻譯移除 Google 翻譯接口（不再可用）",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "翻譯移除 Google 翻譯接口（不再可用）",
+      "children": []
+    },
+    {
+      "id": "3d0998244cf143c5a25919db86fdcd20",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正翻譯的視覺錯位問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正翻譯的視覺錯位問題",
+      "children": []
+    },
+    {
+      "id": "3fad6fcdd5e14c71a9e930813f76de8c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 URL Scheme 的錯誤，現在可以正確顯示結果了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 URL Scheme 的錯誤，現在可以正確顯示結果了",
+      "children": []
+    },
+    {
+      "id": "a1205c8decb4453ea06e1d216877cca4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "搜索框恢復了移除按鈕",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "搜索框恢復了移除按鈕",
+      "children": []
+    },
+    {
+      "id": "259f03b18e664b8c874a9a263702d05c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善了當本地不存在 Mdict 文件的錯誤提示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善了當本地不存在 Mdict 文件的錯誤提示。",
+      "children": []
+    },
+    {
+      "id": "8e5aad475f9748668735af95b1d9874d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iCloud Sync 切換開關現在可用了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iCloud Sync 切換開關現在可用了",
+      "children": []
+    },
+    {
+      "id": "1d03354ad1734110b52a3c9fa641162b",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 31 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 31 TestFlight",
+      "children": []
+    },
+    {
+      "id": "dd53b95c2db54c1fb041c0ccbe00ddc1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 URL Scheme 的錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 URL Scheme 的錯誤",
+      "children": []
+    },
+    {
+      "id": "65a751602a0f4c8cbf9cdeac69b15567",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 tabbar 錯位問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 tabbar 錯位問題",
+      "children": []
+    },
+    {
+      "id": "026ffb61db9f497bab08db64e17beb26",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "緩存文件使用隱藏處理",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "緩存文件使用隱藏處理",
+      "children": []
+    },
+    {
+      "id": "ca773475bf98419eab965bb44377d211",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "URL 查詞支持辭典功能了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "URL 查詞支持辭典功能了",
+      "children": []
+    },
+    {
+      "id": "c88bcfe7840d4789883f2b5d7a2b7103",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "生詞按添加時間排序",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "生詞按添加時間排序",
+      "children": []
+    },
+    {
+      "id": "0e706dbf6252426f9829278a47b452be",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "支持 MDict 辭典",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "支持 MDict 辭典",
+      "children": [
+        {
+          "id": "393a9de017fa450da706b5cc660282cd",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "支持使用 iCloud Sync 管理 mdict 文件",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "支持使用 iCloud Sync 管理 mdict 文件",
+          "children": []
+        },
+        {
+          "id": "863850d5775446a1aa8406bb8deb0620",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "可使用 mdict 搜索了",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "可使用 mdict 搜索了",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "8e3745404767480989e8e0977fb366b1",
+      "type": "text",
+      "richText": [
+        {
+          "text": "⚠️：本次更改了 iCloud 識別碼，會導致 Build 30 的版本與此版本的雲端記錄不同步",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "⚠️：本次更改了 iCloud 識別碼，會導致 Build 30 的版本與此版本的雲端記錄不同步",
+      "children": []
+    },
+    {
+      "id": "803bcfeadc444d1ba50dfd574183e7d3",
+      "type": "text",
+      "richText": [
+        {
+          "text": "2.0 Build 30 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "2.0 Build 30 TestFlight",
+      "children": []
+    },
+    {
+      "id": "a77aa6d539044d709c8f95cce61d1578",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "App",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "App",
+      "children": [
+        {
+          "id": "0944b4046d3542b7966d5d9cca061017",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "系統要求提高到 iOS 14",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "系統要求提高到 iOS 14",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "386ec85b4d994af88e72e8cf8b650bd9",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "翻譯",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "翻譯",
+      "children": [
+        {
+          "id": "9ec54727958944adaab5f4afbbb845ae",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯移動到 Setting 拋棄功能下",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯移動到 Setting 拋棄功能下",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "97b19d9b64784622b4fc1fafa496b758",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "生詞",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "生詞",
+      "children": [
+        {
+          "id": "5ef76f46cdef42329bbe3901fcce8934",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "添加了生詞追加功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "添加了生詞追加功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6930a0a02f6e4ea8a184b4adf363a372",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "辭典",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "辭典",
+      "children": [
+        {
+          "id": "529f5a535c514a4b92b9fb20ba57170b",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "隱藏了添加本地辭典功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "隱藏了添加本地辭典功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3c575549dad048c394056caa8157a8ca",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 29 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 29 TestFlight",
+      "children": []
+    },
+    {
+      "id": "9230fe05e3e940f89e4c6379a22acfd2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加",
+      "children": []
+    },
+    {
+      "id": "1f8e0966953240e8bec9f826ba806df8",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "2136635958194d7cb1c8480d903a48bf",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "騰訊翻譯君請求朗讀錯誤",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "騰訊翻譯君請求朗讀錯誤",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6d6a3431158b442cabeabbbbbd81038c",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 28 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 28 TestFlight",
+      "children": []
+    },
+    {
+      "id": "02a011305ba94e539a6bf9029bbd8079",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加",
+      "children": [
+        {
+          "id": "97834817a11f422e8ba6238b72dcfeaa",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯功能增加「法語」",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯功能增加「法語」",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dfe5144df0064f42b0c7c79402591a6f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "8ed770a350f2474db00fd90e8003b71e",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "使用語音輸入後，已修正為揚聲器輸出語音",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "使用語音輸入後，已修正為揚聲器輸出語音",
+          "children": []
+        },
+        {
+          "id": "e6c3a10ffc98481bb77b3b5a7f0756e1",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "改正漢典的錯誤背景色",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "改正漢典的錯誤背景色",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d9f8ab89730644e2b87f3bcf4fb5081e",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 27 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 27 TestFlight",
+      "children": []
+    },
+    {
+      "id": "b5b768b3bc81477c810e1b998bd04724",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加",
+      "children": [
+        {
+          "id": "a4430e54b7044a23b02a8fc4a5a7e94c",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "添加到生詞庫的對應交互提示",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "添加到生詞庫的對應交互提示",
+          "children": []
+        },
+        {
+          "id": "b4e6c4bd307f4b9980b50a8d4f06608f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "複製功能的交互提示",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "複製功能的交互提示",
+          "children": []
+        },
+        {
+          "id": "a1da65d3131644ef826c875cc277ca1b",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "更友好的申請權限樣式",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "更友好的申請權限樣式",
+          "children": []
+        },
+        {
+          "id": "7d64acdd8fcd40a0ae147c09cff69b40",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯功能相關設定的持久化儲存",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯功能相關設定的持久化儲存",
+          "children": [
+            {
+              "id": "32513fb2fd0a49a5bb32ba49e59ebfc7",
+              "type": "bulleted_list",
+              "richText": [
+                {
+                  "text": "來源語言",
+                  "annotations": [],
+                  "href": ""
+                }
+              ],
+              "plainText": "來源語言",
+              "children": []
+            },
+            {
+              "id": "93b637e2dd804ec9887ac653fe91b4e7",
+              "type": "bulleted_list",
+              "richText": [
+                {
+                  "text": "翻譯語言",
+                  "annotations": [],
+                  "href": ""
+                }
+              ],
+              "plainText": "翻譯語言",
+              "children": []
+            },
+            {
+              "id": "f54e7671fa99453dae1787812802871f",
+              "type": "bulleted_list",
+              "richText": [
+                {
+                  "text": "輸入語音",
+                  "annotations": [],
+                  "href": ""
+                }
+              ],
+              "plainText": "輸入語音",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "9bf747d27b644e7eb5cfa570b375ddf6",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯功能增加了 Google Translate 支持",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯功能增加了 Google Translate 支持",
+          "children": []
+        },
+        {
+          "id": "cce707b6c27c4f5db7aa0d82dbbe6b7f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "使用了新的選擇 Menu 樣式以選擇語言",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "使用了新的選擇 Menu 樣式以選擇語言",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d2e2bfd4e7c541b3bd4459aa1326f425",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "50fd9925a7a44883b4726ee8e4f430bb",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "變更語音輸入方式選擇方式為點擊錄音按鈕",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "變更語音輸入方式選擇方式為點擊錄音按鈕",
+          "children": []
+        },
+        {
+          "id": "11e6f28223264815a27599206b4e3b26",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "集中化的翻譯接口（代碼層）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "集中化的翻譯接口（代碼層）",
+          "children": []
+        },
+        {
+          "id": "c96fd85d6c0a46178c0f37d74e29f503",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "選擇詞典樣式更新為通用的選擇 Menu 樣式",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "選擇詞典樣式更新為通用的選擇 Menu 樣式",
+          "children": []
+        },
+        {
+          "id": "6786c129739c44ac85f209693413fd2a",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "使用百度 TTS 以朗讀所有的文字（包括日語、韓語、粵語）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "使用百度 TTS 以朗讀所有的文字（包括日語、韓語、粵語）",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "df22544b5cbd423cb9de3c273cb6a38f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除",
+      "children": [
+        {
+          "id": "a2063d16bcb14ea595663ab70f82d5c4",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯功能的相機入口",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯功能的相機入口",
+          "children": []
+        },
+        {
+          "id": "0486baa36674420ea30b09f9a4c3d7a0",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "移除開發過程中的臨時中文化",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "移除開發過程中的臨時中文化",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ee8432fe597f427e8801db3c6b3150a0",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 26 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 26 TestFlight",
+      "children": []
+    },
+    {
+      "id": "92b5e047b6fb49438d1398903a2d285f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "db2eade8a3754b5d8d9c29f5478cdbc7",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "優化長按語言輸入手感",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "優化長按語言輸入手感",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6541c773ea4c48c9828f09066b27e273",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 25 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 25 TestFlight",
+      "children": []
+    },
+    {
+      "id": "78d8aa15aded4e7a9ac35fef185444fb",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加",
+      "children": [
+        {
+          "id": "b09e258f7eab43fcbbe87767b6020f1e",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "語音輸入功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "語音輸入功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "460c405e3b494ca6b0d36077d96de085",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "41b829cf6c6e4452b1a50d08eae03d71",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "翻譯輸入框支持多行輸入",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "翻譯輸入框支持多行輸入",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "1f1b7094ecb54f90bced52a03c0a21d1",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.20 Build 24 TestFlight",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.20 Build 24 TestFlight",
+      "children": []
+    },
+    {
+      "id": "5a0bfd9425cb45c1917aab09e5294145",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加",
+      "children": [
+        {
+          "id": "fe19633dff7747bf86536fd2f8b683a0",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "基本翻譯功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "基本翻譯功能",
+          "children": []
+        },
+        {
+          "id": "48f8a0294b6a4d3cb8e3c41fe5c998e1",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "iOS 12 支持",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "iOS 12 支持",
+          "children": []
+        },
+        {
+          "id": "47a4e8d728b54327938aea069442ea26",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "MDict 詞典功能（預覽，在詞典中選擇 OxfordA 即是內置的 MDict 詞典）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "MDict 詞典功能（預覽，在詞典中選擇 OxfordA 即是內置的 MDict 詞典）",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "71a87d8295ce413fba581cbef024926d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": [
+        {
+          "id": "87412481bfce48d6919bb2062e2a6bf6",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "Search 輸入框現在點擊就會全選了",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "Search 輸入框現在點擊就會全選了",
+          "children": []
+        },
+        {
+          "id": "1e9f6613f3fa41e5ac764d2370b66efc",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "有道詞典排版樣式",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "有道詞典排版樣式",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "a7fa1e32b6fc4c7aa65ce8e2a017c0ee",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "進行中",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "進行中",
+      "children": [
+        {
+          "id": "eeae6338a1174c2fb278db000771bb7b",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "生詞本功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "生詞本功能",
+          "children": []
+        },
+        {
+          "id": "8324c3e81ed141a59353271469ec8068",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "詳細翻譯功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "詳細翻譯功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "2d2979f251bb4277bd4b330dd121c9af",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除",
+      "children": [
+        {
+          "id": "d99d125c7c64409a8c577b4233673ee6",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "內置的新世紀漢英英漢詞典",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "內置的新世紀漢英英漢詞典",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "875bfe57aeca4365ae7d263bbb5aaa6a",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.19",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.19",
+      "children": []
+    },
+    {
+      "id": "2130bc2554534a0299cb171b4ec868a8",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加 mDict 支持（只有一本詞典，未能自己添加，未開放功能）",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加 mDict 支持（只有一本詞典，未能自己添加，未開放功能）",
+      "children": []
+    },
+    {
+      "id": "820183730b804cd2ae34cf3aacfa409e",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改進粵語詞典的排版樣式",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進粵語詞典的排版樣式",
+      "children": []
+    },
+    {
+      "id": "10455bc1a8e24c0098736ecbc8a651ff",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.18",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.18",
+      "children": []
+    },
+    {
+      "id": "0a3eb429f8d446feb93e8c86c125018a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 iOS 安裝問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 iOS 安裝問題",
+      "children": []
+    },
+    {
+      "id": "ff81976f746244dfa5754ebeb63d1fc2",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.17",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.17",
+      "children": []
+    },
+    {
+      "id": "e2fcc137ee11424483588c9cdc2319a6",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "Today Widget 增加了复制结果按钮",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Today Widget 增加了复制结果按钮",
+      "children": []
+    },
+    {
+      "id": "cd101fa0f7da401999c8ba6d5c764b0e",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "app 增加了粤语词典的查询",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "app 增加了粤语词典的查询",
+      "children": []
+    },
+    {
+      "id": "b130d2c8c2844582b5988e177c4faf69",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正了有道詞典的柯林斯模塊部分內容顯示 null 的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正了有道詞典的柯林斯模塊部分內容顯示 null 的問題",
+      "children": []
+    },
+    {
+      "id": "99807a116f7d4ad18126de29cc7e082c",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.15",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.15",
+      "children": []
+    },
+    {
+      "id": "969c8f516f7c462d8c0b71394c6109e2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加了 Today Widget 界面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加了 Today Widget 界面",
+      "children": []
+    },
+    {
+      "id": "cc6515830b984ef9a8ba53aeb4c2c986",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增 macOS Target 以共享源碼",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增 macOS Target 以共享源碼",
+      "children": []
+    },
+    {
+      "id": "8880c0b113704026b78eb6b35f89ee78",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.14",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.14",
+      "children": []
+    },
+    {
+      "id": "ea325c04fa004deb8b7cd6f6e45b470f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加音頻朗讀功能，現在點擊頂部大字標題時候，會以美式英語朗讀",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加音頻朗讀功能，現在點擊頂部大字標題時候，會以美式英語朗讀",
+      "children": []
+    },
+    {
+      "id": "9b0169c1ff1e4e2baa31a554fff632b2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除了分享功能",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除了分享功能",
+      "children": []
+    },
+    {
+      "id": "ee770a81fb654c3b9747309ede5dad8c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "重構詞典查詢庫結構",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "重構詞典查詢庫結構",
+      "children": []
+    },
+    {
+      "id": "08af3804051041a99390c679773f9146",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.13",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.13",
+      "children": []
+    },
+    {
+      "id": "71874c5b6c3b4a74a3fc5ba72bd75232",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增加漢典支持",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增加漢典支持",
+      "children": []
+    },
+    {
+      "id": "7c68420eacf641588ce0f22d3054653e",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正有道查詢的網絡解釋顯示不完整",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正有道查詢的網絡解釋顯示不完整",
+      "children": []
+    },
+    {
+      "id": "bbf662fb91e64d76aa5440b30ff075cf",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "現在搜索框允許輸入短語進行翻譯了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "現在搜索框允許輸入短語進行翻譯了",
+      "children": []
+    },
+    {
+      "id": "66b1a47ba4584138aad9d40769c2ee8f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "漢典，已支持這些模塊",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "漢典，已支持這些模塊",
+      "children": [
+        {
+          "id": "ad992cb57366414d9b8537ff97f19147",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "基本解釋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "基本解釋",
+          "children": []
+        },
+        {
+          "id": "a60ec3492c5047c0b1b90eadb6eb0e45",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "詳細解釋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "詳細解釋",
+          "children": []
+        },
+        {
+          "id": "5763878a20484c7eb909eac7fd448658",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "國語詞典",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "國語詞典",
+          "children": []
+        },
+        {
+          "id": "7818701f4186401e902e6c7cd4c3cbf3",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "詞語解釋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "詞語解釋",
+          "children": []
+        },
+        {
+          "id": "2501e818d82246ba8c97b5add5699eef",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "網絡解釋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "網絡解釋",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5b2c792a47be4a32abeaed51ec759dbd",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "尚未支持模塊",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "尚未支持模塊",
+      "children": [
+        {
+          "id": "3783fb78c9bc42e0ad8c1073f0839900",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "康熙字典",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "康熙字典",
+          "children": []
+        },
+        {
+          "id": "3ad6936639384c119ed5680acdacfa00",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "说文解字",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "说文解字",
+          "children": []
+        },
+        {
+          "id": "6259137f4b6744c3b031c6d82641c774",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "字源字形",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "字源字形",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "417a7871deb34c9486a1621dcac7158f",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.12",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.12",
+      "children": []
+    },
+    {
+      "id": "5d5ef10c7a624d289d8ca6bf5c7a29db",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "同步 Mac 版本的有道更新，增加",
+          "annotations": [],
+          "href": ""
+        },
+        {
+          "text": "柯林斯",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "、",
+          "annotations": [],
+          "href": ""
+        },
+        {
+          "text": "網絡翻譯",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "以及",
+          "annotations": [],
+          "href": ""
+        },
+        {
+          "text": "翻譯三個模塊",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        }
+      ],
+      "plainText": "同步 Mac 版本的有道更新，增加柯林斯、網絡翻譯以及翻譯三個模塊",
+      "children": []
+    },
+    {
+      "id": "bc479e9c8cae40dbb757a02e98691076",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.11",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.11",
+      "children": []
+    },
+    {
+      "id": "3bde3bfd9c264700a49a765617d8e57f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iPad 支持",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iPad 支持",
+      "children": []
+    },
+    {
+      "id": "52dc09bdc8d84b9590700ee18a549534",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.1",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.1",
+      "children": []
+    },
+    {
+      "id": "3bce545e259547c58de961ec361cfdc0",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 10",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 10",
+      "children": []
+    },
+    {
+      "id": "588e8f7978874639bec67de5b34b6ed5",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": [
+        {
+          "id": "d4db3a46117e4880bd74bad3b635196f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "自動反饋的信息改進",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "自動反饋的信息改進",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b578a269b43b4e4a88805ec5fb9d6d7e",
+      "type": "text",
+      "richText": [
+        {
+          "text": "1.0",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "1.0",
+      "children": []
+    },
+    {
+      "id": "0de53b148998423ba8f16219f819a0d1",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 9",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 9",
+      "children": []
+    },
+    {
+      "id": "2b712026ea8d4b5a98e57cf3cc2ed9c1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "8e6513e76f35447f89e79fdd9a0c22f8",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "截圖分享功能（截圖底部有較多空白，暫時未知如何解決）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "截圖分享功能（截圖底部有較多空白，暫時未知如何解決）",
+          "children": []
+        },
+        {
+          "id": "e5ef5ac98a2045828d51e4ac98240353",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加了對國行機型的網絡檢查",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加了對國行機型的網絡檢查",
+          "children": []
+        },
+        {
+          "id": "1e2218d3b5ac4676818bb8058ffe3ec1",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加了網絡錯誤自動反饋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加了網絡錯誤自動反饋",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "36c3f98638934c0eb38266a191af4391",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": [
+        {
+          "id": "7a472e2aa32a4f15b187d749ec95c80e",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "改進例句符號在淡黃色和白色之間的顯示效果",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "改進例句符號在淡黃色和白色之間的顯示效果",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4545dd9d1d3c42f6b444ea2bfdcaae18",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 8",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 8",
+      "children": []
+    },
+    {
+      "id": "61b96f7bd1d74a61bfef1e843caccab5",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "f84de74b05d6422aba4f14d8189eb369",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "設定面板（取消用戶面板）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "設定面板（取消用戶面板）",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "43389c61684b4550b685c261a1a617a6",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": [
+        {
+          "id": "290726c5bcc94dbeb550e27b0d6cc71d",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "文字大小變更時候會突然縮小再縮放的錯誤",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "文字大小變更時候會突然縮小再縮放的錯誤",
+          "children": []
+        },
+        {
+          "id": "80de190d162c441d9a7bd461225c68cb",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "複製即時搜索改進",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "複製即時搜索改進",
+          "children": []
+        },
+        {
+          "id": "5fcbbe7610bd4f76af64b7f5bd548da5",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "從提示列表選詞時候會自動補充到輸入框",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "從提示列表選詞時候會自動補充到輸入框",
+          "children": []
+        },
+        {
+          "id": "196300cf714b4674a48383ef8d80464b",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "改進淡黃色的顯示效果",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "改進淡黃色的顯示效果",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "0832909206c443bab52b049174bfe5f4",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 7",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 7",
+      "children": []
+    },
+    {
+      "id": "2e36e1bd1e2842f59a73fde1c384ed8e",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "96441fbb0ac940a884e03cca3434b629",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "從後台恢復 App 時候，將會再次詢問粘貼板搜索，以方便切換程序的字詞查詢",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "從後台恢復 App 時候，將會再次詢問粘貼板搜索，以方便切換程序的字詞查詢",
+          "children": []
+        },
+        {
+          "id": "5f066df7ccf1471e92413a77c600a6ae",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "對顯示搜索結果時候，加入了震動反饋",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "對顯示搜索結果時候，加入了震動反饋",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "87d279e6381b4a0780471748f59191f0",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "ae2f423c12534e659e5a480e6abf4caf",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "改善有道詞典在深色和淺色的表現問題",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "改善有道詞典在深色和淺色的表現問題",
+          "children": []
+        },
+        {
+          "id": "7fd0b05a56d94551a72d8659812f9412",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "粘貼板顯示時長從 4 秒縮短到 3 秒",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "粘貼板顯示時長從 4 秒縮短到 3 秒",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ced4b9f34bda495685451feb6a309ccd",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 6",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 6",
+      "children": []
+    },
+    {
+      "id": "694d7f35bfb24886971e8a2c9e33f9d5",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "57ae4b38eec144818ae14b80fb3635e7",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "重新增加有道搜索功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "重新增加有道搜索功能",
+          "children": []
+        },
+        {
+          "id": "1660c4a8883e48ec84ab49facd84361a",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "繁體轉簡體搜索同樣支持有道 API",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "繁體轉簡體搜索同樣支持有道 API",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f323185a6698453999193f84ccb75734",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "2b2af31b21b44feb854271462de0da9f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "分割線樣式在淡黃色背景能看得清楚了",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "分割線樣式在淡黃色背景能看得清楚了",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "e2fd80bc37a349dda0ae8fc4992a23de",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "有道 API ",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "有道 API ",
+      "children": [
+        {
+          "id": "9b2dc532dd2143a2a7cc457f8e59fe82",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "支持了有道词典（EC/CE）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "支持了有道词典（EC/CE）",
+          "children": []
+        },
+        {
+          "id": "6e0cf2ece0fc4fbf8f9cf3ecd88e37dc",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "CE_NEW：新漢英大辭典",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "CE_NEW：新漢英大辭典",
+          "children": []
+        },
+        {
+          "id": "daf5db51acaf49548f1f570244f3a606",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "EE： Wordnet 或者 Wikipedia 等，看 EE 的具體源",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "EE： Wordnet 或者 Wikipedia 等，看 EE 的具體源",
+          "children": []
+        },
+        {
+          "id": "4053a98731884bb1a0bc973cbb83b394",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "HH：《現代漢語大辭典》",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "HH：《現代漢語大辭典》",
+          "children": []
+        },
+        {
+          "id": "866b9d598ad34ee88f3229474763ecf1",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "例句",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "例句",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4f7b55e593594b218b435b4c03a88748",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 5",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 5",
+      "children": []
+    },
+    {
+      "id": "dbb3b2468d604ae1ae8d0392b71de6e6",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "1b83df4a493e4eb789ab3a23c9af0c7b",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "粘貼板搜索功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "粘貼板搜索功能",
+          "children": []
+        },
+        {
+          "id": "881b0fa7d85c4c0ebad2e6b7d719f6c9",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加文本格式面板以取代臨時的色彩切換菜單",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加文本格式面板以取代臨時的色彩切換菜單",
+          "children": []
+        },
+        {
+          "id": "aba6bf0df8374fc795b6cc0d24936a97",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加了文字大小設定功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加了文字大小設定功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6e129ef0937b48b2b78deda420205d4f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "8579b338f84d4faeb436640120c89141",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "以第一個字母為根據地進行字典切換",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "以第一個字母為根據地進行字典切換",
+          "children": []
+        },
+        {
+          "id": "00325a0d504a43ee8cb11e8389a0c74c",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "修正 Number 样式",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "修正 Number 样式",
+          "children": []
+        },
+        {
+          "id": "4f018e1c8c454ebf9d0fc6f1299fd541",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "修正持久化的錯誤記錄 Bug",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "修正持久化的錯誤記錄 Bug",
+          "children": []
+        },
+        {
+          "id": "7c5c3d0d32004bf88fa80bf25cc29c39",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "輸入繁體中文會自動修改為簡體中文進行漢英詞典匹配",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "輸入繁體中文會自動修改為簡體中文進行漢英詞典匹配",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d52edef68b01430182c5c813ff6fe834",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "持久化儲存用戶資料",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "持久化儲存用戶資料",
+      "children": [
+        {
+          "id": "6b013003a28a47b8879707b281f39d6d",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "最後使用的詞典名稱",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "最後使用的詞典名稱",
+          "children": []
+        },
+        {
+          "id": "ba13963179c247d9a0238fd9e3dfaa99",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "最後設定的文字大小",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "最後設定的文字大小",
+          "children": []
+        },
+        {
+          "id": "39e8ba335d624fe39ba1a2f88fcfb848",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "最後指定的色彩背景（深色和淺色）",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "最後指定的色彩背景（深色和淺色）",
+          "children": []
+        },
+        {
+          "id": "dd68a45f4d4f43dc87b1619064ccabc0",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "最後瀏覽的詞典內容",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "最後瀏覽的詞典內容",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "82ecc767c8f144c8b7c77de596e9a89e",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 4",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 4",
+      "children": []
+    },
+    {
+      "id": "9831b286a6b04e3981c75822bb8b6a77",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "02c02a5ccb3e499eab6a3b098adc1e67",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "持久化存儲用戶資料，目前已支持",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "持久化存儲用戶資料，目前已支持",
+          "children": [
+            {
+              "id": "15dbc5ee8b1446dbb33af74556fa761a",
+              "type": "bulleted_list",
+              "richText": [
+                {
+                  "text": "背景顏色設定",
+                  "annotations": [],
+                  "href": ""
+                }
+              ],
+              "plainText": "背景顏色設定",
+              "children": []
+            },
+            {
+              "id": "8d4848cd7be34a3a989e653199aa3b8b",
+              "type": "bulleted_list",
+              "richText": [
+                {
+                  "text": "最後瀏覽的詞典內容",
+                  "annotations": [],
+                  "href": ""
+                }
+              ],
+              "plainText": "最後瀏覽的詞典內容",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "b19edfe473dd428886d534ed3abe7447",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "Dark 和 Light 分別增加了對應的低對比度版本",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "Dark 和 Light 分別增加了對應的低對比度版本",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f4d0c34fcc1c41fba0c5812a60600d6f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "f03a826b31cc41dd8b1dbcdcdf91c16f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "優化搜索效率，改寫 SQL 語句以支持索引搜索",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "優化搜索效率，改寫 SQL 語句以支持索引搜索",
+          "children": []
+        },
+        {
+          "id": "33a1090715e84da9ba52764787437305",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "搜索效率提升而輸入過程不卡頓",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "搜索效率提升而輸入過程不卡頓",
+          "children": []
+        },
+        {
+          "id": "dbcc6732c15b41a9b36cb221683dc22d",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加切換背景色彩功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加切換背景色彩功能",
+          "children": []
+        },
+        {
+          "id": "4ffa7d075797490e98521888e953ab8f",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "增加部分動畫",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "增加部分動畫",
+          "children": []
+        },
+        {
+          "id": "e5ccb2a97f2741ed8983864178c2bd5a",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "改進 UI 樣式",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "改進 UI 樣式",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "46d8e09d6b424af68133d0f4fc36ca5b",
+      "type": "divider",
+      "richText": [],
+      "plainText": "",
+      "children": []
+    },
+    {
+      "id": "02d3a53a7b1b4cf8a63277576f5bd088",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 3",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 3",
+      "children": []
+    },
+    {
+      "id": "135060c2d35541a480242bba88a31797",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "d69ef0c8154d4788ae33392fde535759",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "離線詞典增加新世紀漢英",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "離線詞典增加新世紀漢英",
+          "children": []
+        },
+        {
+          "id": "d4a34176cea54d85b35135ac35e6cd93",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "中文搜索支援",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "中文搜索支援",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "2ab7a540ca3c49808b58cafc884c08a4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "5dd3d83a942547dbb4d8075594a3c649",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "詞典樣式進一步改進",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "詞典樣式進一步改進",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "c4665e4022ce4501a9d7aa8ca193c2b9",
+      "type": "divider",
+      "richText": [],
+      "plainText": "",
+      "children": []
+    },
+    {
+      "id": "1a82315f930848c3b745ac18ce5e68c1",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 2",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 2",
+      "children": []
+    },
+    {
+      "id": "47a28796e927404ca55bbf610b6ca286",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增",
+      "children": [
+        {
+          "id": "414fb42e1645487a9d4fb4f472763d4d",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "離線詞典，新世紀英漢",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "離線詞典，新世紀英漢",
+          "children": []
+        },
+        {
+          "id": "3c37568deda04ba3ac9b5c9c15c22ecf",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "英文搜索支援",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "英文搜索支援",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ac4e7ab0049d43139a41144c44c08682",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修改",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修改",
+      "children": [
+        {
+          "id": "0861767d90ee446894083967a16407be",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "界面重建",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "界面重建",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "403f3f00331543248d00b4ff9d35b26f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除",
+      "children": [
+        {
+          "id": "2562557e75a84d40b85da9d184e2c412",
+          "type": "bulleted_list",
+          "richText": [
+            {
+              "text": "網路搜索功能",
+              "annotations": [],
+              "href": ""
+            }
+          ],
+          "plainText": "網路搜索功能",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "fb147b77b36e4442ab761816f9cdea9d",
+      "type": "divider",
+      "richText": [],
+      "plainText": "",
+      "children": []
+    },
+    {
+      "id": "75afce04445e43eea3ac241ea6bad05c",
+      "type": "text",
+      "richText": [
+        {
+          "text": "Build 1",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        }
+      ],
+      "plainText": "Build 1",
+      "children": []
+    },
+    {
+      "id": "66bea54a8893472b8824fef91306ba64",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "測試有道 api 搜索",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "測試有道 api 搜索",
+      "children": []
+    },
+    {
+      "id": "d325e8dab64044dcab8a254a491d40c3",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "界面基礎設定",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "界面基礎設定",
+      "children": []
+    }
+  ]
+}

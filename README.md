@@ -11,6 +11,7 @@ The landing page currently publishes the English static URL while the Chinese ve
 ## Pages
 
 - `index.html` is the product landing page.
+- `changelog.html` is the site-readable update log generated from the Notion source.
 - `support.html` collects public support links.
 - `privacy.html` is the first privacy policy draft.
 - `CNAME` binds the site to `adict.ronniewong.cc`.
@@ -19,6 +20,7 @@ The landing page currently publishes the English static URL while the Chinese ve
 ## Public References
 
 - App Store: <https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597>
+- Changelog: <https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link>
 - Product notes: <https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70>
 - RonnieCC project page: <https://ronniewong.cc/projects/adict/>
 
@@ -33,6 +35,17 @@ Then open:
 ```text
 http://127.0.0.1:4190/
 ```
+
+## Changelog Sync
+
+The changelog keeps Notion as the source while publishing a static, site-readable
+copy:
+
+```sh
+node scripts/sync-changelog.mjs
+```
+
+The script updates `content/changelog.seed.json` and rewrites `changelog.html`.
 
 ## Image Optimization
 
