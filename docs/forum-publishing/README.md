@@ -11,6 +11,7 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 - 小众软件论坛 submission: submitted to `讨论分享` on 2026-05-20 and currently pending review as pending post id `32469`.
 - V2EX sharing draft: see [v2ex-sharing-draft.md](v2ex-sharing-draft.md)
 - Reddit r/BetaTests draft: see [reddit-betatests-draft.md](reddit-betatests-draft.md)
+- Betatests Discord `#post-your-product-here`: short follow-up posted manually on 2026-05-20; see [reddit-betatests-draft.md](reddit-betatests-draft.md).
 - Forum image assets: see [assets/README.md](assets/README.md)
 - Agent workflow: see [agent-runbook.md](agent-runbook.md)
 

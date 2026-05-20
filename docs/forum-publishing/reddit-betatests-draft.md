@@ -4,6 +4,10 @@ Target: r/BetaTests
 
 Goal: recruit practical beta feedback for aDict 3.0 TestFlight, not publish a launch announcement.
 
+Published URL: https://www.reddit.com/r/betatests/comments/1ti7eh4/iosmacos_adict_30_beta_a_lightweight_dictionary/
+
+Discord follow-up: posted manually to Betatests `#post-your-product-here` on 2026-05-20.
+
 ## Positioning
 
 - Write as the developer of the app.
@@ -50,11 +54,7 @@ The current beta supports:
 
 The app is not only for people who already collect local dictionary files. If you just want something that works out of the box, you can start with the online sources. If you already have local dictionary files, you can import them later and use them in the same lookup flow.
 
-![Dictionary source switching and search suggestions](assets/freemdict-dictionary-menu-suggestions.png)
-
 I also added an early Apple Intelligence related feature in 3.0. It can add configurable enrichment blocks to lookup results, such as example sentences, usage notes, and related context. This part is very new, and I’m still trying to understand whether it is actually useful in real reading and lookup scenarios. The current UI and output should not be treated as the final design.
-
-![Experimental Apple Intelligence enrichment rules and lookup result](assets/appinn-apple-intelligence-enrichment.png)
 
 I’m not trying to turn this into a big dictionary platform. I’m trying to make a small lookup tool that stays useful over time. The most helpful feedback would be the kind of rough edge that only shows up in real use: a lookup that feels slower than expected, a screen that makes the source switch unclear, an online result that is not useful enough, an import flow that surprises you, or an enrichment block that feels more like noise than help.
 
@@ -76,6 +76,14 @@ One note: the TestFlight page may show the existing App Store metadata, but the 
 
 Thanks for trying it if this fits your workflow. Specific feedback about confusing screens, bad lookup results, slow interactions, or import problems would be the most useful.
 
+Screenshots:
+
+Dictionary source switching and search suggestions:
+https://raw.githubusercontent.com/qoli/RonnieCC-aDict/main/docs/forum-publishing/assets/freemdict-dictionary-menu-suggestions.png
+
+Experimental Apple Intelligence enrichment rules and lookup result:
+https://raw.githubusercontent.com/qoli/RonnieCC-aDict/main/docs/forum-publishing/assets/appinn-apple-intelligence-enrichment.png
+
 ## Source Notes From Notion
 
 The Reddit phrasing is based on these Notion product notes:
@@ -86,7 +94,7 @@ The Reddit phrasing is based on these Notion product notes:
 
 ## Optional Image Attachments
 
-Images are already integrated into the draft body:
+The published Reddit text post uses direct image links at the bottom because external `![image](url)` Markdown was rendered as alt text instead of embedded images:
 
 1. `assets/freemdict-dictionary-menu-suggestions.png`
 2. `assets/appinn-apple-intelligence-enrichment.png`
@@ -95,6 +103,9 @@ Avoid posting all screenshots in the beta thread; the goal is to ask for testing
 
 ## Publishing Notes
 
+- Published on r/BetaTests on 2026-05-20.
+- Short Discord follow-up was posted manually to Betatests `#post-your-product-here` on 2026-05-20 to point back to the Reddit thread and TestFlight.
+- Reddit text-post Markdown did not render external `![image](url)` images inline; after editing, the published post uses a bottom `Screenshots:` section with direct image URLs.
 - Do not use a question hook in the title or opening paragraph.
 - Do not use a numbered "I want feedback on..." list in the final Reddit post.
 - Keep the TestFlight link above the App Store link.
