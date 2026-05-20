@@ -290,6 +290,7 @@ function renderPage(data) {
       <a class="brand" href="/">aDict</a>
       <nav class="nav" aria-label="Primary">
         <a href="/">Home</a>
+        <a href="blog/">Blog</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
       </nav>
@@ -312,6 +313,7 @@ ${body}
       <p>aDict</p>
       <nav aria-label="Footer links">
         <a href="/">Home</a>
+        <a href="blog/">Blog</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
       </nav>

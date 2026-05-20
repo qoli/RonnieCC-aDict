@@ -11,6 +11,7 @@ The landing page currently publishes the English static URL while the Chinese ve
 ## Pages
 
 - `index.html` is the product landing page.
+- `blog/` is the aDict Blog surface generated from RonnieCC Blog distribution metadata.
 - `changelog.html` is the site-readable update log generated from the Notion source.
 - `support.html` collects public support links.
 - `privacy.html` is the first privacy policy draft.
@@ -46,6 +47,21 @@ node scripts/sync-changelog.mjs
 ```
 
 The script updates `content/changelog.seed.json` and rewrites `changelog.html`.
+
+## Blog Sync
+
+RonnieCC remains the canonical Blog content hub. This subsite reads RonnieCC
+`content/blog.seed.json`, filters posts whose `子站點` metadata includes `aDict`
+(`adict` in JSON), copies referenced Blog assets, and renders the aDict Blog:
+
+```sh
+node scripts/sync-blog.mjs
+```
+
+By default the script reads `../RonnieCC/content/blog.seed.json`. Override with
+`RONNIECC_REPO=/path/to/RonnieCC` or
+`RONNIECC_BLOG_SEED=/path/to/blog.seed.json` when running from another layout.
+Article pages keep canonical URLs pointing at the RonnieCC originals.
 
 ## Image Optimization
 
