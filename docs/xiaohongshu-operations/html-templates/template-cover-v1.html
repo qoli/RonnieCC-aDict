@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, initial-scale=1">
+  <title>aDict Xiaohongshu Cover Template</title>
+  <style>
+    :root {
+      --canvas-width: 1080px;
+      --canvas-height: 1440px;
+      --ink: #151515;
+      --muted: #5f646b;
+      --line: #d9dfe7;
+      --paper: #fbfbf8;
+      --panel: #ffffff;
+      --accent: #ff2442;
+      --accent-soft: #ffe8ec;
+      --blue: #2f6fbd;
+      --green: #3d8b5f;
+      --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      width: var(--canvas-width);
+      min-height: var(--canvas-height);
+      background: #e9edf2;
+      font-family: var(--font);
+      color: var(--ink);
+    }
+
+    .canvas {
+      width: var(--canvas-width);
+      height: var(--canvas-height);
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(255, 36, 66, 0.09), transparent 32%),
+        linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+      padding: 72px 72px 64px;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 34px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .mark {
+      width: 64px;
+      height: 64px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 36px;
+      font-weight: 900;
+    }
+
+    .series {
+      color: var(--muted);
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    .hero {
+      align-self: center;
+      display: grid;
+      gap: 40px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 104px;
+      line-height: 1.08;
+      font-weight: 900;
+      max-width: 900px;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 790px;
+      color: var(--muted);
+      font-size: 44px;
+      line-height: 1.42;
+      font-weight: 600;
+    }
+
+    .proof {
+      height: 480px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 24px;
+      padding: 28px 30px;
+      overflow: hidden;
+      box-shadow: 0 18px 42px rgba(31, 45, 61, 0.12);
+    }
+
+    .points {
+      display: grid;
+      align-content: center;
+      gap: 18px;
+    }
+
+    .point {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 18px;
+      align-items: start;
+      color: #2b3036;
+      font-size: 30px;
+      line-height: 1.28;
+      font-weight: 650;
+    }
+
+    .dot {
+      width: 18px;
+      height: 18px;
+      margin-top: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .screenshot {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: top center;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 26px;
+      font-weight: 650;
+      gap: 24px;
+    }
+
+    .tag {
+      color: var(--accent);
+      text-align: right;
+      max-width: 660px;
+    }
+  </style>
+</head>
+<body>
+  <main class="canvas">
+    <header class="eyebrow">
+      <div class="brand">
+        <div class="mark">a</div>
+        <span>aDict</span>
+      </div>
+      <div class="series">本地词典工作流 01</div>
+    </header>
+
+    <section class="hero">
+      <h1>本地词典 App 为什么还值得重写</h1>
+      <p class="subtitle">AI 可以解释，但可靠的查词底层仍然需要本地词典、上下文和可控的数据来源。</p>
+      <div class="proof">
+        <div class="points">
+          <div class="point"><span class="dot"></span><span>查词结果来自你自己的词典文件</span></div>
+          <div class="point"><span class="dot"></span><span>阅读时不打断当前上下文</span></div>
+          <div class="point"><span class="dot"></span><span>AI 辅助解释，但不替代词典依据</span></div>
+        </div>
+        <img class="screenshot" src="../../../assets/adict-3-home.png" alt="aDict app screenshot">
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>1080 x 1440 HTML card</span>
+      <span class="tag">#本地词典 #英语阅读 #效率工具</span>
+    </footer>
+  </main>
+</body>
+</html>
