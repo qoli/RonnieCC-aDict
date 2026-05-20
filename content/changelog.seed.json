@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-05-19T23:47:01.688Z"
+    "syncedAt": "2026-05-19T23:58:20.656Z"
   },
   "blocks": [
     {
@@ -296,7 +296,7 @@
     },
     {
       "id": "f5c044eec23d481b912c087a11d35155",
-      "type": "sub_sub_header",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.4 Build 50",
@@ -348,7 +348,7 @@
     },
     {
       "id": "20a89d98c2c0414aaa0434f3df98852d",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.3 Build 49 TestFlight",
@@ -374,7 +374,7 @@
     },
     {
       "id": "1b3c27c2d49640debf8968dfa9683b9a",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.2 Build 48 TestFlight",
@@ -400,7 +400,7 @@
     },
     {
       "id": "6039c6714f69498a94e8abe9202ecd16",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.1 Build 46 TestFlight",
@@ -426,7 +426,7 @@
     },
     {
       "id": "b20e9998b3844b958be215d8937dbf5e",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 45",
@@ -452,7 +452,7 @@
     },
     {
       "id": "491c1a5f53f14b76961c55f4bc08901e",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 44,45 TestFlight",
@@ -491,7 +491,7 @@
     },
     {
       "id": "c28c47ac4363458d8dbd4a5e8c493581",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 43 TestFlight",
@@ -517,7 +517,7 @@
     },
     {
       "id": "ab5616093de94de2b94c3ab7617dfa88",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 42 TestFlight",
@@ -556,7 +556,7 @@
     },
     {
       "id": "e6df1230bb0a45ef91bb6d482580c7bc",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 41 TestFlight",
@@ -595,7 +595,7 @@
     },
     {
       "id": "0d4e1bf24689455aa41e451e3fb7a310",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 40 TestFlight",
@@ -634,7 +634,7 @@
     },
     {
       "id": "6df7967a7df84f8b8d792fd4f7d16e35",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 39 TestFlight",
@@ -660,7 +660,7 @@
     },
     {
       "id": "f8ca9d8b0d3947b38cfe3a130ed069d0",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 38 TestFlight",
@@ -699,7 +699,7 @@
     },
     {
       "id": "bec74ccf09924b7e9346a0a9ed02624b",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 37 TestFlight",
@@ -764,7 +764,7 @@
     },
     {
       "id": "78c9e336d83f4938bfc1467a91886c28",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 36 TestFlight",
@@ -803,7 +803,7 @@
     },
     {
       "id": "dc08cd36e4c94b9b9d70ad7623576ba3",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 35 TestFlight",
@@ -842,7 +842,7 @@
     },
     {
       "id": "316708ec72d74f6da8b737685e212a6c",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 34 TestFlight",
@@ -881,7 +881,7 @@
     },
     {
       "id": "2ad48c7b917443788d2e70dacc246c3b",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 33 TestFlight",
@@ -933,7 +933,7 @@
     },
     {
       "id": "bcb589c5a82943eda0043ed7f94aa81c",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 32 TestFlight",
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "1d03354ad1734110b52a3c9fa641162b",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 31 TestFlight",
@@ -1155,7 +1155,7 @@
     },
     {
       "id": "803bcfeadc444d1ba50dfd574183e7d3",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "2.0 Build 30 TestFlight",
@@ -1276,7 +1276,7 @@
     },
     {
       "id": "3c575549dad048c394056caa8157a8ca",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 29 TestFlight",
@@ -1329,7 +1329,7 @@
     },
     {
       "id": "6d6a3431158b442cabeabbbbbd81038c",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 28 TestFlight",
@@ -1409,7 +1409,7 @@
     },
     {
       "id": "d9f8ab89730644e2b87f3bcf4fb5081e",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 27 TestFlight",
@@ -1660,7 +1660,7 @@
     },
     {
       "id": "ee8432fe597f427e8801db3c6b3150a0",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 26 TestFlight",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "6541c773ea4c48c9828f09066b27e273",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 25 TestFlight",
@@ -1767,7 +1767,7 @@
     },
     {
       "id": "1f1b7094ecb54f90bced52a03c0a21d1",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.20 Build 24 TestFlight",
@@ -1940,7 +1940,7 @@
     },
     {
       "id": "875bfe57aeca4365ae7d263bbb5aaa6a",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.19",
@@ -1979,7 +1979,7 @@
     },
     {
       "id": "10455bc1a8e24c0098736ecbc8a651ff",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.18",
@@ -2005,7 +2005,7 @@
     },
     {
       "id": "ff81976f746244dfa5754ebeb63d1fc2",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.17",
@@ -2057,7 +2057,7 @@
     },
     {
       "id": "99807a116f7d4ad18126de29cc7e082c",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.15",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "8880c0b113704026b78eb6b35f89ee78",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.14",
@@ -2148,7 +2148,7 @@
     },
     {
       "id": "08af3804051041a99390c679773f9146",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.13",
@@ -2332,7 +2332,7 @@
     },
     {
       "id": "417a7871deb34c9486a1621dcac7158f",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.12",
@@ -2389,7 +2389,7 @@
     },
     {
       "id": "bc479e9c8cae40dbb757a02e98691076",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.11",
@@ -2415,7 +2415,7 @@
     },
     {
       "id": "52dc09bdc8d84b9590700ee18a549534",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.1",
@@ -2428,7 +2428,7 @@
     },
     {
       "id": "3bce545e259547c58de961ec361cfdc0",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 10",
@@ -2468,7 +2468,7 @@
     },
     {
       "id": "b578a269b43b4e4a88805ec5fb9d6d7e",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "1.0",
@@ -2481,7 +2481,7 @@
     },
     {
       "id": "0de53b148998423ba8f16219f819a0d1",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 9",
@@ -2574,7 +2574,7 @@
     },
     {
       "id": "4545dd9d1d3c42f6b444ea2bfdcaae18",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 8",
@@ -2680,7 +2680,7 @@
     },
     {
       "id": "0832909206c443bab52b049174bfe5f4",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 7",
@@ -2773,7 +2773,7 @@
     },
     {
       "id": "ced4b9f34bda495685451feb6a309ccd",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 6",
@@ -2932,7 +2932,7 @@
     },
     {
       "id": "4f7b55e593594b218b435b4c03a88748",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 5",
@@ -3130,13 +3130,11 @@
     },
     {
       "id": "82ecc767c8f144c8b7c77de596e9a89e",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 4",
-          "annotations": [
-            "b"
-          ],
+          "annotations": [],
           "href": ""
         }
       ],
@@ -3298,13 +3296,11 @@
     },
     {
       "id": "02d3a53a7b1b4cf8a63277576f5bd088",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 3",
-          "annotations": [
-            "b"
-          ],
+          "annotations": [],
           "href": ""
         }
       ],
@@ -3387,13 +3383,11 @@
     },
     {
       "id": "1a82315f930848c3b745ac18ce5e68c1",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 2",
-          "annotations": [
-            "b"
-          ],
+          "annotations": [],
           "href": ""
         }
       ],
@@ -3503,13 +3497,11 @@
     },
     {
       "id": "75afce04445e43eea3ac241ea6bad05c",
-      "type": "text",
+      "type": "sub_header",
       "richText": [
         {
           "text": "Build 1",
-          "annotations": [
-            "b"
-          ],
+          "annotations": [],
           "href": ""
         }
       ],
