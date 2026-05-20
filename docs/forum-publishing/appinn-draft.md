@@ -7,7 +7,11 @@ Recommended first category while aDict 3.0 is still in TestFlight: `讨论分享
 Live/publishing reference:
 
 - Forum: <https://meta.appinn.net/>
+- Account: <https://meta.appinn.net/u/qoli/activity/topics>
 - Discovery channel rules: <https://meta.appinn.net/t/topic/43728>
+- Previous aDict post from 2021: <https://meta.appinn.net/t/topic/23723>
+- Previous aDict post from 2019: <https://meta.appinn.net/t/topic/12608>
+- Submitted pending review on 2026-05-20: pending post id `32469`, category `讨论分享`.
 
 ## Positioning
 
@@ -29,7 +33,7 @@ Alternatives:
 
 ## Draft
 
-大家好，我是 aDict 的开发者。最近把这个很久以前做的词典 app 重写了一版，现在 3.0 进入 TestFlight 测试阶段，想在这里做一个开发者自荐。
+大家好，我是 aDict 的开发者。之前在小众软件论坛发过两次 aDict 的旧版本，这次是把这个很久以前做的词典 app 重新整理成了 3.0，目前进入 TestFlight 测试阶段，所以再来做一次开发者自荐。
 
 aDict 是一个 iPhone、iPad、Mac 上的查词工具。新版的目标不是做一个很重的词典资料库，而是提供一个尽量轻的查词入口：打开 app，输入单词，就可以用在线词典来源查询；如果你手里也有本地词典文件，也可以把它们接进同一个查词流程里。
 
@@ -94,8 +98,6 @@ MDict/
     OxfordA.js
 ```
 
-这个文件夹整理方式会在即将发布的 3.0 Build 9 中支持。
-
 ![MDict 查询和词典文件管理](assets/freemdict-mdict-management.png)
 
 适合试用的人大概是：
@@ -141,6 +143,13 @@ The hero image is intentionally omitted from this draft because 小众软件 use
 
 ## Publishing Notes
 
+- 2026-05-20: Submitted to `讨论分享` through the logged-in Arc session for `qoli`. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`, so the post is in moderation/pending review and does not yet have a public topic URL.
+- Uploaded forum images:
+  - `freemdict-dictionary-menu-suggestions.png` -> `upload://76p8kFZqzMb7BBwJ7TO4Sgu64BO.jpeg`
+  - `freemdict-dark-light.png` -> `upload://t1WROlbhmDAAAAzcuIgGh8gKenw.jpeg`
+  - `appinn-apple-intelligence-enrichment.png` -> `upload://4DNyZ8h1GP7vns3srT17Go24PvX.jpeg`
+  - `freemdict-mdict-management.png` -> `upload://zI2gB2hft9vjk40sYY3MWK9tXR6.jpeg`
+  - `freemdict-macos.png` -> `upload://by9eODafeySaiE9gE71A0uZ8h0e.jpeg`
 - Keep this as a testing/discussion post while 3.0 is on TestFlight.
 - Do not post the same content to `发现频道` until the App Store version is updated.
 - If posting to `发现频道` later, shorten the body and put App Store first, TestFlight second or omit TestFlight.
