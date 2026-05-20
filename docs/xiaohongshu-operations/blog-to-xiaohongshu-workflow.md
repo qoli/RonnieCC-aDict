@@ -26,7 +26,77 @@ Read the Blog and extract:
 
 Output a compact post plan before generating final cards when the angle is ambiguous.
 
-## 3. Convert to Multi-Image Post
+## 3. Create Multi-Image Markdown Draft
+
+Before creating HTML, write a markdown draft that represents the full Xiaohongshu post.
+
+The markdown draft is the pre-review artifact. It should make the card sequence, copy, screenshot intent, and open questions easy to discuss without paying HTML rewrite cost.
+
+Typical markdown draft structure:
+
+```markdown
+# Draft: <working title>
+
+Source Blog: <path or URL>
+
+## Xiaohongshu Angle
+
+- Target reader:
+- Practical problem:
+- Product insight:
+- Claim boundary:
+
+## Title Options
+
+1. ...
+2. ...
+3. ...
+
+## Body Copy
+
+...
+
+## Cards
+
+### Card 1 - Cover
+
+- Purpose:
+- Text:
+- Visual:
+
+### Card 2 - Context
+
+- Purpose:
+- Text:
+- Visual:
+
+## Tags
+
+#...
+
+## Open Questions
+
+- ...
+```
+
+The exact card count should follow the Blog content. Do not force every Blog into the same number of cards.
+
+## 4. Review Markdown Before HTML
+
+Stop at the markdown draft when the structure, hook, wording, or screenshot choices need discussion.
+
+Ask the user to confirm or adjust:
+
+- first-card hook;
+- card order;
+- per-card copy;
+- body copy;
+- screenshots or assets;
+- risky or overbroad claims.
+
+Do not create HTML cards until markdown-level direction is clear, unless the user explicitly asks to skip the markdown review.
+
+## 5. Convert to HTML Multi-Image Post
 
 Use HTML-generated cards as the default static image format.
 
@@ -38,9 +108,7 @@ Typical carousel structure:
 4. proof card: screenshot-backed product detail;
 5. takeaway card: what the reader can try or remember.
 
-The exact card count should follow the Blog content. Do not force every Blog into the same number of cards.
-
-## 4. Create Draft Package
+## 6. Create Draft Package
 
 Create a draft under [drafts/](drafts/) containing:
 
@@ -48,13 +116,13 @@ Create a draft under [drafts/](drafts/) containing:
 - extracted angle;
 - title options;
 - Xiaohongshu body copy;
-- card-by-card outline;
+- card-by-card markdown content;
 - HTML template files or references;
 - exported image paths when generated;
 - tags;
 - open questions for the user.
 
-## 5. Visual Inspection
+## 7. Visual Inspection
 
 Before asking the user to review, inspect the generated images visually.
 
@@ -66,13 +134,13 @@ Check:
 - the first card can stand alone in the feed;
 - cards form a coherent sequence.
 
-## 6. Wait for Confirmation
+## 8. Wait for Confirmation
 
 Stop after presenting the draft and visual findings.
 
 Wait for the user to confirm, ask questions, or request edits. Do not move to publishing preparation during this stage.
 
-## 7. Discuss Publishing After Confirmation
+## 9. Discuss Publishing After Confirmation
 
 Only after the user confirms the draft:
 

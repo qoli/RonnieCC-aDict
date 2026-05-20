@@ -35,19 +35,21 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
    - forum publishing drafts;
    - available screenshots under `assets/` and `docs/forum-publishing/assets/`.
 4. Pick a content pillar from [content-pillars.md](content-pillars.md).
-5. Draft the note in [drafts/](drafts/) with:
+5. Create a multi-image markdown draft in [drafts/](drafts/) with:
    - title options;
    - opening hook;
    - body copy;
-   - image or video sequence;
+   - card-by-card markdown content;
+   - image or screenshot intent for each card;
    - tags;
-   - publish checklist.
-6. Generate static image cards through the HTML workflow in [html-image-workflow.md](html-image-workflow.md).
-7. Visually inspect the generated cards before claiming they are ready for review.
-8. Ask for user confirmation and handle discussion or revision.
-9. Treat any XiaohongshuSkills-style publishing command as the final delivery step only, after content and assets are approved.
-10. After publishing, add a record under [published/](published/) or update [content-calendar.md](content-calendar.md).
-11. Monitor comments only through live inspection and draft replies for approval unless the user has clearly asked to post the reply.
+   - open questions for pre-review.
+6. Ask for markdown-level confirmation before creating HTML cards when the structure, angle, or copy may change.
+7. Generate static image cards through the HTML workflow in [html-image-workflow.md](html-image-workflow.md).
+8. Visually inspect the generated cards before claiming they are ready for review.
+9. Ask for user confirmation and handle discussion or revision.
+10. Treat any XiaohongshuSkills-style publishing command as the final delivery step only, after content and assets are approved.
+11. After publishing, add a record under [published/](published/) or update [content-calendar.md](content-calendar.md).
+12. Monitor comments only through live inspection and draft replies for approval unless the user has clearly asked to post the reply.
 
 ## Draft Quality Rules
 
@@ -60,7 +62,7 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
 
 ## Publishing Checklist
 
-- Confirm the user has approved the Blog-derived draft and HTML-generated images.
+- Confirm the user has approved the Blog-derived markdown draft and HTML-generated images.
 - Confirm the target account and login state.
 - Confirm exact title, body, tags, and image/video order.
 - Confirm the approved HTML-generated image exports are the files being uploaded.

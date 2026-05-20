@@ -4,11 +4,18 @@ Place working note drafts here before user approval and publication.
 
 Each draft should include:
 
+- source Blog path or URL;
+- extracted Xiaohongshu angle;
 - target pillar;
 - title options;
 - final selected title;
 - body copy;
-- image or video sequence;
+- card-by-card markdown content for pre-review;
+- image or video intent for each card;
+- HTML template or export references after markdown review;
 - tags;
+- open questions;
 - publishing checklist;
 - approval and publish status.
+
+The markdown draft is the first review artifact. Do not treat HTML cards as the first draft unless the user explicitly asks to skip markdown pre-review.

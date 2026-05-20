@@ -29,7 +29,9 @@ This folder owns aDict's Xiaohongshu operations work: strategy, drafts, assets, 
 ## Operating Principles
 
 - The default input is a Blog handed over by the user.
-- The default output before approval is a multi-image HTML-generated Xiaohongshu draft, not a published post.
+- The first output is a multi-image Xiaohongshu markdown draft for pre-review.
+- HTML image generation starts only after the markdown draft structure and copy are directionally accepted.
+- The default output before final approval is HTML-generated Xiaohongshu image content, not a published post.
 - Keep a human in the loop for public publishing and account actions.
 - Treat publishing automation as the terminal stage only; upstream work is strategy, draft, HTML image generation, review, and approval.
 - Treat Xiaohongshu's live UI and account state as the source of truth before publishing.
@@ -41,6 +43,7 @@ This folder owns aDict's Xiaohongshu operations work: strategy, drafts, assets, 
 ## First Operating Goals
 
 1. Accept a user-delivered Blog as source material.
-2. Convert it into a Xiaohongshu multi-image post with HTML-generated cards.
-3. Wait for user confirmation, questions, and edits.
-4. Only after confirmation, discuss and prepare publication.
+2. Convert it into a multi-image Xiaohongshu markdown draft for pre-review.
+3. After markdown review, generate HTML cards and exported images.
+4. Wait for user confirmation, questions, and edits.
+5. Only after confirmation, discuss and prepare publication.
