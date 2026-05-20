@@ -9,6 +9,7 @@ These are local copies of the images used for forum posts. They are duplicated h
 - `freemdict-macos.png`: macOS version screenshot.
 - `freemdict-dark-light.png`: dark/light lookup display.
 - `freemdict-hero.png`: landing page hero image.
+- `appinn-apple-intelligence-enrichment.png`: Apple Intelligence enrichment rules and generated lookup supplements, intended for 小众软件 draft.
 
 ## Source Mapping
 
@@ -17,4 +18,4 @@ These are local copies of the images used for forum posts. They are duplicated h
 - `freemdict-dictionary-menu-suggestions.png` was copied from `images/blog/blog-3.png`.
 - `freemdict-macos.png` was copied from `images/blog/blog-4.png`.
 - `freemdict-mdict-management.png` was copied from `images/blog/blog-5.png`.
-
+- `appinn-apple-intelligence-enrichment.png` was copied from `/Users/ronnie/Downloads/blog-6.png`.

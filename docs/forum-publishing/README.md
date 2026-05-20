@@ -6,6 +6,7 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 
 - FreeMdict topic: <https://forum.freemdict.com/t/topic/44065>
 - V2EX topic: <https://www.v2ex.com/t/1212555?p=1#reply2>
+- 小众软件论坛 draft: see [appinn-draft.md](appinn-draft.md)
 - V2EX sharing draft: see [v2ex-sharing-draft.md](v2ex-sharing-draft.md)
 - Forum image assets: see [assets/README.md](assets/README.md)
 - Agent workflow: see [agent-runbook.md](agent-runbook.md)
@@ -13,6 +14,7 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 ## Files
 
 - [freemdict-topic-44065.md](freemdict-topic-44065.md): the FreeMdict launch post, published notes, and reply log.
+- [appinn-draft.md](appinn-draft.md): 小众软件论坛 draft and publishing notes.
 - [v2ex-sharing-draft.md](v2ex-sharing-draft.md): V2EX-facing sharing draft and guardrails.
 - [agent-runbook.md](agent-runbook.md): how Codex should inspect, draft, confirm, and publish forum replies.
 - [assets/](assets/): local copies of the images used for forum posts.
