@@ -10,6 +10,7 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 - 小众软件论坛 draft: see [appinn-draft.md](appinn-draft.md)
 - 小众软件论坛 submission: submitted to `讨论分享` on 2026-05-20 and currently pending review as pending post id `32469`.
 - V2EX sharing draft: see [v2ex-sharing-draft.md](v2ex-sharing-draft.md)
+- Reddit r/BetaTests draft: see [reddit-betatests-draft.md](reddit-betatests-draft.md)
 - Forum image assets: see [assets/README.md](assets/README.md)
 - Agent workflow: see [agent-runbook.md](agent-runbook.md)
 
@@ -18,6 +19,7 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 - [freemdict-topic-44065.md](freemdict-topic-44065.md): the FreeMdict launch post, published notes, and reply log.
 - [appinn-draft.md](appinn-draft.md): 小众软件论坛 draft and publishing notes.
 - [v2ex-sharing-draft.md](v2ex-sharing-draft.md): V2EX-facing sharing draft and guardrails.
+- [reddit-betatests-draft.md](reddit-betatests-draft.md): Reddit r/BetaTests beta feedback draft and guardrails.
 - [agent-runbook.md](agent-runbook.md): how Codex should inspect, draft, confirm, and publish forum replies.
 - [assets/](assets/): local copies of the images used for forum posts.
 
