@@ -5,9 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: "30 18 * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,8 +24,40 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout aDict
         uses: actions/checkout@v6
+        with:
+          path: adict
+
+      - name: Checkout RonnieCC blog data
+        uses: actions/checkout@v6
+        with:
+          repository: qoli/RonnieCC
+          path: RonnieCC
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync aDict blog
+        working-directory: adict
+        env:
+          RONNIECC_REPO: ${{ github.workspace }}/RonnieCC
+        run: node scripts/sync-blog.mjs
+
+      - name: Commit updated blog data
+        working-directory: adict
+        run: |
+          if git diff --quiet -- blog.html blog content/blog.seed.json content/blog-assets sitemap; then
+            echo "No aDict blog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog.html blog content/blog.seed.json content/blog-assets sitemap
+          git commit -m "Sync aDict blog data"
+          git push
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
@@ -33,7 +67,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: .
+          path: adict
 
       - name: Deploy to GitHub Pages
         id: deployment
