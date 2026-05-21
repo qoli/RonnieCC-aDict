@@ -17,23 +17,23 @@ This folder owns aDict's Xiaohongshu operations work: strategy, drafts, assets, 
 - [content-calendar.md](content-calendar.md): planned posts, status, hooks, assets, and publish records.
 - [content-pillars.md](content-pillars.md): aDict-specific topic pillars and reusable content angles.
 - [material-inventory.md](material-inventory.md): source assets, screenshots, recordings, and reuse rules.
-- [html-image-workflow.md](html-image-workflow.md): HTML/CSS-based image generation workflow and template rules.
+- [html-image-workflow.md](html-image-workflow.md): fallback HTML/CSS-based image generation workflow and template rules.
 - [blog-to-xiaohongshu-workflow.md](blog-to-xiaohongshu-workflow.md): default workflow for turning a delivered Blog into a Xiaohongshu multi-image post.
 - [operations-pipeline.md](operations-pipeline.md): upstream-to-publishing operating pipeline.
 - [reference-projects.md](reference-projects.md): notes on the two external reference projects and adoption boundaries.
 - [drafts/](drafts/): working drafts before publication.
 - [published/](published/): published-note records and follow-up logs.
 - [assets/](assets/): local copies or pointers for Xiaohongshu-specific assets.
-- [html-templates/](html-templates/): reusable HTML templates for Xiaohongshu post images.
+- [html-templates/](html-templates/): fallback reusable HTML templates for Xiaohongshu post images.
 
 ## Operating Principles
 
 - The default input is a Blog handed over by the user.
 - The first output is a multi-image Xiaohongshu markdown draft for pre-review.
-- HTML image generation starts only after the markdown draft structure and copy are directionally accepted.
-- The default output before final approval is HTML-generated Xiaohongshu image content, not a published post.
+- Figma MCP image generation starts only after the markdown draft structure and copy are directionally accepted.
+- The default output before final approval is Figma-generated Xiaohongshu image content, not a published post.
 - Keep a human in the loop for public publishing and account actions.
-- Treat publishing automation as the terminal stage only; upstream work is strategy, draft, HTML image generation, review, and approval.
+- Treat publishing automation as the terminal stage only; upstream work is strategy, draft, Figma image generation, review, and approval.
 - Treat Xiaohongshu's live UI and account state as the source of truth before publishing.
 - Keep claims bounded to current aDict behavior and publicly supportable roadmap.
 - Prefer product usage stories, real screenshots, and concrete dictionary workflows over generic marketing copy.
@@ -44,6 +44,6 @@ This folder owns aDict's Xiaohongshu operations work: strategy, drafts, assets, 
 
 1. Accept a user-delivered Blog as source material.
 2. Convert it into a multi-image Xiaohongshu markdown draft for pre-review.
-3. After markdown review, generate HTML cards and exported images.
+3. After markdown review, generate Figma cards and exported images.
 4. Wait for user confirmation, questions, and edits.
 5. Only after confirmation, discuss and prepare publication.

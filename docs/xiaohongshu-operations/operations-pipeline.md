@@ -34,7 +34,7 @@ Create a draft under [drafts/](drafts/) with:
 - open questions;
 - markdown review status.
 
-This stage exists to reduce HTML rewrite cost. Review the content structure, card sequence, and copy at markdown level before building HTML cards.
+This stage exists to reduce design rewrite cost. Review the content structure, card sequence, and copy at markdown level before building Figma cards.
 
 ## Stage 3: Markdown Review
 
@@ -46,32 +46,43 @@ Review:
 - whether the first card has the right feed-facing hook;
 - whether each card has one clear job;
 - whether the body copy and tags match the card sequence;
-- which screenshots or assets are needed for HTML.
+- which screenshots or assets are needed for Figma.
 
-Do not generate HTML cards yet if the markdown structure is still under discussion.
+Do not generate Figma cards yet if the markdown structure is still under discussion.
 
-## Stage 4: HTML Image Generation
+## Stage 4: Figma MCP Image Generation
 
-After markdown-level direction is accepted, use [html-image-workflow.md](html-image-workflow.md) as the image production path.
+After markdown-level direction is accepted, use Figma MCP as the image production path.
+
+The working frame should be editable by both the user and Codex:
+
+- create or reuse `1080 x 1440` Figma frames for each card;
+- keep text as editable text layers;
+- import product screenshots from visually confirmed source assets;
+- preserve one benefit or one proof point per card;
+- export approved frames at 2x, producing `2160 x 2880` PNGs for upload.
 
 Output:
 
-- HTML source cards;
+- Figma frames;
 - exported PNG cards;
 - asset record in the draft or [material-inventory.md](material-inventory.md).
 
 Reference boundary:
 
-- Auto-Redbook-Skills is only a best-size and HTML-card reference for this stage.
+- Auto-Redbook-Skills is only a best-size reference.
+- [html-image-workflow.md](html-image-workflow.md) is now fallback documentation, not the default production path.
 
-## Stage 5: HTML Visual Review and Approval
+## Stage 5: Figma Visual Review and Approval
 
 Review:
 
 - whether the claim matches current product behavior;
 - whether the copy sounds native to Xiaohongshu;
-- whether the HTML-generated cards are readable in mobile feed context;
+- whether the Figma-generated cards are readable in mobile feed context;
 - whether image order and body copy support the same message.
+
+Use actual exported images for visual inspection. Do not approve from layer names, file names, or a 1x plugin preview alone.
 
 No public account action happens in this stage.
 
@@ -90,7 +101,7 @@ Use it only as a reference for:
 - previewing the composer;
 - stopping before final publish when approval is missing.
 
-Do not use terminal publishing tools for upstream strategy, copywriting, image generation, or engagement automation.
+Do not use terminal publishing tools for upstream strategy, copywriting, Figma image generation, or engagement automation.
 
 ## Stage 7: Post-Publish Record and Follow-Up
 

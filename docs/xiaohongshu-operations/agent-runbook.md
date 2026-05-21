@@ -43,9 +43,9 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
    - image or screenshot intent for each card;
    - tags;
    - open questions for pre-review.
-6. Ask for markdown-level confirmation before creating HTML cards when the structure, angle, or copy may change.
-7. Generate static image cards through the HTML workflow in [html-image-workflow.md](html-image-workflow.md).
-8. Visually inspect the generated cards before claiming they are ready for review.
+6. Ask for markdown-level confirmation before creating Figma cards when the structure, angle, or copy may change.
+7. Generate static image cards through the Figma MCP workflow. Use HTML only as a fallback or historical reference when Figma is unavailable.
+8. Visually inspect the Figma exports before claiming they are ready for review.
 9. Ask for user confirmation and handle discussion or revision.
 10. Treat any XiaohongshuSkills-style publishing command as the final delivery step only, after content and assets are approved.
 11. After publishing, add a record under [published/](published/) or update [content-calendar.md](content-calendar.md).
@@ -53,11 +53,13 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
 
 ## Asset Production Rules
 
-- Keep the markdown draft as the pre-review contract. Do not move into HTML until the card sequence, card text, and screenshot intent are stable.
+- Keep the markdown draft as the pre-review contract. Do not move into Figma until the card sequence, card text, and screenshot intent are stable.
 - Design the carousel like App Store screenshots: one benefit per card, short text, and real product UI as the proof.
+- Use Figma as the default design surface because it lets the user preview, adjust, and approve the same artifact that Codex edits through MCP.
 - Default design canvas is `1080 x 1440`; final publish exports should be `2160 x 2880` when possible, so Xiaohongshu receives a high-quality 2x asset.
-- Do not use a 1x, `768 x 1024`, or otherwise downsampled Figma/plugin preview as final material. If Figma export is blocked, ask the user for a manual 2x export.
-- If a card is supplied as a final Figma export, treat it as an external final asset. Do not rebuild or merge it back into the HTML preview unless the user explicitly asks.
+- Do not use a 1x, `768 x 1024`, or otherwise downsampled Figma/plugin preview as final material. Export the frame at 2x through Figma MCP when available; if export is blocked, ask the user for a manual 2x export.
+- If a card is supplied as a final Figma export, treat it as an approved asset unless the user asks for further edits.
+- Keep HTML workflow material in [html-image-workflow.md](html-image-workflow.md) as fallback documentation, not the default production path.
 - Before upload, inspect the actual PNGs visually, not only by file name. Check text fit, screenshot crop, white borders, focus, and whether every card has a clear job.
 
 ## Hashtag Rules
@@ -101,10 +103,10 @@ rtk python docs/xiaohongshu-operations/scripts/xhs_prepare_publish.py \
 
 ## Publishing Checklist
 
-- Confirm the user has approved the Blog-derived markdown draft and HTML-generated images.
+- Confirm the user has approved the Blog-derived markdown draft and Figma-generated images.
 - Confirm the target account and login state.
 - Confirm exact title, body, tags, and image/video order.
-- Confirm the approved HTML-generated image exports are the files being uploaded.
+- Confirm the approved Figma image exports are the files being uploaded.
 - Confirm whether this is immediate publishing or scheduled publishing.
 - Verify the final composer preview before clicking publish.
 - Do not click final publish/save without approval.

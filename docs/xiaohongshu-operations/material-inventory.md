@@ -24,19 +24,22 @@ Use this file to track source assets and Xiaohongshu-specific derivatives.
 
 ## Xiaohongshu Asset Rules
 
-- Use HTML/CSS templates as the default path for Xiaohongshu static images.
+- Use Figma MCP as the default path for Xiaohongshu static images.
+- Keep HTML/CSS templates as fallback or historical references, not the primary production path.
 - Prefer 3:4 or 1:1 static image sequences for product walkthrough posts.
 - Keep each image focused on one claim or one step.
 - Do not use tiny UI text as the only explanation; crop or annotate only when it improves readability.
 - Preserve the real product UI; avoid decorative mockups that hide the actual workflow.
+- Use visual inspection before choosing a screenshot. Do not choose by file name alone.
+- Export final Figma frames at 2x when possible.
 - Record every edited derivative under `docs/xiaohongshu-operations/assets/` with a short note explaining the source.
 
 ## Needed Assets
 
 | Status | Asset | Purpose | Source |
 | --- | --- | --- | --- |
-| needed | 3:4 HTML cover template | Consistent first image for note series | `html-templates/` plus product screenshot. |
-| needed | 3:4 HTML carousel template | Repeatable explanation cards | `html-templates/` plus text and screenshots. |
+| needed | 3:4 Figma cover frame | Consistent first image for note series | Figma MCP plus product screenshot. |
+| needed | 3:4 Figma carousel frame | Repeatable explanation cards | Figma MCP plus text and screenshots. |
 | needed | MDict import walkthrough sequence | First practical setup post | Product screen recording or screenshots. |
 | needed | AI-assisted lookup sequence | Apple Intelligence / explanation post | Product screenshots from current build. |
 | needed | Favorites workflow sequence | Study workflow post | Product screenshots from current build. |

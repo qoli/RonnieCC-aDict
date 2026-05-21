@@ -1,6 +1,8 @@
 # HTML Image Workflow
 
-Use HTML/CSS as the default production path for Xiaohongshu static images.
+Use HTML/CSS only as a fallback production path for Xiaohongshu static images.
+
+The default production path is now Figma MCP because the user can preview, adjust, and approve the same editable design surface that Codex can operate. Keep this document for historical HTML cards, emergency fallback work, and size/template references.
 
 ## Output Targets
 

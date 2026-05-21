@@ -28,9 +28,9 @@ Output a compact post plan before generating final cards when the angle is ambig
 
 ## 3. Create Multi-Image Markdown Draft
 
-Before creating HTML, write a markdown draft that represents the full Xiaohongshu post.
+Before creating Figma cards, write a markdown draft that represents the full Xiaohongshu post.
 
-The markdown draft is the pre-review artifact. It should make the card sequence, copy, screenshot intent, and open questions easy to discuss without paying HTML rewrite cost.
+The markdown draft is the pre-review artifact. It should make the card sequence, copy, screenshot intent, and open questions easy to discuss before paying design rewrite cost.
 
 Typical markdown draft structure:
 
@@ -81,7 +81,7 @@ Source Blog: <path or URL>
 
 The exact card count should follow the Blog content. Do not force every Blog into the same number of cards.
 
-## 4. Review Markdown Before HTML
+## 4. Review Markdown Before Figma
 
 Stop at the markdown draft when the structure, hook, wording, or screenshot choices need discussion.
 
@@ -94,11 +94,11 @@ Ask the user to confirm or adjust:
 - screenshots or assets;
 - risky or overbroad claims.
 
-Do not create HTML cards until markdown-level direction is clear, unless the user explicitly asks to skip the markdown review.
+Do not create Figma cards until markdown-level direction is clear, unless the user explicitly asks to skip the markdown review.
 
-## 5. Convert to HTML Multi-Image Post
+## 5. Convert to Figma Multi-Image Post
 
-Use HTML-generated cards as the default static image format.
+Use Figma MCP-generated cards as the default static image format.
 
 Typical carousel structure:
 
@@ -107,6 +107,14 @@ Typical carousel structure:
 3. workflow card: concrete aDict behavior;
 4. proof card: screenshot-backed product detail;
 5. takeaway card: what the reader can try or remember.
+
+Figma production rules:
+
+- use `1080 x 1440` frames as the editable design source;
+- export final PNGs at 2x, `2160 x 2880`;
+- keep title, subtitle, footer, and labels as editable text layers;
+- import screenshots only after visual confirmation of the actual image content;
+- let the user adjust the Figma design directly when useful, then re-export and inspect the current frame.
 
 ## 6. Create Draft Package
 
@@ -117,7 +125,7 @@ Create a draft under [drafts/](drafts/) containing:
 - title options;
 - Xiaohongshu body copy;
 - card-by-card markdown content;
-- HTML template files or references;
+- Figma frame links or node IDs;
 - exported image paths when generated;
 - tags;
 - open questions for the user.
@@ -133,6 +141,8 @@ Check:
 - screenshots are readable enough for mobile feed context;
 - the first card can stand alone in the feed;
 - cards form a coherent sequence.
+
+Do not treat a Figma layer list, node name, or 1x preview as visual inspection. Export the frame and look at the actual PNG.
 
 ## 8. Wait for Confirmation
 
