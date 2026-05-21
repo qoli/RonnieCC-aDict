@@ -15,6 +15,7 @@ Track planned, drafted, published, and followed-up Xiaohongshu notes here.
 
 | Status | Working Title | Pillar | Hook | Assets | Target Date | Publish Record |
 | --- | --- | --- | --- | --- | --- | --- |
+| published | 读英文时，查词别再打断阅读了 | Reading Workflow | 查词不用来回换工具 | [exports/2026-05-20-appinn-draft](exports/2026-05-20-appinn-draft) | 2026-05-21 | [published](published/2026-05-21-appinn-draft-reading-workflow.md) |
 | idea | 本地词典 App 为什么还值得重写 | Product Story | 不是所有查词都应该把原文发到云端 | Landing hero, home screen, settings | TBD | TBD |
 | idea | MDict 用户迁移到 aDict 3.0 的第一步 | Dictionary Workflow | 旧词典文件不必被新的查词方式淘汰 | MDict lookup, dictionary menu, settings | TBD | TBD |
 | idea | 用 Apple Intelligence 做英文阅读辅助 | AI Workflow | AI 解释很方便，但词典底层仍然要可靠 | Suggestions, lookup result, source menu | TBD | TBD |
@@ -24,7 +25,7 @@ Track planned, drafted, published, and followed-up Xiaohongshu notes here.
 
 | Date | URL | Title | Assets | Notes |
 | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD |
+| 2026-05-21 | TBD | 读英文时，查词别再打断阅读了 | [exports/2026-05-20-appinn-draft](exports/2026-05-20-appinn-draft) | First aDict 3.0 reading workflow note. Published from creator manager at 11:36 China time. |
 
 ## Weekly Review
 

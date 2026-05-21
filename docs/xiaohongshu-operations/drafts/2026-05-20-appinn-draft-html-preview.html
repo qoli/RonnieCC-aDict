@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>aDict 3.0 Xiaohongshu HTML Preview</title>
+  <style>
+    :root {
+      --card-width: 1080px;
+      --card-height: 1440px;
+      --ink: #15161a;
+      --muted: #656b75;
+      --line: #e3e7ed;
+      --paper: #fbfbf8;
+      --accent: #ff2442;
+      --shadow: 0 30px 80px rgba(30, 42, 58, 0.16);
+      --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: #dfe5ec;
+      font-family: var(--font);
+      color: var(--ink);
+    }
+
+    body {
+      padding: 0;
+    }
+
+    .preview {
+      display: grid;
+      grid-template-columns: var(--card-width);
+      gap: 48px;
+      justify-content: start;
+      padding-bottom: 90vh;
+    }
+
+    .xhs-card {
+      width: var(--card-width);
+      height: var(--card-height);
+      overflow: hidden;
+      position: relative;
+      padding: 70px 72px 56px;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 30px;
+      background:
+        radial-gradient(circle at 16% 10%, rgba(255, 36, 66, 0.09), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    }
+
+    .xhs-card.blue {
+      background:
+        radial-gradient(circle at 84% 12%, rgba(47, 111, 189, 0.11), transparent 30%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+    }
+
+    .xhs-card.green {
+      background:
+        radial-gradient(circle at 84% 12%, rgba(58, 143, 92, 0.11), transparent 30%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbf8 100%);
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--muted);
+      font-size: 28px;
+      font-weight: 750;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      color: var(--ink);
+      font-size: 34px;
+      font-weight: 850;
+    }
+
+    .mark {
+      width: 58px;
+      height: 58px;
+      border-radius: 13px;
+      display: block;
+      object-fit: cover;
+      box-shadow: 0 10px 24px rgba(30, 42, 58, 0.08);
+    }
+
+    .copy {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .kicker {
+      margin: 0;
+      color: var(--accent);
+      font-size: 32px;
+      font-weight: 850;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      letter-spacing: 0;
+      font-weight: 950;
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 1.06;
+      max-width: 910px;
+    }
+
+    h2 {
+      font-size: 84px;
+      line-height: 1.08;
+      max-width: 900px;
+    }
+
+    .subline {
+      margin: 0;
+      color: var(--muted);
+      font-size: 40px;
+      line-height: 1.28;
+      font-weight: 700;
+      max-width: 840px;
+    }
+
+    .stage {
+      min-height: 0;
+      position: relative;
+      display: grid;
+      place-items: center;
+      overflow: visible;
+    }
+
+    .hero-phone {
+      width: auto;
+      height: 880px;
+      max-width: 760px;
+      object-fit: contain;
+      filter: drop-shadow(0 34px 54px rgba(22, 31, 43, 0.22));
+      transform: rotate(-2deg);
+    }
+
+    .phone-frame {
+      height: 100%;
+      max-height: 850px;
+      width: auto;
+      aspect-ratio: 1206 / 2622;
+      border-radius: 56px;
+      border: 0;
+      background: transparent;
+      overflow: visible;
+      box-shadow: none;
+      display: grid;
+      place-items: start center;
+    }
+
+    .phone-frame.wide {
+      max-height: 830px;
+    }
+
+    .phone-frame.ai-result {
+      max-height: 800px;
+      aspect-ratio: 1179 / 2556;
+    }
+
+    .phone-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: inherit;
+      filter: drop-shadow(0 30px 68px rgba(30, 42, 58, 0.16));
+      display: block;
+    }
+
+    .duo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 34px;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+    }
+
+    .duo .phone-frame {
+      max-height: 680px;
+    }
+
+    .desktop-frame {
+      width: 920px;
+      aspect-ratio: 2400 / 1732;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(25, 35, 49, 0.08);
+      background: #fff;
+    }
+
+    .desktop-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .glass-note {
+      position: absolute;
+      left: 70px;
+      bottom: 80px;
+      max-width: 380px;
+      padding: 26px 30px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(227, 231, 237, 0.88);
+      box-shadow: 0 20px 48px rgba(30, 42, 58, 0.14);
+      color: var(--muted);
+      font-size: 28px;
+      line-height: 1.35;
+      font-weight: 700;
+      backdrop-filter: blur(18px);
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      color: var(--muted);
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .badge {
+      color: var(--accent);
+      font-weight: 850;
+      text-align: right;
+    }
+
+    .platforms {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      min-width: 148px;
+      padding: 16px 22px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.82);
+      text-align: center;
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+  </style>
+</head>
+<body>
+  <main class="preview" aria-label="aDict Xiaohongshu App Store style card preview">
+    <section class="xhs-card" id="card-01">
+      <header class="topbar">
+        <div class="brand"><img class="mark" src="../../../assets/adict-app-icon.png" alt="aDict app icon"><span>aDict 3.0</span></div>
+        <span>01</span>
+      </header>
+      <div class="copy">
+        <p class="kicker">Apple 平台查词入口</p>
+        <h1>读英文时<br>查词别再打断阅读了</h1>
+      </div>
+      <div class="stage">
+        <img class="hero-phone" src="../../../assets/main-hero-light.png" alt="aDict lookup hero screen">
+      </div>
+      <footer class="footer">
+        <span>iPhone / iPad / Mac</span>
+        <span class="badge">轻量查词</span>
+      </footer>
+    </section>
+
+    <section class="xhs-card blue" id="card-02">
+      <header class="topbar">
+        <div class="brand"><img class="mark" src="../../../assets/adict-app-icon.png" alt="aDict app icon"><span>aDict 3.0</span></div>
+        <span>02</span>
+      </header>
+      <div class="copy">
+        <p class="kicker">Quick Lookup</p>
+        <h2>打开就能查</h2>
+        <p class="subline">输入单词，直接进入查词结果</p>
+      </div>
+      <div class="stage">
+        <div class="phone-frame wide">
+          <img src="../../../assets/adict-3-home.png" alt="aDict lookup result">
+        </div>
+      </div>
+      <footer class="footer">
+        <span>查词结果</span>
+        <span class="badge">少一步切换</span>
+      </footer>
+    </section>
+
+    <section class="xhs-card" id="card-03">
+      <header class="topbar">
+        <div class="brand"><img class="mark" src="../../../assets/adict-app-icon.png" alt="aDict app icon"><span>aDict 3.0</span></div>
+        <span>03</span>
+      </header>
+      <div class="copy">
+        <p class="kicker">Sources</p>
+        <h2>多个来源<br>随时切换</h2>
+        <p class="subline">在线词典先能用</p>
+      </div>
+      <div class="stage">
+        <div class="phone-frame wide">
+          <img src="../../../assets/adict-3-dictionary-menu.png" alt="aDict dictionary source switching">
+        </div>
+      </div>
+      <footer class="footer">
+        <span>在线来源 / 本地来源</span>
+        <span class="badge">同一入口</span>
+      </footer>
+    </section>
+
+    <section class="xhs-card blue" id="card-04">
+      <header class="topbar">
+        <div class="brand"><img class="mark" src="../../../assets/adict-app-icon.png" alt="aDict app icon"><span>aDict 3.0</span></div>
+        <span>04</span>
+      </header>
+      <div class="copy">
+        <p class="kicker">Intelligence</p>
+        <h2>AI 只做补充</h2>
+        <p class="subline">例句、用法、语境说明</p>
+      </div>
+      <div class="stage">
+        <div class="phone-frame ai-result">
+          <img src="../assets/apple-intelligence-enrichment-gloom.png" alt="aDict Intelligence Enrichment result">
+        </div>
+      </div>
+      <footer class="footer">
+        <span>Intelligence</span>
+        <span class="badge">不替代词典</span>
+      </footer>
+    </section>
+
+    <section class="xhs-card" id="card-05">
+      <header class="topbar">
+        <div class="brand"><img class="mark" src="../../../assets/adict-app-icon.png" alt="aDict app icon"><span>aDict 3.0</span></div>
+        <span>05</span>
+      </header>
+      <div class="copy">
+        <p class="kicker">Apple Devices</p>
+        <h2>iPhone<br>iPad<br>Mac</h2>
+        <p class="subline">同一套查词流程</p>
+      </div>
+      <div class="stage">
+        <div class="desktop-frame">
+          <img src="../../forum-publishing/assets/freemdict-macos.png" alt="aDict macOS lookup window">
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="platforms">
+          <span class="pill">iPhone</span>
+          <span class="pill">iPad</span>
+          <span class="pill">Mac</span>
+        </div>
+        <span class="badge">跨设备</span>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

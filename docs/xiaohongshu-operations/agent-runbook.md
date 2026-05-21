@@ -51,6 +51,37 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
 11. After publishing, add a record under [published/](published/) or update [content-calendar.md](content-calendar.md).
 12. Monitor comments only through live inspection and draft replies for approval unless the user has clearly asked to post the reply.
 
+## Asset Production Rules
+
+- Keep the markdown draft as the pre-review contract. Do not move into HTML until the card sequence, card text, and screenshot intent are stable.
+- Design the carousel like App Store screenshots: one benefit per card, short text, and real product UI as the proof.
+- Default design canvas is `1080 x 1440`; final publish exports should be `2160 x 2880` when possible, so Xiaohongshu receives a high-quality 2x asset.
+- Do not use a 1x, `768 x 1024`, or otherwise downsampled Figma/plugin preview as final material. If Figma export is blocked, ask the user for a manual 2x export.
+- If a card is supplied as a final Figma export, treat it as an external final asset. Do not rebuild or merge it back into the HTML preview unless the user explicitly asks.
+- Before upload, inspect the actual PNGs visually, not only by file name. Check text fit, screenshot crop, white borders, focus, and whether every card has a clear job.
+
+## Hashtag Rules
+
+- Pick tags from the actual reader scenario and product category, not only from the app name.
+- Use a small mixed set: reading or learning scene, dictionary workflow, platform, and productivity/app discovery.
+- Avoid link-heavy, App Store-heavy, or TestFlight-heavy tags when the note itself needs to stay platform-compliant.
+- For the first aDict 3.0 reading workflow note, the approved tag direction was:
+
+```text
+#英语阅读 #英语学习 #查单词 #词典App #本地词典 #MDict #效率工具 #宝藏APP #iPhone软件 #Mac软件
+```
+
+## Publishing Handoff
+
+Use browser automation only to prepare and verify the composer. The final publish click remains a user-confirmed action unless the user has clearly delegated it in the same live publishing step.
+
+1. Upload the approved `card-01.png` through `card-06.png` assets in order.
+2. Confirm Xiaohongshu reports the expected dimensions for each image.
+3. Fill the approved title, body, and hashtags exactly.
+4. Compare the composer preview against the approved draft and asset sequence.
+5. Stop and ask for confirmation before the final publish click when approval is missing.
+6. After the click, open note manager and verify the note appears outside the review queue.
+
 ## Draft Quality Rules
 
 - Use simplified Chinese for Xiaohongshu-facing public copy unless the user requests otherwise.
@@ -69,4 +100,5 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
 - Confirm whether this is immediate publishing or scheduled publishing.
 - Verify the final composer preview before clicking publish.
 - Do not click final publish/save without approval.
-- After publishing, record URL, publish time, assets used, and follow-up actions.
+- After publishing, record URL if available, publish time, assets used, visible manager status, and follow-up actions.
+- If the public URL is not available immediately from the creator manager, record the creator-manager evidence first and recover the public URL later.

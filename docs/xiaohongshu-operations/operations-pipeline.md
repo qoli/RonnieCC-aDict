@@ -96,7 +96,8 @@ Do not use terminal publishing tools for upstream strategy, copywriting, image g
 
 After publishing:
 
-- record URL, time, title, assets, and tags;
+- record URL when available, time, title, assets, and tags;
+- if the public URL is not available yet, record creator-manager status and recover the URL later;
 - note any comments that need a reply;
 - draft replies for approval unless the user explicitly asks to post;
 - collect performance notes when available.
