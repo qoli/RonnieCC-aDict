@@ -112,8 +112,50 @@ MDict/
 你提到的文件夹形式确实是我考虑不周。目前还不支持把一本 MDict 词典放在单独文件夹里，例如 `MDict/OxfordA/OxfordA.mdx` 这种结构。这个使用方式很合理，后续版本我会更新支持这种文件夹放入/识别方式。
 ````
 
+Follow-up status: this was fixed in the later 3.0 beta build. Current guidance can mention both same-name resources and one-dictionary-per-folder layouts.
+
+### Post 7: Babelmind asked how to load local dictionaries when only the iCloud Drive aDict folder is visible
+
+Published reply as post 8 on 2026-05-21:
+
+````text
+可以在 aDict 里面先到设置里的 **Dictionary Files**，点 **Open folder**，让系统直接打开当前实际读取的目录。
+
+现在这部分有两种位置：
+
+- 如果开启了 **Sync with iCloud**，词典会从 iCloud Documents 里读取；
+- 如果关闭 **Sync with iCloud**，词典会从本机 Local Documents 里读取。
+
+所以如果你现在只在 iCloud Drive 里看到 aDict 文件夹，通常可以直接把词典放到那个目录下；如果你想放本机目录，可以先在 aDict 里关掉 iCloud sync，然后再点 Open folder。
+
+目前推荐的结构是：
+
+```text
+MDict/
+  OxfordA.mdx
+  OxfordA.mdd
+  OxfordA.css
+
+MDict/
+  OxfordA/
+    OxfordA.mdx
+    OxfordA.mdd
+    OxfordA.css
+
+StarDict/
+  Sample.ifo
+  Sample.idx
+  Sample.dict
+```
+
+放进去之后回到 aDict 的 Dictionary Files 页面刷新/重新进入，应该就能扫到。
+
+这个地方现在确实不够直观，特别是 iOS 文件 App 里 iCloud / 本机目录的显示很容易让人误解。我后面会把导入说明和入口做得更清楚一些。
+````
+
 ## Known Product Questions From Thread
 
 - Multi-dictionary query: users may expect concurrent lookup across enabled dictionaries, result grouping, and better autocomplete source rules.
 - TestFlight onboarding: clarify the difference between the 3.0 beta build and existing App Store metadata.
-- MDict folder layout: support one-dictionary-per-folder layouts in a future version.
+- Dictionary import onboarding: explain the Dictionary Files page, Open folder action, iCloud sync toggle, and Local Documents vs iCloud Documents source clearly.
+- MDict folder layout: one-dictionary-per-folder layouts are now supported in the newer 3.0 beta build; avoid repeating the old "not yet supported" answer.

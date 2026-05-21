@@ -46,8 +46,9 @@ Use this workflow when asked to maintain aDict forum posts or replies.
 
 - TestFlight: aDict 3.0 is a TestFlight build until the App Store update is released; TestFlight may show existing App Store metadata.
 - Dictionary files: aDict reads user-provided local dictionary files. It does not provide dictionary content packs.
-- MDict folder support: current MDict support groups same-stem `.mdx`, `.mdd`, `.css`, and `.js` files in the `MDict/` folder. It does not yet support one-dictionary-per-folder layouts such as `MDict/OxfordA/OxfordA.mdx`.
-- StarDict folder support: StarDict can be recognized by folder because the format commonly uses a file group.
+- Dictionary file location: use the in-app Dictionary Files page and Open folder action as the source of truth. With iCloud sync enabled, dictionaries resolve from iCloud Documents; with it disabled, they resolve from Local Documents.
+- MDict folder support: current beta supports both same-stem files in `MDict/` and one-dictionary-per-folder layouts such as `MDict/OxfordA/OxfordA.mdx`.
+- StarDict folder support: StarDict supports direct file groups in `StarDict/` and per-dictionary folders.
 
 ## Publishing Checklist
 
@@ -55,4 +56,3 @@ Use this workflow when asked to maintain aDict forum posts or replies.
 - Confirm the exact text that will be posted.
 - Do not click final publish/save for public communication unless approved.
 - After posting, update [freemdict-topic-44065.md](freemdict-topic-44065.md) or the relevant forum file.
-

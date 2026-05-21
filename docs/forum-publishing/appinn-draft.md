@@ -12,6 +12,8 @@ Live/publishing reference:
 - Previous aDict post from 2021: <https://meta.appinn.net/t/topic/23723>
 - Previous aDict post from 2019: <https://meta.appinn.net/t/topic/12608>
 - Submitted pending review on 2026-05-20: pending post id `32469`, category `讨论分享`.
+- Feedback topic on 2026-05-21: <https://meta.appinn.net/t/topic/85668>. Appinn said product recommendation posts should be submitted to `发现频道` and follow the discovery template.
+- Discovery channel template: <https://meta.appinn.net/t/topic/77583>
 
 ## Positioning
 
@@ -30,6 +32,71 @@ Alternatives:
 - aDict 3.0：一个开箱即用，也支持本地词典文件的 Apple 平台词典工具
 - aDict 3.0：把本地 MDX / StarDict 词典留在 Apple 设备上的小工具
 - 做了一个 iOS / macOS 词典工具，支持在线词典和本地词典文件
+
+## Discovery Channel Template Draft
+
+This version follows the official `发现频道模板` after Appinn feedback.
+
+```markdown
+## 软件名称
+
+aDict 3.0
+
+## 应用平台
+
+iOS / iPadOS / macOS
+
+目前 3.0 版本在 TestFlight 测试中，App Store 页面仍是已上架旧版信息。
+
+## 推荐类型
+
+【开发者自荐】
+
+## 一句简介
+
+一个 iPhone、iPad、Mac 上的轻量查词工具，支持在线词典来源，也支持导入本地 MDict / StarDict 词典文件。
+
+## 应用简介
+
+大家好，我是 aDict 的开发者。之前在小众软件论坛分享过 aDict 的旧版本，这次把这个老项目重新整理成了 3.0，所以按发现频道模板再来做一次开发者自荐。
+
+aDict 是一个 Apple 平台上的查词工具。新版的目标不是做一个很重的词典资料库，而是提供一个尽量轻的查词入口：打开 app，输入单词，就可以用在线词典来源查询；如果你手里也有本地词典文件，也可以把它们接进同一个查词流程里。
+
+目前测试版主要支持：
+
+- 在线词典来源，例如 Youdao、V2EX Dict
+- 多个词典来源切换
+- 输入时的词条提示
+- 查询历史和收藏
+- iPhone / iPad / Mac
+- 本地词典文件管理
+- MDict / MDX / MDD
+- StarDict
+
+所以 aDict 3.0 不是只能给本地词典玩家使用。第一次打开时，可以先把它当成一个普通查词工具，用内置在线来源完成日常查询；如果之后需要更固定、更个人化的词典资料，再把自己的本地词典文件放进来。
+
+本地词典这部分目前支持两种常见整理方式。可以把 `.mdx` 以及同名的 `.mdd`、`.css`、`.js` 放在 `MDict` 文件夹里，也可以把一本词典放在单独文件夹里。StarDict 也支持直接文件组和单独文件夹。
+
+3.0 里也加了一个 Apple 智能相关的早期实验功能：在查词结果之外，用本地生成能力补充一些可配置内容，例如例句、用法说明、相关语境等。这个功能刚开发，还在收集意见，现在看到的规则、界面和生成结果都不代表正式版本。
+
+如果你需要一个 Apple 平台上的轻量查词工具，欢迎试用。也欢迎直接指出哪些地方不像一个顺手的日常工具：比如在线来源是否够用、查询结果是否好读、历史和收藏是否方便、本地词典导入是否绕。
+
+## 官方网站
+
+介绍页：
+
+https://adict.ronniewong.cc/
+
+TestFlight：
+
+https://testflight.apple.com/join/dCGMvyw9
+
+App Store 页面：
+
+https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597
+
+提示：3.0 目前还是 TestFlight 测试版，还没有发布正式 App Store 更新。TestFlight 页面可能会显示已经上架版本的 App Store 信息，安装测试版之后才会拿到 3.0 build。
+```
 
 ## Draft
 
@@ -144,6 +211,8 @@ The hero image is intentionally omitted from this draft because 小众软件 use
 ## Publishing Notes
 
 - 2026-05-20: Submitted to `讨论分享` through the logged-in Arc session for `qoli`. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`, so the post is in moderation/pending review and does not yet have a public topic URL.
+- 2026-05-21: Appinn created feedback topic <https://meta.appinn.net/t/topic/85668>. Reason: product recommendation posts should be posted to `发现频道` and follow the `发现频道模板` at <https://meta.appinn.net/t/topic/77583>. Use the `Discovery Channel Template Draft` above for resubmission.
+- 2026-05-21: Resubmitted to `发现频道` with the template draft. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`; pending post id is `32499`, so it is still waiting for moderation and has no public topic URL yet.
 - Uploaded forum images:
   - `freemdict-dictionary-menu-suggestions.png` -> `upload://76p8kFZqzMb7BBwJ7TO4Sgu64BO.jpeg`
   - `freemdict-dark-light.png` -> `upload://t1WROlbhmDAAAAzcuIgGh8gKenw.jpeg`

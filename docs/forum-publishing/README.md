@@ -8,7 +8,8 @@ This folder maintains aDict forum launch copy, reply drafts, image assets, and t
 - V2EX topic: <https://www.v2ex.com/t/1212555?p=1#reply2>
 - 小众软件 account: <https://meta.appinn.net/u/qoli/activity/topics>
 - 小众软件论坛 draft: see [appinn-draft.md](appinn-draft.md)
-- 小众软件论坛 submission: submitted to `讨论分享` on 2026-05-20 and currently pending review as pending post id `32469`.
+- 小众软件论坛 feedback topic: <https://meta.appinn.net/t/topic/85668>
+- 小众软件论坛 submission: submitted to `讨论分享` on 2026-05-20 as pending post id `32469`; on 2026-05-21 Appinn feedback said product recommendation posts should be resubmitted to `发现频道` using the discovery template. Resubmitted to `发现频道` on 2026-05-21 as pending post id `32499`.
 - V2EX sharing draft: see [v2ex-sharing-draft.md](v2ex-sharing-draft.md)
 - Reddit r/BetaTests draft: see [reddit-betatests-draft.md](reddit-betatests-draft.md)
 - Betatests Discord `#post-your-product-here`: short follow-up posted manually on 2026-05-20; see [reddit-betatests-draft.md](reddit-betatests-draft.md).
