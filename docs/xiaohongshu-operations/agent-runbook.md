@@ -75,12 +75,20 @@ Use this workflow when asked to maintain aDict Xiaohongshu content, account task
 
 Use browser automation only to prepare and verify the composer. The final publish click remains a user-confirmed action unless the user has clearly delegated it in the same live publishing step.
 
-1. Upload the approved `card-01.png` through `card-06.png` assets in order.
-2. Confirm Xiaohongshu reports the expected dimensions for each image.
-3. Fill the approved title, body, and hashtags exactly.
-4. Compare the composer preview against the approved draft and asset sequence.
-5. Stop and ask for confirmation before the final publish click when approval is missing.
-6. After the click, open note manager and verify the note appears outside the review queue.
+1. Run the reusable preparation script in validation mode:
+
+```sh
+rtk python docs/xiaohongshu-operations/scripts/xhs_prepare_publish.py \
+  --draft docs/xiaohongshu-operations/published/2026-05-21-appinn-draft-reading-workflow.md \
+  --images docs/xiaohongshu-operations/exports/2026-05-20-appinn-draft
+```
+
+2. Use `--open-browser` to open the creator publish page through the existing Arc CDP session.
+3. Use `--fill-browser` only after the title/body/assets are approved; it uploads the images and fills the composer, but never clicks publish.
+4. Confirm Xiaohongshu reports the expected dimensions for each image.
+5. Compare the composer preview against the approved draft and asset sequence.
+6. Stop and ask for confirmation before the final publish click when approval is missing.
+7. After the click, open note manager and verify the note appears outside the review queue.
 
 ## Draft Quality Rules
 
