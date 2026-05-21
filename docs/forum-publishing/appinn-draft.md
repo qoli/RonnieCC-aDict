@@ -8,6 +8,7 @@ Live/publishing reference:
 
 - Forum: <https://meta.appinn.net/>
 - Account: <https://meta.appinn.net/u/qoli/activity/topics>
+- Published topic: <https://meta.appinn.net/t/topic/85752>
 - Discovery channel rules: <https://meta.appinn.net/t/topic/43728>
 - Previous aDict post from 2021: <https://meta.appinn.net/t/topic/23723>
 - Previous aDict post from 2019: <https://meta.appinn.net/t/topic/12608>
@@ -212,7 +213,9 @@ The hero image is intentionally omitted from this draft because 小众软件 use
 
 - 2026-05-20: Submitted to `讨论分享` through the logged-in Arc session for `qoli`. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`, so the post is in moderation/pending review and does not yet have a public topic URL.
 - 2026-05-21: Appinn created feedback topic <https://meta.appinn.net/t/topic/85668>. Reason: product recommendation posts should be posted to `发现频道` and follow the `发现频道模板` at <https://meta.appinn.net/t/topic/77583>. Use the `Discovery Channel Template Draft` above for resubmission.
-- 2026-05-21: Resubmitted to `发现频道` with the template draft. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`; pending post id is `32499`, so it is still waiting for moderation and has no public topic URL yet.
+- 2026-05-21: Resubmitted to `发现频道` with the template draft. Appinn accepted the request but returned `{"action":"enqueued","success":true,"pending_count":1}`; pending post id is `32499`.
+- 2026-05-21: Approved as public topic <https://meta.appinn.net/t/topic/85752>.
+- 2026-05-21: Added screenshots as post 2 at <https://meta.appinn.net/t/topic/85752/2>. The comment reused the uploaded images below and rendered 5 images successfully.
 - Uploaded forum images:
   - `freemdict-dictionary-menu-suggestions.png` -> `upload://76p8kFZqzMb7BBwJ7TO4Sgu64BO.jpeg`
   - `freemdict-dark-light.png` -> `upload://t1WROlbhmDAAAAzcuIgGh8gKenw.jpeg`
