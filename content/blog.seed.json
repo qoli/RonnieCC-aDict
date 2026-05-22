@@ -2,13 +2,17 @@
   "source": {
     "repo": "RonnieCC",
     "path": "content/blog.seed.json",
-    "syncedAt": "2026-05-22T09:39:43.506Z",
+    "syncedAt": "2026-05-22T10:50:40.854Z",
     "subsite": "adict"
   },
   "posts": [
     {
       "id": "366c1b36c40181f6a11cec533d1691dc",
-      "slug": "adict-3-0-beta-an-update-for-existing-users-366c1b36",
+      "slug": "adict-3-beta-existing-users-366c1b36",
+      "seoSlug": "adict-3-beta-existing-users",
+      "legacySlugs": [
+        "adict-3-0-beta-an-update-for-existing-users-366c1b36"
+      ],
       "title": "aDict 3.0 Beta: An Update for Existing Users",
       "tag": "aDict,Dictionary,Product,Notes",
       "year": "2026",
@@ -22,14 +26,14 @@
       ],
       "canonical": {
         "site": "ronniecc",
-        "url": "https://ronniewong.cc/blog/adict-3-0-beta-an-update-for-existing-users-366c1b36/"
+        "url": "https://ronniewong.cc/blog/adict-3-beta-existing-users-366c1b36/"
       },
       "notionUrl": "https://www.notion.so/qoli/adict-3-0-beta-an-update-for-existing-users-366c1b36c40181f6a11cec533d1691dc?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link",
       "createdTime": "2026-05-20T02:19:38.301Z",
       "lastEditedTime": "2026-05-20T07:43:01.846Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-22T09:35:13.212Z",
+        "syncedAt": "2026-05-22T10:43:15.863Z",
         "blocks": [
           {
             "id": "917cb89a655f474c88c4b5f9e8aa69c6",
@@ -1184,7 +1188,11 @@
     },
     {
       "id": "35fc1b36c40180b88fe2e8fa4e55d6ec",
-      "slug": "adict-3-0-一個老詞典-app-的重寫-35fc1b36",
+      "slug": "adict-3-rewrite-dictionary-app-35fc1b36",
+      "seoSlug": "adict-3-rewrite-dictionary-app",
+      "legacySlugs": [
+        "adict-3-0-一個老詞典-app-的重寫-35fc1b36"
+      ],
       "title": "aDict 3.0 一個老詞典 App 的重寫",
       "tag": "aDict,Dictionary,Product,AI,Swift,iOS,macOS",
       "year": "2026",
@@ -1198,14 +1206,14 @@
       ],
       "canonical": {
         "site": "ronniecc",
-        "url": "https://ronniewong.cc/blog/adict-3-0-%E4%B8%80%E5%80%8B%E8%80%81%E8%A9%9E%E5%85%B8-app-%E7%9A%84%E9%87%8D%E5%AF%AB-35fc1b36/"
+        "url": "https://ronniewong.cc/blog/adict-3-rewrite-dictionary-app-35fc1b36/"
       },
       "notionUrl": "https://www.notion.so/qoli/adict-3-0-%E4%B8%80%E5%80%8B%E8%80%81%E8%A9%9E%E5%85%B8-app-%E7%9A%84%E9%87%8D%E5%AF%AB-35fc1b36c40180b88fe2e8fa4e55d6ec?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link",
       "createdTime": "2026-05-13T21:36:21.339Z",
       "lastEditedTime": "2026-05-20T02:15:45.597Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-22T09:35:18.891Z",
+        "syncedAt": "2026-05-22T10:43:19.562Z",
         "blocks": [
           {
             "id": "35fc1b36c401808b8e25fe04bb80fbd2",
@@ -1767,7 +1775,11 @@
     },
     {
       "id": "34ec1b36c4018133ba41c6d9a03cbe2f",
-      "slug": "adict-的演化歷史-從順眼的查詞工具到本地詞典架構-34ec1b36",
+      "slug": "adict-evolution-local-dictionary-34ec1b36",
+      "seoSlug": "adict-evolution-local-dictionary",
+      "legacySlugs": [
+        "adict-的演化歷史-從順眼的查詞工具到本地詞典架構-34ec1b36"
+      ],
       "title": "aDict 的演化歷史：從順眼的查詞工具到本地詞典架構",
       "tag": "aDict,iOS,macOS,Swift,Dictionary,Product",
       "year": "2026",
@@ -1781,14 +1793,14 @@
       ],
       "canonical": {
         "site": "ronniecc",
-        "url": "https://ronniewong.cc/blog/adict-%E7%9A%84%E6%BC%94%E5%8C%96%E6%AD%B7%E5%8F%B2-%E5%BE%9E%E9%A0%86%E7%9C%BC%E7%9A%84%E6%9F%A5%E8%A9%9E%E5%B7%A5%E5%85%B7%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%A9%9E%E5%85%B8%E6%9E%B6%E6%A7%8B-34ec1b36/"
+        "url": "https://ronniewong.cc/blog/adict-evolution-local-dictionary-34ec1b36/"
       },
       "notionUrl": "https://www.notion.so/qoli/adict-%E7%9A%84%E6%BC%94%E5%8C%96%E6%AD%B7%E5%8F%B2-%E5%BE%9E%E9%A0%86%E7%9C%BC%E7%9A%84%E6%9F%A5%E8%A9%9E%E5%B7%A5%E5%85%B7%E5%88%B0%E6%9C%AC%E5%9C%B0%E8%A9%9E%E5%85%B8%E6%9E%B6%E6%A7%8B-34ec1b36c4018133ba41c6d9a03cbe2f?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link",
       "createdTime": "2026-04-26T07:45:33.380Z",
       "lastEditedTime": "2026-05-20T00:27:07.803Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-22T09:35:38.510Z",
+        "syncedAt": "2026-05-22T10:43:37.232Z",
         "blocks": [
           {
             "id": "34ec1b36c40181ebaeeecce23847453b",

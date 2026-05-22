@@ -425,6 +425,25 @@ ${body}
   });
 }
 
+function renderLegacyRedirect(post, legacySlug) {
+  const target = postUrl(post);
+  return `<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, follow">
+    <meta http-equiv="refresh" content="0; url=${escapeAttr(target)}">
+    <link rel="canonical" href="${escapeAttr(postCanonical(post))}">
+    <title>${escapeHtml(post.title)} - aDict Blog</title>
+    <script>location.replace(${JSON.stringify(target)});</script>
+  </head>
+  <body>
+    <p><a href="${escapeAttr(target)}">${escapeHtml(post.title || legacySlug)}</a></p>
+  </body>
+</html>
+`;
+}
+
 function renderRedirect() {
   return `<!doctype html>
 <html lang="en">
@@ -527,6 +546,14 @@ async function main() {
     const postDir = path.join(outputBlogDir, post.slug);
     await mkdir(postDir, { recursive: true });
     await writeFile(path.join(postDir, "index.html"), cleanHtml(renderBlogArticle(post)));
+
+    const legacySlugs = Array.isArray(post.legacySlugs) ? post.legacySlugs : [];
+    for (const legacySlug of legacySlugs) {
+      if (!legacySlug || legacySlug === post.slug) continue;
+      const legacyDir = path.join(outputBlogDir, legacySlug);
+      await mkdir(legacyDir, { recursive: true });
+      await writeFile(path.join(legacyDir, "index.html"), cleanHtml(renderLegacyRedirect(post, legacySlug)));
+    }
   }
 
   console.log(`Read ${sourcePosts.length} RonnieCC posts from ${path.relative(repoRoot, sourceSeedPath)}`);
