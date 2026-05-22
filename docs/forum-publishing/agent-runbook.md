@@ -47,6 +47,7 @@ Use this workflow when asked to maintain aDict forum posts or replies.
 - TestFlight: aDict 3.0 is a TestFlight build until the App Store update is released; TestFlight may show existing App Store metadata.
 - Dictionary files: aDict reads user-provided local dictionary files. It does not provide dictionary content packs.
 - Dictionary file location: use the in-app Dictionary Files page and Open folder action as the source of truth. With iCloud sync enabled, dictionaries resolve from iCloud Documents; with it disabled, they resolve from Local Documents.
+- Files app navigation: if Open folder appears to reopen the previous Files path, ask the user to force-close Files from the app switcher first, then return to aDict and tap Open folder again. Treat this as an iOS Files navigation-state issue: Files can restore the already-open location instead of switching to the newly requested folder URL. Do not frame this as an aDict local-folder bug or promise an app-side fix for that OS behavior.
 - MDict folder support: current beta supports both same-stem files in `MDict/` and one-dictionary-per-folder layouts such as `MDict/OxfordA/OxfordA.mdx`.
 - StarDict folder support: StarDict supports direct file groups in `StarDict/` and per-dictionary folders.
 

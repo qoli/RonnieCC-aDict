@@ -153,9 +153,41 @@ StarDict/
 这个地方现在确实不够直观，特别是 iOS 文件 App 里 iCloud / 本机目录的显示很容易让人误解。我后面会把导入说明和入口做得更清楚一些。
 ````
 
+### Post 9: alipay said local storage has no aDict folder and Open folder returns to the previous Files path
+
+Investigation notes:
+
+- `Open folder` on iOS converts the app's effective Documents `file://` URL into a `shareddocuments://` URL and asks Files to open it.
+- If Files is already open in the app switcher, it may restore the previous Files path instead of switching to the newly requested folder URL.
+- This should be framed as Files state restoration, not as an aDict local-folder bug. The user should first force-close Files, then reopen the target folder from aDict.
+
+Published reply as post 10 on 2026-05-23, then edited to tighten the boundary:
+
+```text
+我重新确认了一下，这里主要是 **Files app 已经打开时的状态恢复问题**，不是 aDict 读取目录变了。
+
+在 aDict 里点 **Open folder** 时，aDict 会把当前设置对应的 Documents 目录交给系统 Files 打开：
+
+- **Sync with iCloud** 开启：打开 iCloud Documents 里的 aDict 目录；
+- **Sync with iCloud** 关闭：打开本机 Local Documents 目录。
+
+但如果 **Files / 文件** app 此时已经在后台打开着，iOS 很容易恢复到 Files 上一次停留的路径，而不是切到这次传入的 folder URL。这个时候看起来就会像「开关没用」或者「Open folder 还是旧位置」，但核心是 Files 没有切换当前目标。
+
+可以先这样处理：
+
+1. 进入 iOS 多任务管理；
+2. 把 **Files / 文件** app 完全划掉关闭；
+3. 回到 aDict；
+4. 在 **Dictionary Files** 里确认 **Sync with iCloud** 开关状态；
+5. 再点一次 **Open folder**。
+
+所以这里先不要从 Files 当前显示的路径判断本机目录不存在；先完全关闭 Files 后，再从 aDict 的 Open folder 入口打开一次。
+```
+
 ## Known Product Questions From Thread
 
 - Multi-dictionary query: users may expect concurrent lookup across enabled dictionaries, result grouping, and better autocomplete source rules.
 - TestFlight onboarding: clarify the difference between the 3.0 beta build and existing App Store metadata.
 - Dictionary import onboarding: explain the Dictionary Files page, Open folder action, iCloud sync toggle, and Local Documents vs iCloud Documents source clearly.
+- Files app state: when advising users to retry Open folder, tell them to force-close Files from the app switcher first because Files may restore its previous path instead of the requested folder. Do not turn this into an aDict local-folder bug or promise an app-side fix.
 - MDict folder layout: one-dictionary-per-folder layouts are now supported in the newer 3.0 beta build; avoid repeating the old "not yet supported" answer.
