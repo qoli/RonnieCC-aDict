@@ -254,6 +254,22 @@ Published reply as post 14 on 2026-05-23:
 所以如果现在遇到「词典能查，但格式丢了 / 按钮失效 / 图片或音频出不来」，这个反馈是合理的。接下来的 build 我会优先改善 MDict 的 CSS / JS / MDD 资源加载、内部链接和脚本行为。
 ```
 
+### Post 15: alipay identified the problematic dictionary as OALDPE
+
+User said they were using the forum's "牛津高阶10完美版" / OALDPE, noted the file is too large for email, and attached a screenshot of the current lookup rendering.
+
+Published reassurance reply as post 16 on 2026-05-23:
+
+```text
+谢谢反馈，这个情况我已经理解了。
+
+目前确实是 aDict 对复杂 MDict 词典的支持还不完整，不是你放置文件的问题。像你提到的牛津高阶 10 完美版这类词典，本身会依赖比较完整的 CSS / JS / MDD 资源和内部交互；现在 aDict 能把基础查询跑起来，但在样式、脚本、资源加载这些地方还有明显缺口。
+
+这个问题我已经在处理了。建议你可以先等下一个 TestFlight build，再用同一套词典测试一次。下一版我会优先改这类复杂 MDict 包的资源加载和显示问题。
+
+也非常感谢你愿意实际拿词典测试并把问题贴出来，这类反馈对 3.0 很有价值。方便的话，也希望你给我发一封邮件到 `llqoli@gmail.com`，让我后续能联系到你。等 aDict 3.0 正式上架时，我会给你一个兑换码，作为参与测试和提供高价值反馈的感谢。
+```
+
 ## Known Product Questions From Thread
 
 - Multi-dictionary query: users may expect concurrent lookup across enabled dictionaries, result grouping, and better autocomplete source rules.
@@ -263,3 +279,4 @@ Published reply as post 14 on 2026-05-23:
 - MDict folder layout: one-dictionary-per-folder layouts are now supported in the newer 3.0 beta build; avoid repeating the old "not yet supported" answer.
 - MDict resource support: if formatting is missing, acknowledge incomplete support and ask for the problematic dictionary at `llqoli@gmail.com`; emphasize same-stem `.mdx` / `.mdd` / `.css` grouping even inside one folder.
 - Complex MDict compatibility: upcoming builds should improve CSS/JS/MDD resource loading, internal links, and script behavior based on the Cambridge/LDOCE/M-Webster test materials.
+- OALDPE user feedback: alipay is testing the forum's Oxford Advanced Learner's Dictionary 10 Perfect Edition. Acknowledge the gap, ask them to retry the next TestFlight build, and offer a redemption code after 3.0 release if they email the developer.
