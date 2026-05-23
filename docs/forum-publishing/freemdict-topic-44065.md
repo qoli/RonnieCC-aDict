@@ -184,6 +184,45 @@ Published reply as post 10 on 2026-05-23, then edited to tighten the boundary:
 所以这里先不要从 Files 当前显示的路径判断本机目录不存在；先完全关闭 Files 后，再从 aDict 的 Open folder 入口打开一次。
 ```
 
+### Post 12: alipay asked whether CSS/JS are unsupported because dictionary formatting is gone
+
+Verification notes:
+
+- The later CSS/JS question implies the user likely found the correct aDict folder after post 11.
+- Current MDict support is incomplete.
+- Sidecar CSS is supported when it uses the same filename stem as the `.mdx`; `MDictCLI` checks `<name>.mdx.css` first and then `<name>.css`.
+- JS is not currently wired into the bundle support list. The scanner recognizes `.js`, but the MDict accumulator ignores it.
+- Ask for a real problematic dictionary via `llqoli@gmail.com` so the developer can adapt to that dictionary's actual resource layout.
+
+Published reply as post 13 on 2026-05-23:
+
+````text
+是的，这里可以先按 **MDict 支持还不完整** 来理解。目前 aDict 对 MDict 的支持还有一些遗漏，尤其是某些词典依赖比较复杂的 CSS / JS / MDD 资源时，显示格式可能会不完整。
+
+如果方便的话，希望你能把遇到问题的词典文件发到这个邮箱：llqoli@gmail.com。这样我可以直接用这个词典做测试，专门针对它的资源结构和引用方式做适配。只看截图或者描述的话，很难判断具体是 CSS、JS、MDD 资源，还是路径结构的问题。
+
+目前扫描规则大概是这样：
+
+```text
+MDict/
+  OxfordA.mdx
+  OxfordA.mdd
+  OxfordA.css
+```
+
+或者：
+
+```text
+MDict/
+  OxfordA/
+    OxfordA.mdx
+    OxfordA.mdd
+    OxfordA.css
+```
+
+也就是说，即使放在同一个 folder 下面，`.mdx`、`.mdd`、`.css` 也最好保持相同的文件名 stem，例如都叫 `OxfordA`。如果资源文件是另外的名字，或者 CSS / JS 放在更深的子目录里，现在就可能识别不到或显示不完整。
+````
+
 ## Known Product Questions From Thread
 
 - Multi-dictionary query: users may expect concurrent lookup across enabled dictionaries, result grouping, and better autocomplete source rules.
@@ -191,3 +230,4 @@ Published reply as post 10 on 2026-05-23, then edited to tighten the boundary:
 - Dictionary import onboarding: explain the Dictionary Files page, Open folder action, iCloud sync toggle, and Local Documents vs iCloud Documents source clearly.
 - Files app state: when advising users to retry Open folder, tell them to force-close Files from the app switcher first because Files may restore its previous path instead of the requested folder. Do not turn this into an aDict local-folder bug or promise an app-side fix.
 - MDict folder layout: one-dictionary-per-folder layouts are now supported in the newer 3.0 beta build; avoid repeating the old "not yet supported" answer.
+- MDict resource support: if formatting is missing, acknowledge incomplete support and ask for the problematic dictionary at `llqoli@gmail.com`; emphasize same-stem `.mdx` / `.mdd` / `.css` grouping even inside one folder.
