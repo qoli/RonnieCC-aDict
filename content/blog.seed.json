@@ -2,7 +2,7 @@
   "source": {
     "repo": "RonnieCC",
     "path": "content/blog.seed.json",
-    "syncedAt": "2026-05-23T18:48:10.372Z",
+    "syncedAt": "2026-05-24T18:51:17.467Z",
     "subsite": "adict"
   },
   "posts": [
@@ -15,6 +15,7 @@
       ],
       "title": "aDict 3.0 Beta: An Update for Existing Users",
       "tag": "aDict,Dictionary,Product,Notes",
+      "writtenDate": "2026-05-20",
       "year": "2026",
       "public": true,
       "subsites": [
@@ -33,7 +34,7 @@
       "lastEditedTime": "2026-05-20T07:43:01.846Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-23T15:04:40.311Z",
+        "syncedAt": "2026-05-24T03:39:22.415Z",
         "blocks": [
           {
             "id": "917cb89a655f474c88c4b5f9e8aa69c6",
@@ -1195,6 +1196,7 @@
       ],
       "title": "aDict 3.0 一個老詞典 App 的重寫",
       "tag": "aDict,Dictionary,Product,AI,Swift,iOS,macOS",
+      "writtenDate": "2026-05-14",
       "year": "2026",
       "public": true,
       "subsites": [
@@ -1213,7 +1215,7 @@
       "lastEditedTime": "2026-05-20T02:15:45.597Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-23T15:04:48.696Z",
+        "syncedAt": "2026-05-24T03:39:27.122Z",
         "blocks": [
           {
             "id": "35fc1b36c401808b8e25fe04bb80fbd2",
@@ -1782,6 +1784,7 @@
       ],
       "title": "aDict 的演化歷史：從順眼的查詞工具到本地詞典架構",
       "tag": "aDict,iOS,macOS,Swift,Dictionary,Product",
+      "writtenDate": "2026-04-26",
       "year": "2026",
       "public": true,
       "subsites": [
@@ -1800,7 +1803,7 @@
       "lastEditedTime": "2026-05-20T00:27:07.803Z",
       "content": {
         "source": "notion-v3-page-blocks",
-        "syncedAt": "2026-05-23T15:05:17.576Z",
+        "syncedAt": "2026-05-24T03:39:50.252Z",
         "blocks": [
           {
             "id": "34ec1b36c40181ebaeeecce23847453b",
