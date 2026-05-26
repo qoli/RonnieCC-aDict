@@ -270,6 +270,51 @@ Published reassurance reply as post 16 on 2026-05-23:
 也非常感谢你愿意实际拿词典测试并把问题贴出来，这类反馈对 3.0 很有价值。方便的话，也希望你给我发一封邮件到 `llqoli@gmail.com`，让我后续能联系到你。等 aDict 3.0 正式上架时，我会给你一个兑换码，作为参与测试和提供高价值反馈的感谢。
 ```
 
+### Post 17: yangxiups asked about import confusion and same-name app history
+
+User said recent iOS dictionary apps are good for users, asked whether the previous same-name app was by the same author, and said they placed files under the app's `MDICT` folder but could not recognize/search. They also tried iCloud sync; the app showed a dictionary as loaded but still could not search. The screenshots showed:
+
+- `Dictionary Files` with iCloud sync enabled.
+- One MDict entry: `OALDPE En-Cn 精装版 V2026.05.24`, file `oaldpe.mdx`, source `iCloud`.
+- `Files: 1`, meaning only the main `.mdx` was visible to the current scan.
+- The Session menu could select the OALDPE MDict entry.
+
+Published reply as post 18 on 2026-05-24:
+
+```text
+谢谢反馈，这个情况我大概看明白了。
+
+先回答一下：以前那个 aDict 也是我做的，这次 3.0 是重新写的一版，所以名字是同一个项目。
+
+从你截图看，aDict 其实已经扫到了 `oaldpe.mdx`，Session 里也能选到这本词典；所以这里可能不是「完全没有识别」，而是只识别到了基础 MDX。Dictionary Files 里现在显示 `Files: 1`，也就是目前只看到一个 `oaldpe.mdx` 文件。
+
+像 OALDPE 这类词典通常还会依赖 `.mdd`、CSS、JS、图片/音频和内部交互。如果这些配套资源没有被完整识别或加载，就会出现「能看到词典，但查词显示不正常 / 格式丢失 / 看起来不能用」的问题。
+
+这部分确实是目前 aDict 3.0 beta 的不足，不是你操作的问题。我正在改复杂 MDict 词典的资源加载和导入识别，建议你可以先等下一个 TestFlight build，再用同一套文件测试一次。
+
+也谢谢你贴截图，这张图很有帮助，尤其是 `Files: 1` 这个信息能直接说明当前只识别到了主 MDX。
+```
+
+### Posts 19-20: yangxiups narrowed the MDict compatibility issue
+
+Post 19 said they realized from the screenshots that the app had read the `.mdx`; the OALDPE package also includes four `.mdd` files, one CSS file, and one JS file.
+
+Post 20 said they tested two early MDict dictionaries, probably made by freegut, and those seemed to display normally. They also understood the current lookup model: one dictionary is displayed at a time, and after switching dictionaries the user must search again before the displayed content changes. They then asked why OALDPE still cannot load styles even though its file names conform to aDict's rules.
+
+Published reply as post 21 on 2026-05-26:
+
+```text
+谢谢继续测试，这几张截图很有价值。
+
+你这次的结果其实把问题范围缩小了：早期 freegut 制作的 MDict 能正常显示，说明 aDict 现在并不是完全不能处理 MDict 的 HTML / 基础样式；OALDPE 文件命名看起来符合规范但仍然读不到样式，问题就更可能出在它更复杂的资源引用方式上，比如 CSS 里继续引用其他资源、JS 参与页面初始化、多个 MDD 里的图片/音频/脚本资源路径等。
+
+所以 OALDPE 这类词典我会当作一个专门的兼容对象处理。下一步不是只检查文件名，而是要把 CSS / JS / 多 MDD 资源加载、内部链接和 WebView 里的脚本行为一起处理。
+
+你提到的查词逻辑也对：目前 3.0 beta 一次只显示当前选中词典的结果，切换词典后需要再查一次才会刷新到新词典。这个交互现在确实不够顺手，后面我会考虑改成切换词典时自动用当前查询词重新查一次，至少让「切换来源」这件事更直观。
+
+总之这次反馈很有帮助：一个是确认了简单 MDict 已经能跑，另一个是把 OALDPE 这种复杂包暴露出来了。我会优先按这个方向改，等下一个 TestFlight build 后可以再用同一套词典验证。
+```
+
 ## Known Product Questions From Thread
 
 - Multi-dictionary query: users may expect concurrent lookup across enabled dictionaries, result grouping, and better autocomplete source rules.
@@ -280,3 +325,6 @@ Published reassurance reply as post 16 on 2026-05-23:
 - MDict resource support: if formatting is missing, acknowledge incomplete support and ask for the problematic dictionary at `llqoli@gmail.com`; emphasize same-stem `.mdx` / `.mdd` / `.css` grouping even inside one folder.
 - Complex MDict compatibility: upcoming builds should improve CSS/JS/MDD resource loading, internal links, and script behavior based on the Cambridge/LDOCE/M-Webster test materials.
 - OALDPE user feedback: alipay is testing the forum's Oxford Advanced Learner's Dictionary 10 Perfect Edition. Acknowledge the gap, ask them to retry the next TestFlight build, and offer a redemption code after 3.0 release if they email the developer.
+- Import recognition screenshots: if `Dictionary Files` shows `Files: 1` for a complex MDict package, explain that aDict has likely found only the main `.mdx`; missing companion `.mdd` / CSS / JS resources can still make lookup appear broken.
+- Lookup source switching: current beta requires the user to search again after switching dictionaries. Consider re-running the current query automatically when the selected dictionary changes.
+- OALDPE resource diagnosis: freegut/simple MDict dictionaries can render, while OALDPE still misses styles despite apparently conforming names; treat it as complex CSS/JS/multi-MDD resource loading rather than just a naming issue.
