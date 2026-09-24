@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-05-19T23:58:20.656Z"
+    "syncedAt": "2026-09-24T09:54:35.713Z"
   },
   "blocks": [
     {
@@ -58,6 +58,239 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "5a5293fe5b3245789b6e2aff92d55bad",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 12",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 12",
+      "children": []
+    },
+    {
+      "id": "ac971552f810410aa33a0099d4f5e43b",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": []
+    },
+    {
+      "id": "64050da145ca480ca7f0344da1f008f8",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "改善 macOS 工具列的自適應排版，查詢欄會隨視窗寬度調整，並保留足夠的輸入空間",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改善 macOS 工具列的自適應排版，查詢欄會隨視窗寬度調整，並保留足夠的輸入空間",
+      "children": []
+    },
+    {
+      "id": "bd7abfcfa7e44c36bd923c4224ec5cb1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "視窗較窄時，收藏與辭典選擇按鈕會移至更多選單，優先保留查詢欄",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "視窗較窄時，收藏與辭典選擇按鈕會移至更多選單，優先保留查詢欄",
+      "children": []
+    },
+    {
+      "id": "b68563653f7a4201bca258deab2adede",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "正常寬度保留視窗標題；極窄時自動隱藏標題，拉寬後恢復",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "正常寬度保留視窗標題；極窄時自動隱藏標題，拉寬後恢復",
+      "children": []
+    },
+    {
+      "id": "dcd67b02525a4b1db0f71685af9b06e0",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "492845389e0f46fdb0a6669d0f032200",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修復 macOS 退出後未能記住視窗位置與尺寸、重新開啟時回到中央的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修復 macOS 退出後未能記住視窗位置與尺寸、重新開啟時回到中央的問題",
+      "children": []
+    },
+    {
+      "id": "be774b19ac5d4f15a784e8b358c38274",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 11",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 11",
+      "children": []
+    },
+    {
+      "id": "1cf4737a86784851979c6920d125e7fc",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "063c75833b7141c49b40615797caf0a2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修復 macOS 27 上 ",
+          "annotations": [],
+          "href": ""
+        },
+        {
+          "text": "⌘L",
+          "annotations": [
+            "c"
+          ],
+          "href": ""
+        },
+        {
+          "text": " 快捷鍵無法聚焦查詢欄的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修復 macOS 27 上 ⌘L 快捷鍵無法聚焦查詢欄的問題",
+      "children": []
+    },
+    {
+      "id": "3d0ee8a3fd9c4859ab7cd07dfcfa8085",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 10",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 10",
+      "children": []
+    },
+    {
+      "id": "4bfdfa9f9bc94ba3a4437acf26e01f2d",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "更新",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "更新",
+      "children": []
+    },
+    {
+      "id": "41466a772c08410a9620ba98ae99fd53",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "重新設計 macOS 設定介面，加入主題篩選、詞典管理、會員及支援資訊頁面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "重新設計 macOS 設定介面，加入主題篩選、詞典管理、會員及支援資訊頁面",
+      "children": []
+    },
+    {
+      "id": "0b728c963f8f49e99ae582dbef3e6b00",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "加入隱私安全的啟動診斷，方便回報及定位啟動異常",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "加入隱私安全的啟動診斷，方便回報及定位啟動異常",
+      "children": []
+    },
+    {
+      "id": "1793502683a54161baedbf244d494dfc",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "阻止 Apple 智能增強結果把工具呼叫或協議資料直接顯示在詞典內容",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "阻止 Apple 智能增強結果把工具呼叫或協議資料直接顯示在詞典內容",
+      "children": []
+    },
+    {
+      "id": "fbfeb855f8e5439eaaf1739858c7545b",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "掃描後的 MDict 詞典套件現在可直接載入及查詢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "掃描後的 MDict 詞典套件現在可直接載入及查詢",
+      "children": []
+    },
+    {
+      "id": "f226a896ba5c4832b568686b003b9ec8",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "統一 iOS 與 macOS 的設定狀態及開啟流程",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "統一 iOS 與 macOS 的設定狀態及開啟流程",
       "children": []
     },
     {
@@ -2418,25 +2651,12 @@
       "type": "sub_header",
       "richText": [
         {
-          "text": "1.1",
+          "text": "1.1 Build 10",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "1.1",
-      "children": []
-    },
-    {
-      "id": "3bce545e259547c58de961ec361cfdc0",
-      "type": "sub_header",
-      "richText": [
-        {
-          "text": "Build 10",
-          "annotations": [],
-          "href": ""
-        }
-      ],
-      "plainText": "Build 10",
+      "plainText": "1.1 Build 10",
       "children": []
     },
     {
