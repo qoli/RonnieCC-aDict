@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-09-24T09:54:35.713Z"
+    "syncedAt": "2026-10-07T21:08:01.124Z"
   },
   "blocks": [
     {
@@ -58,6 +58,162 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "f49f604a1e7a4e6caafb1183e70e6294",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 13",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 13",
+      "children": []
+    },
+    {
+      "id": "651357e113ef49b4a1a75f318c944b8b",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "改進",
+      "children": []
+    },
+    {
+      "id": "34ea0ebbfec34c31b99d367dd79d37e3",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iOS 採用系統原生搜尋介面：查詢欄整合至工具列，iPhone 上搜尋欄位於底部工具列，操作更貼近系統體驗",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iOS 採用系統原生搜尋介面：查詢欄整合至工具列，iPhone 上搜尋欄位於底部工具列，操作更貼近系統體驗",
+      "children": []
+    },
+    {
+      "id": "d9a1f2229add4ff5baf5461360646e21",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "macOS 的「檔案配置指南」與「增補規則」改以獨立視窗開啟，可與設定視窗並排查看；未升級 Pro 時點擊「Upgrade to Pro」會直接帶你前往會員設定頁",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "macOS 的「檔案配置指南」與「增補規則」改以獨立視窗開啟，可與設定視窗並排查看；未升級 Pro 時點擊「Upgrade to Pro」會直接帶你前往會員設定頁",
+      "children": []
+    },
+    {
+      "id": "343499314e0a4050ba6fee79a4d35b33",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "辭典庫掃描時只讀取已就緒的辭典檔案，尚未從 iCloud 下載完成的辭典不再於掃描時開啟，下載完成前以檔名顯示",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "辭典庫掃描時只讀取已就緒的辭典檔案，尚未從 iCloud 下載完成的辭典不再於掃描時開啟，下載完成前以檔名顯示",
+      "children": []
+    },
+    {
+      "id": "d5361e0ea4fe4452bdd0a7d415065fad",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢與建議快取改於背景處理，輸入查詢與瀏覽辭典列表更加流暢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢與建議快取改於背景處理，輸入查詢與瀏覽辭典列表更加流暢",
+      "children": []
+    },
+    {
+      "id": "74431a132fcc43d6a252109cc4713a2c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "專案升級至 Xcode 27，並移除 visionOS 與 Mac Catalyst 支援，專注於 iOS、iPadOS 與 macOS",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "專案升級至 Xcode 27，並移除 visionOS 與 Mac Catalyst 支援，專注於 iOS、iPadOS 與 macOS",
+      "children": []
+    },
+    {
+      "id": "7371cdbb681e42f59a89a15ace974898",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "24c9de3e40c749b2aa75c9360f75c58d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正快速連續查詢時，先前查詢的結果可能覆蓋最新結果的問題；查詢結果與建議現在只對應當前的請求",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正快速連續查詢時，先前查詢的結果可能覆蓋最新結果的問題；查詢結果與建議現在只對應當前的請求",
+      "children": []
+    },
+    {
+      "id": "f83bd687c0ac4c5e9110b086c7a9fa06",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正切換辭典來源（本機／iCloud）時，舊的快取列表可能覆寫最新掃描結果的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正切換辭典來源（本機／iCloud）時，舊的快取列表可能覆寫最新掃描結果的問題",
+      "children": []
+    },
+    {
+      "id": "c4fd71f1b3954ef4aa18efca33b9d1b9",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正辭典資料庫啟動失敗時 App 會直接結束的問題：現在會顯示錯誤說明與「重試」按鈕，且資料不會被重置或取代",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正辭典資料庫啟動失敗時 App 會直接結束的問題：現在會顯示錯誤說明與「重試」按鈕，且資料不會被重置或取代",
+      "children": []
+    },
+    {
+      "id": "9171b28ef6c4464fa2824473209841ef",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正上次查詢結果快取可能被較舊的寫入覆蓋的問題，重新啟動後能正確還原最近的查詢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正上次查詢結果快取可能被較舊的寫入覆蓋的問題，重新啟動後能正確還原最近的查詢",
       "children": []
     },
     {
