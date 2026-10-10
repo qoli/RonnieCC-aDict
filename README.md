@@ -61,7 +61,10 @@ node scripts/sync-blog.mjs
 By default the script reads `../RonnieCC/content/blog.seed.json`. Override with
 `RONNIECC_REPO=/path/to/RonnieCC` or
 `RONNIECC_BLOG_SEED=/path/to/blog.seed.json` when running from another layout.
-Article pages keep canonical URLs pointing at the RonnieCC originals.
+Article pages use the canonical ownership declared by RonnieCC. Most mirrored
+posts point back to RonnieCC; a purpose-built product landing article can declare
+the product subsite as owner. Product-specific titles, descriptions, headings,
+and calls to action live in `content/blog-presentation.json`.
 
 ## Image Optimization
 

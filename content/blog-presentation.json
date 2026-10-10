@@ -1,0 +1,15 @@
+{
+  "adict-3-beta-existing-users": {
+    "language": "en",
+    "eyebrow": "aDict TestFlight Beta",
+    "meta": "aDict · TestFlight Beta",
+    "heading": "Join the aDict App TestFlight Beta",
+    "title": "aDict App TestFlight Beta for iPhone, iPad, and Mac",
+    "description": "Join the aDict 3.0 TestFlight beta for iPhone, iPad, and Mac. Try Youdao, local MDict and StarDict dictionaries, history, favorites, and more.",
+    "lead": "Install aDict 3.0 through TestFlight and try the rewritten dictionary app before its public App Store release.",
+    "primaryAction": {
+      "label": "Join aDict 3.0 on TestFlight",
+      "href": "https://testflight.apple.com/join/dCGMvyw9"
+    }
+  }
+}

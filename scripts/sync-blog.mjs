@@ -16,6 +16,7 @@ const sourceSeedPath = path.resolve(
 );
 
 const outputSeedPath = path.join(repoRoot, "content", "blog.seed.json");
+const presentationPath = path.join(repoRoot, "content", "blog-presentation.json");
 const outputBlogDir = path.join(repoRoot, "blog");
 const outputAssetDir = path.join(repoRoot, "content", "blog-assets");
 
@@ -56,6 +57,33 @@ function postUrl(post) {
   return `${siteUrl}/blog/${encodeURIComponent(post.slug)}/`;
 }
 
+async function readPresentation() {
+  try {
+    const payload = JSON.parse(await readFile(presentationPath, "utf8"));
+    return payload && typeof payload === "object" ? payload : {};
+  } catch (error) {
+    if (error?.code === "ENOENT") return {};
+    throw error;
+  }
+}
+
+function withPresentation(post, presentation) {
+  const override = presentation[post.seoSlug];
+  return override ? { ...post, presentation: override } : post;
+}
+
+function postHeading(post) {
+  return post.presentation?.heading || post.title;
+}
+
+function postTitle(post) {
+  return post.presentation?.title || `${post.title} - aDict Blog`;
+}
+
+function postMeta(post) {
+  return post.presentation?.meta || post.tag || "aDict";
+}
+
 function postDate(post) {
   if (post.createdTime) return new Date(post.createdTime).toISOString().slice(0, 10);
   return post.year || "";
@@ -94,7 +122,18 @@ function truncate(value, max = 165) {
 }
 
 function postDescription(post) {
+  if (post.presentation?.description) return post.presentation.description;
   return truncate(collectBlockText(post.content?.blocks || []) || post.title);
+}
+
+function renderLandingIntro(post) {
+  const presentation = post.presentation;
+  if (!presentation?.lead && !presentation?.primaryAction) return "";
+
+  return `<section class="blog-landing-intro" aria-label="aDict TestFlight beta">
+          ${presentation.lead ? `<p>${escapeHtml(presentation.lead)}</p>` : ""}
+          ${presentation.primaryAction ? `<a class="blog-primary-action" href="${escapeAttr(presentation.primaryAction.href)}">${escapeHtml(presentation.primaryAction.label)}</a>` : ""}
+        </section>`;
 }
 
 function renderRichText(segments = []) {
@@ -265,9 +304,10 @@ function footer(rootPath) {
   `;
 }
 
-function pageShell({ title, description, canonical, rootPath, current, main, type = "website", ogUrl = canonical, jsonLd = [] }) {
+function pageShell({ title, description, canonical, rootPath, current, main, type = "website", ogUrl = canonical, jsonLd = [], language = "zh-Hant" }) {
+  const ogLocale = language === "en" ? "en_US" : "zh_TW";
   return `<!doctype html>
-<html lang="zh-Hant">
+<html lang="${escapeAttr(language)}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -279,7 +319,7 @@ function pageShell({ title, description, canonical, rootPath, current, main, typ
     <meta name="robots" content="index, follow">
     <meta property="og:site_name" content="aDict">
     <meta property="og:type" content="${escapeAttr(type)}">
-    <meta property="og:locale" content="zh_TW">
+    <meta property="og:locale" content="${ogLocale}">
     <meta property="og:title" content="${escapeAttr(title)}">
     <meta property="og:description" content="${escapeAttr(description)}">
     <meta property="og:url" content="${escapeAttr(ogUrl)}">
@@ -322,7 +362,7 @@ function renderBlogIndex(posts) {
           <article class="blog-card">
             <a href="${escapeAttr(`${encodeURIComponent(post.slug)}/`)}">
               <span class="blog-card-date">${escapeHtml(postDate(post) || "Writing")}</span>
-              <h2>${escapeHtml(post.title)}</h2>
+              <h2>${escapeHtml(postHeading(post))}</h2>
               <p>${escapeHtml(postDescription(post))}</p>
               ${tags.length ? `<span class="blog-card-tags">${tags.map(escapeHtml).join(" / ")}</span>` : ""}
             </a>
@@ -351,7 +391,7 @@ function renderBlogIndex(posts) {
         description,
         blogPost: posts.map((post) => ({
           "@type": "BlogPosting",
-          headline: post.title,
+          headline: postHeading(post),
           url: postUrl(post),
           isBasedOn: postCanonical(post),
         })),
@@ -377,20 +417,22 @@ function renderBlogArticle(post) {
     ? renderBlocks(post.content.blocks, "../../")
     : "<p>This mirrored post does not include article blocks yet.</p>";
   const date = postDate(post);
+  const landingIntro = renderLandingIntro(post);
 
   return pageShell({
-    title: `${post.title} - aDict Blog`,
+    title: postTitle(post),
     description,
     canonical: postCanonical(post),
     ogUrl: postUrl(post),
     rootPath: "../../",
     current: "Blog",
     type: "article",
+    language: post.presentation?.language || "zh-Hant",
     jsonLd: [
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        headline: post.title,
+        headline: postHeading(post),
         description,
         url: postUrl(post),
         mainEntityOfPage: postCanonical(post),
@@ -401,7 +443,7 @@ function renderBlogArticle(post) {
           name: "Ronnie Wong",
           url: canonicalHub,
         },
-        isBasedOn: postCanonical(post),
+        isBasedOn: postCanonical(post) === postUrl(post) ? post.notionUrl || postCanonical(post) : postCanonical(post),
         keywords: postTags(post),
       },
     ],
@@ -409,15 +451,16 @@ function renderBlogArticle(post) {
     <main class="page blog-article-page">
       <article class="blog-article">
         <header class="changelog-hero blog-article-hero">
-          <p class="eyebrow">Writing</p>
-          <h1>${escapeHtml(post.title)}</h1>
-          <p>${escapeHtml(post.tag || "aDict")}${date ? ` · ${escapeHtml(date)}` : ""}</p>
-        </header>
+          <p class="eyebrow">${escapeHtml(post.presentation?.eyebrow || "Writing")}</p>
+          <h1>${escapeHtml(postHeading(post))}</h1>
+          <p>${escapeHtml(postMeta(post))}${date ? ` · ${escapeHtml(date)}` : ""}</p>
+        </header>${landingIntro ? `
+        ${landingIntro}` : ""}
         <div class="changelog-prose blog-prose">
 ${body}
         </div>
         <footer class="changelog-source blog-source">
-          <a href="${escapeAttr(postCanonical(post))}">Canonical RonnieCC article</a>
+          ${postCanonical(post) !== postUrl(post) ? `<a href="${escapeAttr(postCanonical(post))}">Canonical RonnieCC article</a>` : ""}
           ${post.notionUrl ? `<a href="${escapeAttr(post.notionUrl)}" target="_blank" rel="noreferrer">Original Notion note</a>` : ""}
         </footer>
       </article>
@@ -461,7 +504,8 @@ function renderRedirect() {
 }
 
 function renderSitemap(posts) {
-  const urls = [`${siteUrl}/`, `${siteUrl}/blog/`, `${siteUrl}/changelog.html`, `${siteUrl}/support.html`, `${siteUrl}/privacy.html`, ...posts.map(postUrl)];
+  const ownedPosts = posts.filter((post) => postCanonical(post) === postUrl(post));
+  const urls = [`${siteUrl}/`, `${siteUrl}/blog/`, `${siteUrl}/changelog.html`, `${siteUrl}/support.html`, `${siteUrl}/privacy.html`, ...ownedPosts.map(postUrl)];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
@@ -513,10 +557,12 @@ async function copyPostAssets(posts) {
 
 async function main() {
   const raw = await readFile(sourceSeedPath, "utf8");
+  const presentation = await readPresentation();
   const sourceData = JSON.parse(raw);
   const sourcePosts = Array.isArray(sourceData.posts) ? sourceData.posts : [];
   const posts = sourcePosts
     .filter((post) => post.public !== false && hasTarget(post))
+    .map((post) => withPresentation(post, presentation))
     .sort((a, b) => String(b.createdTime || b.year || "").localeCompare(String(a.createdTime || a.year || "")));
 
   await rm(outputBlogDir, { recursive: true, force: true });

@@ -388,6 +388,14 @@ h1 {
   text-decoration: underline;
 }
 
+.hero-beta-copy {
+  max-width: 520px;
+  margin: 18px 0 0;
+  color: rgba(7, 7, 7, 0.62);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 .button {
   min-height: 54px;
   display: inline-flex;
@@ -1466,6 +1474,39 @@ figcaption {
 
 .blog-article-page {
   width: min(920px, calc(100% - 48px));
+}
+
+.blog-landing-intro {
+  margin: 0 0 48px;
+  padding: 28px;
+  border: 1px solid rgba(7, 7, 7, 0.12);
+  border-radius: 18px;
+  background: var(--soft);
+}
+
+.blog-landing-intro p {
+  max-width: 720px;
+  margin: 0;
+  color: rgba(7, 7, 7, 0.74);
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+.blog-primary-action {
+  display: inline-flex;
+  margin-top: 22px;
+  padding: 13px 18px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.blog-primary-action:hover,
+.blog-primary-action:focus-visible {
+  background: var(--red);
 }
 
 .blog-prose blockquote {

@@ -2,7 +2,7 @@
   "source": {
     "repo": "RonnieCC",
     "path": "content/blog.seed.json",
-    "syncedAt": "2026-10-10T14:56:01.206Z",
+    "syncedAt": "2026-10-10T15:17:25.136Z",
     "subsite": "adict"
   },
   "posts": [
@@ -26,8 +26,8 @@
         "adict"
       ],
       "canonical": {
-        "site": "ronniecc",
-        "url": "https://ronniewong.cc/blog/adict-3-beta-existing-users-366c1b36/"
+        "site": "adict",
+        "url": "https://adict.ronniewong.cc/blog/adict-3-beta-existing-users-366c1b36/"
       },
       "notionUrl": "https://www.notion.so/qoli/adict-3-0-beta-an-update-for-existing-users-366c1b36c40181f6a11cec533d1691dc?v=e90c1b36c401831d99bf08f10dcbae9b&source=copy_link",
       "createdTime": "2026-05-20T02:19:38.301Z",
@@ -1185,6 +1185,19 @@
             "children": []
           }
         ]
+      },
+      "presentation": {
+        "language": "en",
+        "eyebrow": "aDict TestFlight Beta",
+        "meta": "aDict · TestFlight Beta",
+        "heading": "Join the aDict App TestFlight Beta",
+        "title": "aDict App TestFlight Beta for iPhone, iPad, and Mac",
+        "description": "Join the aDict 3.0 TestFlight beta for iPhone, iPad, and Mac. Try Youdao, local MDict and StarDict dictionaries, history, favorites, and more.",
+        "lead": "Install aDict 3.0 through TestFlight and try the rewritten dictionary app before its public App Store release.",
+        "primaryAction": {
+          "label": "Join aDict 3.0 on TestFlight",
+          "href": "https://testflight.apple.com/join/dCGMvyw9"
+        }
       }
     },
     {
