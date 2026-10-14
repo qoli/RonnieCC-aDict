@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-14T09:34:08.208Z"
+    "syncedAt": "2026-10-14T11:08:34.958Z"
   },
   "blocks": [
     {
@@ -61,55 +61,52 @@
       "children": []
     },
     {
-      "id": "f1db9acf47db408ea69d3a52822d58a1",
+      "id": "35f1ba749abe49fd9b2f8e2432794611",
       "type": "sub_header",
       "richText": [
         {
-          "text": "3.0 Build 14",
+          "text": "3.0 Build 15",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "3.0 Build 14",
+      "plainText": "3.0 Build 15",
       "children": []
     },
     {
-      "id": "1302fdde15c14d4abec8f4cfbaeeb499",
-      "type": "sub_sub_header",
+      "id": "37bcef904a294c6da238bca08b863c62",
+      "type": "text",
       "richText": [
         {
-          "text": "新功能與改進",
+          "text": "🔍 ",
           "annotations": [],
           "href": ""
-        }
-      ],
-      "plainText": "新功能與改進",
-      "children": []
-    },
-    {
-      "id": "56a25b7726da4dda8d4fe9cc63799f87",
-      "type": "bulleted_list",
-      "richText": [
+        },
         {
-          "text": "iOS 原生搜尋體驗",
+          "text": "iOS 原生搜尋",
           "annotations": [
             "b"
           ],
           "href": ""
         },
         {
-          "text": "：iOS 版改用系統原生搜尋列查詞，iPhone 在底部工具列提供搜尋按鈕，搜尋時不再隱藏內容，並保留輸入時的打字貓動畫。",
+          "text": "：查詞改用系統原生搜尋列，iPhone 提供底部搜尋按鈕，展開搜尋時不再隱藏內容，並保留打字貓動畫。",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "iOS 原生搜尋體驗：iOS 版改用系統原生搜尋列查詞，iPhone 在底部工具列提供搜尋按鈕，搜尋時不再隱藏內容，並保留輸入時的打字貓動畫。",
+      "plainText": "🔍 iOS 原生搜尋：查詞改用系統原生搜尋列，iPhone 提供底部搜尋按鈕，展開搜尋時不再隱藏內容，並保留打字貓動畫。",
       "children": []
     },
     {
-      "id": "05f7426237924016964236bfbd38a92f",
-      "type": "bulleted_list",
+      "id": "11847d33bc054fa7841f05332c0a81bd",
+      "type": "text",
       "richText": [
+        {
+          "text": "✨ ",
+          "annotations": [],
+          "href": ""
+        },
         {
           "text": "全新 Pro 購買頁面",
           "annotations": [
@@ -118,18 +115,23 @@
           "href": ""
         },
         {
-          "text": "：Pro 會員頁面重新設計，新增四張插圖說明會員效益（字典、收藏、iCloud、智慧 enrich），提供在地化定價、清楚的購買與回復購買狀態，並標示「一次買斷、非訂閱」。",
+          "text": "：以四張插圖說明會員效益（字典、收藏、iCloud、智慧增益），提供在地化定價與共用的 StoreKit 購買列；macOS 設定改為垂直版面，說明文字可捲動以支援較大的輔助使用字級與 iOS 橫向顯示。已購買 Pro 後不再顯示購買區塊。",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "全新 Pro 購買頁面：Pro 會員頁面重新設計，新增四張插圖說明會員效益（字典、收藏、iCloud、智慧 enrich），提供在地化定價、清楚的購買與回復購買狀態，並標示「一次買斷、非訂閱」。",
+      "plainText": "✨ 全新 Pro 購買頁面：以四張插圖說明會員效益（字典、收藏、iCloud、智慧增益），提供在地化定價與共用的 StoreKit 購買列；macOS 設定改為垂直版面，說明文字可捲動以支援較大的輔助使用字級與 iOS 橫向顯示。已購買 Pro 後不再顯示購買區塊。",
       "children": []
     },
     {
-      "id": "546477f565644897b99917940a738840",
-      "type": "bulleted_list",
+      "id": "2c62306a12d14214b9a124ab7cbbb405",
+      "type": "text",
       "richText": [
+        {
+          "text": "🖼 ",
+          "annotations": [],
+          "href": ""
+        },
         {
           "text": "插圖式空狀態",
           "annotations": [
@@ -138,38 +140,23 @@
           "href": ""
         },
         {
-          "text": "：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面，取代單調的系統預設樣式。",
+          "text": "：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面。",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "插圖式空狀態：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面，取代單調的系統預設樣式。",
+      "plainText": "🖼 插圖式空狀態：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面。",
       "children": []
     },
     {
-      "id": "3dfa98d19a4b42268a7f8ceff0c87ede",
-      "type": "bulleted_list",
+      "id": "96bb34dacce24f30af959b31f7fce9b8",
+      "type": "text",
       "richText": [
         {
-          "text": "單字詳情滑動邊緣效果",
-          "annotations": [
-            "b"
-          ],
+          "text": "🪟 ",
+          "annotations": [],
           "href": ""
         },
-        {
-          "text": "：單字詳情頁上下滑動邊緣改用柔和的 scroll edge 效果，視覺更細緻。",
-          "annotations": [],
-          "href": ""
-        }
-      ],
-      "plainText": "單字詳情滑動邊緣效果：單字詳情頁上下滑動邊緣改用柔和的 scroll edge 效果，視覺更細緻。",
-      "children": []
-    },
-    {
-      "id": "5ec9f6fb20aa43db9aa0d3a24f5e7bc1",
-      "type": "bulleted_list",
-      "richText": [
         {
           "text": "macOS 設定改善",
           "annotations": [
@@ -178,125 +165,115 @@
           "href": ""
         },
         {
-          "text": "：設定細節（豐富規則管理、字典檔管理）改為獨立單例視窗，規則編輯器改用分組表單樣式；macOS 主題選擇介面簡化，改以分類方式瀏覽 Base24 主題。",
+          "text": "：豐富規則管理與字典檔管理改為獨立視窗，規則編輯器改用分組表單，主題選擇介面更簡潔並標示目前使用中的主題。",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "macOS 設定改善：設定細節（豐富規則管理、字典檔管理）改為獨立單例視窗，規則編輯器改用分組表單樣式；macOS 主題選擇介面簡化，改以分類方式瀏覽 Base24 主題。",
+      "plainText": "🪟 macOS 設定改善：豐富規則管理與字典檔管理改為獨立視窗，規則編輯器改用分組表單，主題選擇介面更簡潔並標示目前使用中的主題。",
       "children": []
     },
     {
-      "id": "6d460dd8b78e4e46a7ac67080fe69f57",
-      "type": "sub_sub_header",
+      "id": "9e25d306f3ab4ce7b73c4c5179dac088",
+      "type": "text",
       "richText": [
         {
-          "text": "修正",
+          "text": "🛠 ",
           "annotations": [],
           "href": ""
-        }
-      ],
-      "plainText": "修正",
-      "children": []
-    },
-    {
-      "id": "f1190e10a7004cca98969f90cfd613cf",
-      "type": "bulleted_list",
-      "richText": [
+        },
         {
-          "text": "資料庫啟動可復原",
+          "text": "修正與改善",
           "annotations": [
             "b"
           ],
           "href": ""
         },
         {
-          "text": "：資料庫無法開啟時不再直接中止，改為顯示明確的失敗畫面（附技術訊息與「重試」按鈕），資料不會被重置或取代。",
+          "text": "：",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "資料庫啟動可復原：資料庫無法開啟時不再直接中止，改為顯示明確的失敗畫面（附技術訊息與「重試」按鈕），資料不會被重置或取代。",
+      "plainText": "🛠 修正與改善：",
       "children": []
     },
     {
-      "id": "206b90abcc864391a038473fec2c19f9",
+      "id": "e778ec2b4b6a4e399836ddc26ab2c682",
       "type": "bulleted_list",
       "richText": [
         {
-          "text": "查詢結果依請求隔離",
-          "annotations": [
-            "b"
-          ],
-          "href": ""
-        },
-        {
-          "text": "：連續查詢不同字詞時，較慢的舊查詢結果不會覆蓋較新的查詢結果，畫面始終顯示當前查詢的內容。",
+          "text": "資料庫無法開啟時不再閃退，改顯示失敗畫面並可重試，不會重置資料",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "查詢結果依請求隔離：連續查詢不同字詞時，較慢的舊查詢結果不會覆蓋較新的查詢結果，畫面始終顯示當前查詢的內容。",
+      "plainText": "資料庫無法開啟時不再閃退，改顯示失敗畫面並可重試，不會重置資料",
       "children": []
     },
     {
-      "id": "a39dbd5e76df49e69cfa0ba9de26db53",
+      "id": "ff9e9706b98447c2a3faedfda4e268e1",
       "type": "bulleted_list",
       "richText": [
         {
-          "text": "查詢快取移出主執行緒",
-          "annotations": [
-            "b"
-          ],
-          "href": ""
-        },
-        {
-          "text": "：字典庫快取載入與儲存改在背景執行，減少切換 iCloud 等操作對主執行緒的負擔。",
+          "text": "連續查詢時舊查詢的結果不再覆蓋新查詢的結果",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "查詢快取移出主執行緒：字典庫快取載入與儲存改在背景執行，減少切換 iCloud 等操作對主執行緒的負擔。",
+      "plainText": "連續查詢時舊查詢的結果不再覆蓋新查詢的結果",
       "children": []
     },
     {
-      "id": "9f8e0186a71940edb7155cae5a5e0516",
+      "id": "8900c9d88c054b788a5c6d443d6a36fd",
       "type": "bulleted_list",
       "richText": [
         {
-          "text": "只檢查就緒的字典檔",
-          "annotations": [
-            "b"
-          ],
-          "href": ""
-        },
-        {
-          "text": "：尚未下載完成的字典檔不再被讀取詮釋資料，避免顯示不完整或錯誤的字典名稱。",
+          "text": "查詢快取移出主執行緒，查詢時操作更流暢",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "只檢查就緒的字典檔：尚未下載完成的字典檔不再被讀取詮釋資料，避免顯示不完整或錯誤的字典名稱。",
+      "plainText": "查詢快取移出主執行緒，查詢時操作更流暢",
       "children": []
     },
     {
-      "id": "27809696a3df4d20bb592a721fbe4a67",
+      "id": "1df5b792d94949ae906b746aa86237d5",
       "type": "bulleted_list",
       "richText": [
         {
-          "text": "保護未儲存的規則編輯",
-          "annotations": [
-            "b"
-          ],
-          "href": ""
-        },
-        {
-          "text": "：離開規則編輯器或關閉視窗時保護未儲存的草稿；重設預設規則前會先確認，重設失敗會顯示錯誤訊息。",
+          "text": "尚未就緒的字典檔不再被讀取，避免顯示錯誤的字典名稱",
           "annotations": [],
           "href": ""
         }
       ],
-      "plainText": "保護未儲存的規則編輯：離開規則編輯器或關閉視窗時保護未儲存的草稿；重設預設規則前會先確認，重設失敗會顯示錯誤訊息。",
+      "plainText": "尚未就緒的字典檔不再被讀取，避免顯示錯誤的字典名稱",
+      "children": []
+    },
+    {
+      "id": "530b9988b0b348ee89eca70f714b73ce",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "離開規則編輯器時保護未儲存的草稿，重設預設規則前會先確認並回報失敗",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "離開規則編輯器時保護未儲存的草稿，重設預設規則前會先確認並回報失敗",
+      "children": []
+    },
+    {
+      "id": "597374e34faf48b99f4269f494ab1471",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢詳情頁加入柔和的捲動邊緣效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢詳情頁加入柔和的捲動邊緣效果",
       "children": []
     },
     {
