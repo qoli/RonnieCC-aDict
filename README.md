@@ -20,7 +20,7 @@ The landing page currently publishes the English static URL while the Chinese ve
 
 ## Public References
 
-- App Store: <https://apps.apple.com/in/app/adict-dictionary-lookup/id1483402597>
+- App Store: <https://apps.apple.com/cn/app/adict-dictionary-lookup/id1483402597>
 - Changelog: <https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link>
 - Product notes: <https://qoli.notion.site/aDict-app-a647f1ed9f604892895b8e71a65f1d70>
 - RonnieCC project page: <https://ronniewong.cc/projects/adict/>
