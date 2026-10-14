@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-07T21:16:46.829Z"
+    "syncedAt": "2026-10-14T09:34:08.208Z"
   },
   "blocks": [
     {
@@ -58,6 +58,245 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "f1db9acf47db408ea69d3a52822d58a1",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 14",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 14",
+      "children": []
+    },
+    {
+      "id": "1302fdde15c14d4abec8f4cfbaeeb499",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "新功能與改進",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新功能與改進",
+      "children": []
+    },
+    {
+      "id": "56a25b7726da4dda8d4fe9cc63799f87",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iOS 原生搜尋體驗",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：iOS 版改用系統原生搜尋列查詞，iPhone 在底部工具列提供搜尋按鈕，搜尋時不再隱藏內容，並保留輸入時的打字貓動畫。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iOS 原生搜尋體驗：iOS 版改用系統原生搜尋列查詞，iPhone 在底部工具列提供搜尋按鈕，搜尋時不再隱藏內容，並保留輸入時的打字貓動畫。",
+      "children": []
+    },
+    {
+      "id": "05f7426237924016964236bfbd38a92f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "全新 Pro 購買頁面",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：Pro 會員頁面重新設計，新增四張插圖說明會員效益（字典、收藏、iCloud、智慧 enrich），提供在地化定價、清楚的購買與回復購買狀態，並標示「一次買斷、非訂閱」。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "全新 Pro 購買頁面：Pro 會員頁面重新設計，新增四張插圖說明會員效益（字典、收藏、iCloud、智慧 enrich），提供在地化定價、清楚的購買與回復購買狀態，並標示「一次買斷、非訂閱」。",
+      "children": []
+    },
+    {
+      "id": "546477f565644897b99917940a738840",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "插圖式空狀態",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面，取代單調的系統預設樣式。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "插圖式空狀態：查詢起始、查無結果與字典庫空狀態改用全新插圖畫面，取代單調的系統預設樣式。",
+      "children": []
+    },
+    {
+      "id": "3dfa98d19a4b42268a7f8ceff0c87ede",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "單字詳情滑動邊緣效果",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：單字詳情頁上下滑動邊緣改用柔和的 scroll edge 效果，視覺更細緻。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "單字詳情滑動邊緣效果：單字詳情頁上下滑動邊緣改用柔和的 scroll edge 效果，視覺更細緻。",
+      "children": []
+    },
+    {
+      "id": "5ec9f6fb20aa43db9aa0d3a24f5e7bc1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "macOS 設定改善",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：設定細節（豐富規則管理、字典檔管理）改為獨立單例視窗，規則編輯器改用分組表單樣式；macOS 主題選擇介面簡化，改以分類方式瀏覽 Base24 主題。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "macOS 設定改善：設定細節（豐富規則管理、字典檔管理）改為獨立單例視窗，規則編輯器改用分組表單樣式；macOS 主題選擇介面簡化，改以分類方式瀏覽 Base24 主題。",
+      "children": []
+    },
+    {
+      "id": "6d460dd8b78e4e46a7ac67080fe69f57",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正",
+      "children": []
+    },
+    {
+      "id": "f1190e10a7004cca98969f90cfd613cf",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "資料庫啟動可復原",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：資料庫無法開啟時不再直接中止，改為顯示明確的失敗畫面（附技術訊息與「重試」按鈕），資料不會被重置或取代。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "資料庫啟動可復原：資料庫無法開啟時不再直接中止，改為顯示明確的失敗畫面（附技術訊息與「重試」按鈕），資料不會被重置或取代。",
+      "children": []
+    },
+    {
+      "id": "206b90abcc864391a038473fec2c19f9",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢結果依請求隔離",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：連續查詢不同字詞時，較慢的舊查詢結果不會覆蓋較新的查詢結果，畫面始終顯示當前查詢的內容。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢結果依請求隔離：連續查詢不同字詞時，較慢的舊查詢結果不會覆蓋較新的查詢結果，畫面始終顯示當前查詢的內容。",
+      "children": []
+    },
+    {
+      "id": "a39dbd5e76df49e69cfa0ba9de26db53",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢快取移出主執行緒",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：字典庫快取載入與儲存改在背景執行，減少切換 iCloud 等操作對主執行緒的負擔。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢快取移出主執行緒：字典庫快取載入與儲存改在背景執行，減少切換 iCloud 等操作對主執行緒的負擔。",
+      "children": []
+    },
+    {
+      "id": "9f8e0186a71940edb7155cae5a5e0516",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "只檢查就緒的字典檔",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：尚未下載完成的字典檔不再被讀取詮釋資料，避免顯示不完整或錯誤的字典名稱。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "只檢查就緒的字典檔：尚未下載完成的字典檔不再被讀取詮釋資料，避免顯示不完整或錯誤的字典名稱。",
+      "children": []
+    },
+    {
+      "id": "27809696a3df4d20bb592a721fbe4a67",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "保護未儲存的規則編輯",
+          "annotations": [
+            "b"
+          ],
+          "href": ""
+        },
+        {
+          "text": "：離開規則編輯器或關閉視窗時保護未儲存的草稿；重設預設規則前會先確認，重設失敗會顯示錯誤訊息。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "保護未儲存的規則編輯：離開規則編輯器或關閉視窗時保護未儲存的草稿；重設預設規則前會先確認，重設失敗會顯示錯誤訊息。",
       "children": []
     },
     {
@@ -152,6 +391,58 @@
       "children": []
     },
     {
+      "id": "f5047c2071944644be89f4c8762a741d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iOS 查詢改用系統原生搜尋欄：iPhone 於底部搜尋列、iPad 於工具列啟動搜尋，字詞內容捲動時呈現柔和邊緣效果；打字貓動畫在原生搜尋中恢復顯示，查詢建議也會依可用空間自動切換水平或垂直排列。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iOS 查詢改用系統原生搜尋欄：iPhone 於底部搜尋列、iPad 於工具列啟動搜尋，字詞內容捲動時呈現柔和邊緣效果；打字貓動畫在原生搜尋中恢復顯示，查詢建議也會依可用空間自動切換水平或垂直排列。",
+      "children": []
+    },
+    {
+      "id": "96f9d4dbc62b492591ff8e30f56992b2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增插畫空狀態：查詢起始畫面、查無結果與辭典庫空清單改以插畫呈現，介面更清楚友善。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增插畫空狀態：查詢起始畫面、查無結果與辭典庫空清單改以插畫呈現，介面更清楚友善。",
+      "children": []
+    },
+    {
+      "id": "6bdcf3ddd3e64936afe155656bbbdc78",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "Pro 購買頁面全新設計：以四張插畫介紹 Pro 重點（辭典、收藏、iCloud、Intelligence），價格資訊在地化顯示，並提供依情境安排的升級入口與統一的 StoreKit 購買列；macOS 設定中的會員頁改為直向內容，說明文字可捲動以支援較大的輔助使用字級。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "Pro 購買頁面全新設計：以四張插畫介紹 Pro 重點（辭典、收藏、iCloud、Intelligence），價格資訊在地化顯示，並提供依情境安排的升級入口與統一的 StoreKit 購買列；macOS 設定中的會員頁改為直向內容，說明文字可捲動以支援較大的輔助使用字級。",
+      "children": []
+    },
+    {
+      "id": "b9bd8f0072114740b740a4b07f128d3d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "設定更安全、更清楚：離開有未儲存變更的規則編輯器時會先詢問儲存、捨棄或繼續編輯；重設預設規則前需再次確認，失敗時會顯示錯誤訊息；macOS 的辭典檔案管理移至獨立視窗；網頁主題選擇簡化，並在清單外標示目前使用的主題。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "設定更安全、更清楚：離開有未儲存變更的規則編輯器時會先詢問儲存、捨棄或繼續編輯；重設預設規則前需再次確認，失敗時會顯示錯誤訊息；macOS 的辭典檔案管理移至獨立視窗；網頁主題選擇簡化，並在清單外標示目前使用的主題。",
+      "children": []
+    },
+    {
       "id": "7371cdbb681e42f59a89a15ace974898",
       "type": "sub_sub_header",
       "richText": [
@@ -214,6 +505,19 @@
         }
       ],
       "plainText": "修正上次查詢結果快取可能被較舊的寫入覆蓋的問題，重新啟動後能正確還原最近的查詢",
+      "children": []
+    },
+    {
+      "id": "e9daa0e4f4fc49aa9011b10b373c3083",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "穩定性改進：資料庫啟動失敗時可於應用程式內重試，不再無法進入；查詢結果依請求隔離，較舊的回應不會覆蓋較新的查詢；查詢快取移出主要執行緒以減少卡頓，並確保最後一次查詢快照正確還原。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "穩定性改進：資料庫啟動失敗時可於應用程式內重試，不再無法進入；查詢結果依請求隔離，較舊的回應不會覆蓋較新的查詢；查詢快取移出主要執行緒以減少卡頓，並確保最後一次查詢快照正確還原。",
       "children": []
     },
     {
