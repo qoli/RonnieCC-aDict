@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-14T11:21:38.480Z"
+    "syncedAt": "2026-10-15T02:55:59.089Z"
   },
   "blocks": [
     {
@@ -58,6 +58,240 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181f68828efbfdb758001",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 16",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 16",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401819cb97cf66928627c0c",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "新功能與介面更新",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新功能與介面更新",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018164a013c4fdfe25b531",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iOS 查詞改用系統原生搜尋列，打字貓動畫也回來了",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iOS 查詞改用系統原生搜尋列，打字貓動畫也回來了",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401812eb387cef409a48157",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "全新 Pro 會員頁面：以插圖介紹字典、收藏、iCloud 同步與智慧增益四大功能，顯示在地化價格，並集中購買、恢復購買與會員狀態；從需要 Pro 的功能進入時會直接顯示對應說明",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "全新 Pro 會員頁面：以插圖介紹字典、收藏、iCloud 同步與智慧增益四大功能，顯示在地化價格，並集中購買、恢復購買與會員狀態；從需要 Pro 的功能進入時會直接顯示對應說明",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401818eb4e7c0c13bd4a0dd",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢開始、查無結果與空白字典庫改用全新插圖空狀態畫面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢開始、查無結果與空白字典庫改用全新插圖空狀態畫面",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181ecb993d4e3aa07b6c2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "字典內容捲動加入柔和邊緣效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "字典內容捲動加入柔和邊緣效果",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181898ff0cdc3766b1c07",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "關於頁面重新編排，更新官方網站、支援與隱私連結",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "關於頁面重新編排，更新官方網站、支援與隱私連結",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018131aa4bee5d6d09a649",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "macOS",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "macOS",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181a3b7b5f310a87b7b4d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "字典檔管理與增益規則改為獨立視窗，重複開啟時帶回既有視窗",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "字典檔管理與增益規則改為獨立視窗，重複開啟時帶回既有視窗",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181c99866e58bf5f820c0",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "設定介面調整，網頁主題選項精簡並標示目前使用中的主題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "設定介面調整，網頁主題選項精簡並標示目前使用中的主題",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401812fae01da9355898964",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正與改善",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正與改善",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181f8a4efef5d1a2bd0d4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "增益規則編輯器改用分組介面，離開或關閉前保護未儲存的草稿；重設預設規則前需確認，失敗時顯示錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "增益規則編輯器改用分組介面，離開或關閉前保護未儲存的草稿；重設預設規則前需確認，失敗時顯示錯誤",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181818e74ea024e44f334",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正 Cambridge 字典部分單字（如 serendipity）查詢時出現記錄範圍錯誤、無法顯示的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正 Cambridge 字典部分單字（如 serendipity）查詢時出現記錄範圍錯誤、無法顯示的問題",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181f8a4f4f76e197c78fe",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "連續查詞時，舊查詢結果不再覆蓋較新的查詢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "連續查詞時，舊查詢結果不再覆蓋較新的查詢",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018180a2b1d833874959aa",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "資料庫無法開啟時改為顯示可重試的失敗畫面，不再閃退，也不會重置原有資料",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "資料庫無法開啟時改為顯示可重試的失敗畫面，不再閃退，也不會重置原有資料",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018137b7bfc3e8cf3f148a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "不再讀取尚未就緒的字典檔",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "不再讀取尚未就緒的字典檔",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401810d8881f766f4b7b9f7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詞快取移至背景處理，查詞更流暢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞快取移至背景處理，查詞更流暢",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181b0901bf4fb1107e091",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "移除 visionOS 與 Mac Catalyst 支援",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "移除 visionOS 與 Mac Catalyst 支援",
       "children": []
     },
     {
