@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-15T02:55:59.089Z"
+    "syncedAt": "2026-10-15T03:33:24.773Z"
   },
   "blocks": [
     {
@@ -58,6 +58,227 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401818bb200f3b4d549a211",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.0 Build 17",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.0 Build 17",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181808041db97332e1a88",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "新功能與介面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新功能與介面",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181cd938bd6fa3a10f254",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iPhone 與 iPad 改用系統原生搜尋列查詞：iPhone 在底部工具列提供搜尋按鈕，展開搜尋時保留字典內容，打字貓動畫同步回歸",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iPhone 與 iPad 改用系統原生搜尋列查詞：iPhone 在底部工具列提供搜尋按鈕，展開搜尋時保留字典內容，打字貓動畫同步回歸",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181b495b9c08e76a25500",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "全新 Pro 會員頁面：以插圖介紹字典、收藏、iCloud 同步與智慧增益四大功能，顯示在地化價格，集中購買、恢復購買與會員狀態；從需要 Pro 的功能進入會直接顯示對應說明",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "全新 Pro 會員頁面：以插圖介紹字典、收藏、iCloud 同步與智慧增益四大功能，顯示在地化價格，集中購買、恢復購買與會員狀態；從需要 Pro 的功能進入會直接顯示對應說明",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181d9b44bcda7c49deba3",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詢起始、查無結果與空白字典庫換上專屬插圖空狀態，支援淺色與深色外觀",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詢起始、查無結果與空白字典庫換上專屬插圖空狀態，支援淺色與深色外觀",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018160b1bbf2e4f64f711f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "macOS 字典檔管理與增益規則改為獨立視窗，重複開啟時帶出現有視窗",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "macOS 字典檔管理與增益規則改為獨立視窗，重複開啟時帶出現有視窗",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181f890f9c0aea5a0a0df",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "「關於」頁面重新編排版本資訊，並更新官方網站、支援、隱私與 Telegram 連結",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "「關於」頁面重新編排版本資訊，並更新官方網站、支援、隱私與 Telegram 連結",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181b88851f82afe77a4e4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "網頁主題精簡為預設、Gruvbox 與 Tokyo Night，並標示目前使用中的主題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "網頁主題精簡為預設、Gruvbox 與 Tokyo Night，並標示目前使用中的主題",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181c7849feed1a9690e98",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "單字詳情捲動時加入柔和邊緣效果",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "單字詳情捲動時加入柔和邊緣效果",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401818bbe3bf0b2d7e3f511",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "修正與改善",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正與改善",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181da9e95f931ee8f78b1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "快速連續查詞時，舊查詢結果不再覆蓋較新的查詢",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "快速連續查詞時，舊查詢結果不再覆蓋較新的查詢",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401817684afedb8c965cb6e",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "資料庫無法開啟時顯示可重試的失敗畫面，不再直接閃退或重置原有資料",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "資料庫無法開啟時顯示可重試的失敗畫面，不再直接閃退或重置原有資料",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181f5969af3882f2bf6c4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "尚未就緒（例如仍需下載）的字典檔不再被讀取，避免載入錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "尚未就緒（例如仍需下載）的字典檔不再被讀取，避免載入錯誤",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401816789aed8d666b17240",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "修正部分大型字典（如 Cambridge Dictionary）查詢特定單字時出現「Invalid record range」錯誤的問題",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "修正部分大型字典（如 Cambridge Dictionary）查詢特定單字時出現「Invalid record range」錯誤的問題",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c401811682bddc1c165c25c4",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詞快取移至背景處理，減少介面卡頓",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞快取移至背景處理，減少介面卡頓",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c4018116ac4de1e84f474783",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "編輯增益規則時保護未儲存的草稿，重設預設規則前先確認，失敗時顯示錯誤",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "編輯增益規則時保護未儲存的草稿，重設預設規則前先確認，失敗時顯示錯誤",
+      "children": []
+    },
+    {
+      "id": "3fac1b36c40181499014ca149aed5efb",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "字典選擇按鈕加入輔助使用標籤與提示",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "字典選擇按鈕加入輔助使用標籤與提示",
       "children": []
     },
     {
