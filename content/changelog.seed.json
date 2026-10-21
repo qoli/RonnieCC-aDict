@@ -3,50 +3,9 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-15T03:42:30.688Z"
+    "syncedAt": "2026-10-21T17:01:52.634Z"
   },
   "blocks": [
-    {
-      "id": "34dc1b36c401804f8fc4ec5b47fb042a",
-      "type": "header",
-      "richText": [
-        {
-          "text": "新版 3.0 測試",
-          "annotations": [],
-          "href": ""
-        }
-      ],
-      "plainText": "新版 3.0 測試",
-      "children": []
-    },
-    {
-      "id": "34dc1b36c40180e59e85e59a8a6067a7",
-      "type": "bulleted_list",
-      "richText": [
-        {
-          "text": "https://testflight.apple.com/join/dCGMvyw9",
-          "annotations": [
-            "a"
-          ],
-          "href": "https://testflight.apple.com/join/dCGMvyw9"
-        }
-      ],
-      "plainText": "https://testflight.apple.com/join/dCGMvyw9",
-      "children": []
-    },
-    {
-      "id": "365c1b36c40180f88e41cd8a7ca793e0",
-      "type": "text",
-      "richText": [
-        {
-          "text": "目前 3.0 並未更新到 App Store，3.0 依然處於 TestFlight 測試狀態",
-          "annotations": [],
-          "href": ""
-        }
-      ],
-      "plainText": "目前 3.0 並未更新到 App Store，3.0 依然處於 TestFlight 測試狀態",
-      "children": []
-    },
     {
       "id": "352c1b36c40180c4b71dc5a0413a6320",
       "type": "header",
@@ -58,6 +17,162 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "400c1b36c401812b81f9d43bb19b20bc",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.1 Build 19",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.1 Build 19",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181dfad86f6caa7065d10",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "字典選單顯示設定",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "字典選單顯示設定",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181c3a44ac33fc85f922a",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "設定新增「Dictionary Visibility」頁面，可逐本決定哪些字典出現在查詞頁的字典選單；iPhone 與 iPad 位於「Library」區塊，Mac 位於設定的「Dictionary Menu」面板。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "設定新增「Dictionary Visibility」頁面，可逐本決定哪些字典出現在查詞頁的字典選單；iPhone 與 iPad 位於「Library」區塊，Mac 位於設定的「Dictionary Menu」面板。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181fea533cdf5ab0b1861",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "至少保留一本可見字典，最後一本的開關會停用；新加入的字典預設顯示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "至少保留一本可見字典，最後一本的開關會停用；新加入的字典預設顯示。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c401811488bae5a56b04ef41",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "隱藏只影響選單選項，不會切換目前字典，也不會中斷進行中的查詞；從收藏開啟隱藏字典仍可正常查詞。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "隱藏只影響選單選項，不會切換目前字典，也不會中斷進行中的查詞；從收藏開啟隱藏字典仍可正常查詞。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c4018171acdbcad8c0093ae7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "這項設定只儲存在本機。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "這項設定只儲存在本機。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c4018164b1a9dd1e19011f44",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.1 Build 18",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.1 Build 18",
+      "children": []
+    },
+    {
+      "id": "400c1b36c4018139bc3fc6785cd8c0e2",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增字典可見性設定，可逐本選擇哪些字典出現在查詞頁的字典選單。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增字典可見性設定，可逐本選擇哪些字典出現在查詞頁的字典選單。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181419886e9c7089c3583",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iPhone、iPad 可從設定的「圖書館」進入，Mac 則位於設定的「Dictionary Menu」面板。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iPhone、iPad 可從設定的「圖書館」進入，Mac 則位於設定的「Dictionary Menu」面板。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c401813ba631e91839aff634",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "至少保留一本可見字典，最後一本可見字典的開關會停用。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "至少保留一本可見字典，最後一本可見字典的開關會停用。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c401812fb7e8c55b110e7a6f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "隱藏字典不會切換目前使用的字典，也不會中斷正在進行的查詞；從收藏開啟隱藏字典仍可正常查詞。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "隱藏字典不會切換目前使用的字典，也不會中斷正在進行的查詞；從收藏開啟隱藏字典仍可正常查詞。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181e7bf13eed3772fbe53",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "可見性設定只儲存在這台裝置，新加入的字典預設顯示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "可見性設定只儲存在這台裝置，新加入的字典預設顯示。",
       "children": []
     },
     {
