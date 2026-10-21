@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-21T17:01:52.634Z"
+    "syncedAt": "2026-10-21T17:33:26.563Z"
   },
   "blocks": [
     {
@@ -17,6 +17,71 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181229480ed8c0725f4a7",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.1 Build 20",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.1 Build 20",
+      "children": []
+    },
+    {
+      "id": "400c1b36c401810ba99fd04a5767504c",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "設定新增「Dictionary Visibility」頁面，可逐本決定哪些字典出現在查詞頁的字典選單。iPhone 與 iPad 位於設定的「Library」區塊，Mac 位於設定的「Dictionary Menu」面板。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "設定新增「Dictionary Visibility」頁面，可逐本決定哪些字典出現在查詞頁的字典選單。iPhone 與 iPad 位於設定的「Library」區塊，Mac 位於設定的「Dictionary Menu」面板。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c4018123b698d1565609f998",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "至少保留一本可見字典，最後一本可見字典的開關會停用；新加入的字典預設顯示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "至少保留一本可見字典，最後一本可見字典的開關會停用；新加入的字典預設顯示。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181fdac2ad4df7556d93b",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "隱藏只影響選單選項，不會切換目前字典，也不會中斷進行中的查詞；已隱藏的字典仍可由收藏開啟查詞。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "隱藏只影響選單選項，不會切換目前字典，也不會中斷進行中的查詞；已隱藏的字典仍可由收藏開啟查詞。",
+      "children": []
+    },
+    {
+      "id": "400c1b36c40181c7b0b2e6f6f875c4f7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "這項設定只儲存在本機。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "這項設定只儲存在本機。",
       "children": []
     },
     {
