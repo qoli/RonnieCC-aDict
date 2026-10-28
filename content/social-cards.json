@@ -1,0 +1,11 @@
+{
+  "siteUrl": "https://adict.ronniewong.cc",
+  "brand": "aDict",
+  "pages": {
+    "/": { "key": "home", "eyebrow": "iPhone · iPad · Mac", "title": "Your dictionaries,\nalways at hand.", "description": "Youdao, MDict and StarDict. In one app.", "artwork": "assets/main-hero-light.png" },
+    "/blog/": { "key": "blog", "eyebrow": "Blog", "title": "詞語邊上的筆記", "description": "關於 aDict、閱讀與工具的開發故事。" },
+    "/changelog.html": { "key": "changelog", "eyebrow": "更新日誌", "title": "aDict 的每一次更新", "description": "版本變化與 TestFlight 測試進展。" },
+    "/support.html": { "key": "support", "eyebrow": "Support", "title": "aDict 使用支援", "description": "詞典檔案、TestFlight 與常見問題。" },
+    "/privacy.html": { "key": "privacy", "eyebrow": "Privacy", "title": "aDict 隱私政策", "description": "了解本地詞典、查詞與資料處理方式。" }
+  }
+}

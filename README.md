@@ -66,6 +66,26 @@ posts point back to RonnieCC; a purpose-built product landing article can declar
 the product subsite as owner. Product-specific titles, descriptions, headings,
 and calls to action live in `content/blog-presentation.json`.
 
+## Social previews
+
+Each fixed page uses its own 1200 × 630 PNG from `content/social-images.json`.
+Editable copy and artwork paths live in `content/social-cards.json`; PNG and
+outlined SVG sources are tracked in `social/`. The homepage uses the current
+product artwork. Blog articles retain RonnieCC's shared `socialImage` metadata,
+and the changelog generator keeps its dedicated cover when content is refreshed.
+
+To regenerate fixed covers, install the locked build dependencies in the sibling
+RonnieCC checkout, then run from this repository:
+
+```sh
+node ../RonnieCC/scripts/render-social-cards.mjs content/social-cards.json . content/social-images.json
+node ../RonnieCC/scripts/apply-static-social-meta.mjs content/social-cards.json content/social-images.json .
+node --test scripts/social-metadata.test.mjs
+```
+
+Publish RonnieCC's article images before deploying dependent mirrors. Ordinary
+aDict deployment needs no image renderer or font installation.
+
 ## Image Optimization
 
 The landing page serves WebP images with optimized PNG fallbacks. After replacing or adding PNG files in `assets/`, optimize PNG files and regenerate top-level WebP files with:

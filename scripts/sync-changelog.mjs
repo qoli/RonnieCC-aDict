@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import socialImages from "../content/social-images.json" with { type: "json" };
 
 const NOTION_API = "https://www.notion.so/api/v3";
 const pageId = "98075976818745c9bc3657e1088fdf7b";
@@ -271,8 +272,9 @@ function renderBlocks(blocks = []) {
   return rendered.join("\n");
 }
 
-function renderPage(data) {
+export function renderPage(data) {
   const body = renderBlocks(data.blocks);
+  const image = socialImages["/changelog.html"];
 
   return `<!doctype html>
 <html lang="zh-Hant">
@@ -284,6 +286,19 @@ function renderPage(data) {
     <link rel="canonical" href="https://adict.ronniewong.cc/changelog.html">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="aDict">
+    <meta property="og:title" content="aDict 更新日誌 - Release Notes and TestFlight Updates">
+    <meta property="og:description" content="Read aDict releases, TestFlight builds and recent dictionary app fixes.">
+    <meta property="og:url" content="https://adict.ronniewong.cc/changelog.html">
+    <meta property="og:image" content="${escapeAttr(image.url)}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="${image.width}">
+    <meta property="og:image:height" content="${image.height}">
+    <meta property="og:image:alt" content="${escapeAttr(image.alt)}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="${escapeAttr(image.url)}">
+    <meta name="twitter:image:alt" content="${escapeAttr(image.alt)}">
   </head>
   <body>
     <header class="site-header">
@@ -337,7 +352,9 @@ async function main() {
   console.log(`Updated ${path.relative(repoRoot, htmlPath)}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}

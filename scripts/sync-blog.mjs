@@ -2,6 +2,7 @@
 import { access, copyFile, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import socialImages from "../content/social-images.json" with { type: "json" };
 
 const siteUrl = "https://adict.ronniewong.cc";
 const canonicalHub = "https://ronniewong.cc";
@@ -304,7 +305,7 @@ function footer(rootPath) {
   `;
 }
 
-function pageShell({ title, description, canonical, rootPath, current, main, type = "website", ogUrl = canonical, jsonLd = [], language = "zh-Hant" }) {
+function pageShell({ title, description, canonical, rootPath, current, main, type = "website", ogUrl = canonical, jsonLd = [], language = "zh-Hant", image = socialImages["/blog/"] }) {
   const ogLocale = language === "en" ? "en_US" : "zh_TW";
   return `<!doctype html>
 <html lang="${escapeAttr(language)}">
@@ -323,11 +324,16 @@ function pageShell({ title, description, canonical, rootPath, current, main, typ
     <meta property="og:title" content="${escapeAttr(title)}">
     <meta property="og:description" content="${escapeAttr(description)}">
     <meta property="og:url" content="${escapeAttr(ogUrl)}">
-    <meta property="og:image" content="${siteUrl}/assets/og-image.png">
+    <meta property="og:image" content="${escapeAttr(image.url)}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="${image.width}">
+    <meta property="og:image:height" content="${image.height}">
+    <meta property="og:image:alt" content="${escapeAttr(image.alt)}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeAttr(title)}">
     <meta name="twitter:description" content="${escapeAttr(description)}">
-    <meta name="twitter:image" content="${siteUrl}/assets/og-image.png">
+    <meta name="twitter:image" content="${escapeAttr(image.url)}">
+    <meta name="twitter:image:alt" content="${escapeAttr(image.alt)}">
     ${jsonLd
       .map(
         (entry) => `<script type="application/ld+json">
@@ -421,6 +427,7 @@ function renderBlogArticle(post) {
 
   return pageShell({
     title: postTitle(post),
+    image: post.socialImage,
     description,
     canonical: postCanonical(post),
     ogUrl: postUrl(post),
@@ -564,6 +571,10 @@ async function main() {
     .filter((post) => post.public !== false && hasTarget(post))
     .map((post) => withPresentation(post, presentation))
     .sort((a, b) => String(b.createdTime || b.year || "").localeCompare(String(a.createdTime || a.year || "")));
+
+  for (const post of posts) {
+    if (!post.socialImage) throw new Error(`Missing RonnieCC socialImage metadata for ${post.slug}; refresh the canonical Blog contract first.`);
+  }
 
   await rm(outputBlogDir, { recursive: true, force: true });
   await rm(outputAssetDir, { recursive: true, force: true });

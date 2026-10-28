@@ -1,0 +1,32 @@
+{
+  "/": {
+    "url": "https://adict.ronniewong.cc/social/home-9e54d3074537.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "Your dictionaries, always at hand. — aDict"
+  },
+  "/blog/": {
+    "url": "https://adict.ronniewong.cc/social/blog-87ef1cf7b4a9.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "詞語邊上的筆記 — aDict"
+  },
+  "/changelog.html": {
+    "url": "https://adict.ronniewong.cc/social/changelog-b2e64d5aa466.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "aDict 的每一次更新 — aDict"
+  },
+  "/support.html": {
+    "url": "https://adict.ronniewong.cc/social/support-bcbe443f1a06.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "aDict 使用支援 — aDict"
+  },
+  "/privacy.html": {
+    "url": "https://adict.ronniewong.cc/social/privacy-834b33bc0e99.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "aDict 隱私政策 — aDict"
+  }
+}
