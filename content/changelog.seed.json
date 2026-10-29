@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-21T17:43:03.558Z"
+    "syncedAt": "2026-10-29T21:16:15.326Z"
   },
   "blocks": [
     {
@@ -17,6 +17,71 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "408c1b36c40181f4babdf5fba33fb507",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.2 Build 21",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.2 Build 21",
+      "children": []
+    },
+    {
+      "id": "408c1b36c40181a5a3c5f031aa6f95af",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "診斷回報",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "診斷回報",
+      "children": []
+    },
+    {
+      "id": "408c1b36c40181ddb814c79c80ebc4d7",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iPhone、iPad 與 Mac 版會在 App 發生崩潰或資料庫啟動失敗時，自動回報診斷資訊，協助定位問題。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iPhone、iPad 與 Mac 版會在 App 發生崩潰或資料庫啟動失敗時，自動回報診斷資訊，協助定位問題。",
+      "children": []
+    },
+    {
+      "id": "408c1b36c40181639805e61bfc0fa8a1",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "回報內容不會連結帳號身分或用於追蹤，也不會附上查詞文字、字典內容、收藏或歷史記錄。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "回報內容不會連結帳號身分或用於追蹤，也不會附上查詞文字、字典內容、收藏或歷史記錄。",
+      "children": []
+    },
+    {
+      "id": "408c1b36c401811ab325dc1cd1894913",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "App 隱私權說明已更新：蒐集崩潰、效能與其他診斷資料，僅用於 App 功能。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "App 隱私權說明已更新：蒐集崩潰、效能與其他診斷資料，僅用於 App 功能。",
       "children": []
     },
     {
