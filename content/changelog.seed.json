@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-29T21:50:13.092Z"
+    "syncedAt": "2026-10-30T09:24:53.668Z"
   },
   "blocks": [
     {
@@ -17,6 +17,32 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "409c1b36c401810788d6c12643d892ca",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.2 Build 22",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.2 Build 22",
+      "children": []
+    },
+    {
+      "id": "409c1b36c4018199a5f0d170f6935c33",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "此版本未包含使用者可見的功能變更。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "此版本未包含使用者可見的功能變更。",
       "children": []
     },
     {
