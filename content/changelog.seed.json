@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-10-30T09:24:53.668Z"
+    "syncedAt": "2026-11-06T15:39:21.449Z"
   },
   "blocks": [
     {
@@ -17,6 +17,58 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "410c1b36c4018124a6a6efee9b794f82",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.3 Build 23",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.3 Build 23",
+      "children": []
+    },
+    {
+      "id": "410c1b36c401812f9d70c8df3b065da8",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "App 啟動無須等待字典庫掃描，已有快取的字典清單會在掃描期間保留。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "App 啟動無須等待字典庫掃描，已有快取的字典清單會在掃描期間保留。",
+      "children": []
+    },
+    {
+      "id": "410c1b36c40181e69b63f8db2f4ce608",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詞畫面的字典選單、字典庫設定與檔案列表會顯示載入狀態。空字典庫提示會在載入成功後顯示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞畫面的字典選單、字典庫設定與檔案列表會顯示載入狀態。空字典庫提示會在載入成功後顯示。",
+      "children": []
+    },
+    {
+      "id": "410c1b36c40181cfaf98cb880a26d30b",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iCloud 文件位置會在背景檢查。使用 iCloud 儲存時，「開啟資料夾」會等檢查完成後才可使用。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iCloud 文件位置會在背景檢查。使用 iCloud 儲存時，「開啟資料夾」會等檢查完成後才可使用。",
       "children": []
     },
     {
