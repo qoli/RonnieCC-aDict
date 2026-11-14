@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-11-06T16:24:38.947Z"
+    "syncedAt": "2026-11-14T07:35:16.784Z"
   },
   "blocks": [
     {
@@ -17,6 +17,175 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "418c1b36c401815aa933ce4fb7ea60bf",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.4 Build 24",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.4 Build 24",
+      "children": []
+    },
+    {
+      "id": "418c1b36c401816c800cc73250611c71",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "查詞與版面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞與版面",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181daba53e34a8bb1f413",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "iPhone 改依視窗寬度配置版面：寬版顯示側邊欄，窄版使用底部搜尋列。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iPhone 改依視窗寬度配置版面：寬版顯示側邊欄，窄版使用底部搜尋列。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181fda346d2588bede1a5",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "窄版搜尋列固定在畫面底部，輸入時保持在鍵盤上方，建議詞顯示在輸入框上方。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "窄版搜尋列固定在畫面底部，輸入時保持在鍵盤上方，建議詞顯示在輸入框上方。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181a194e3d8da6e797e31",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "建議詞可橫向捲動，空間足夠時一併顯示所屬詞典名稱。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "建議詞可橫向捲動，空間足夠時一併顯示所屬詞典名稱。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181fbb7c6c689b4e5490f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "寬版 iPhone 與 iPad 的側邊欄新增詞典清單，可直接勾選要使用的詞典；設定入口位於側邊欄底部。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "寬版 iPhone 與 iPad 的側邊欄新增詞典清單，可直接勾選要使用的詞典；設定入口位於側邊欄底部。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181539df6ce650d12e7f5",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "macOS 的詞典選單不再包含設定，改由 App 選單開啟。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "macOS 的詞典選單不再包含設定，改由 App 選單開啟。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181b98173dcbcb51924db",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "關於",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "關於",
+      "children": []
+    },
+    {
+      "id": "418c1b36c401817b80f7e6adc0a4769b",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "新增目前 App Store 地區與 aDict Pro 價格（含幣別）。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "新增目前 App Store 地區與 aDict Pro 價格（含幣別）。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c4018176836beb2cc009b09a",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "App Store 地區",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "App Store 地區",
+      "children": []
+    },
+    {
+      "id": "418c1b36c401817cbdd9e45a64a6b83d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "中國大陸 App Store 地區停用線上詞典，只能使用本機詞典；查詞畫面會說明原因，收藏指向線上詞典時也會提示改選本機詞典。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "中國大陸 App Store 地區停用線上詞典，只能使用本機詞典；查詞畫面會說明原因，收藏指向線上詞典時也會提示改選本機詞典。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181ebb94de935f11768dd",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "同一地區停止 Sentry 診斷回報。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "同一地區停止 Sentry 診斷回報。",
+      "children": []
+    },
+    {
+      "id": "418c1b36c40181c6a97de819f6a6ebee",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "App Store 地區變更或 App 回到前景時，會重新確認可用的詞典與線上服務。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "App Store 地區變更或 App 回到前景時，會重新確認可用的詞典與線上服務。",
       "children": []
     },
     {
