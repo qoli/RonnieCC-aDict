@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-11-14T07:57:08.133Z"
+    "syncedAt": "2026-11-15T09:36:26.654Z"
   },
   "blocks": [
     {
@@ -17,6 +17,227 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "419c1b36c401816db490e2fcca92ae8b",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.5 Build 25",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.5 Build 25",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181c0ab63cd700a9737d6",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "字典選擇",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "字典選擇",
+      "children": []
+    },
+    {
+      "id": "419c1b36c401816889eed7294dafcd6b",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "在字典選單選取的字典會記住，重新啟動仍沿用，新的查詞也使用這本字典。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "在字典選單選取的字典會記住，重新啟動仍沿用，新的查詞也使用這本字典。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c4018171a277c038b484e39d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "重新啟動還原的上次查詞結果，仍以它原本的字典顯示，不會改動選取的字典。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "重新啟動還原的上次查詞結果，仍以它原本的字典顯示，不會改動選取的字典。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181beade4c600ce4711ee",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "先前選取的字典若已無法使用，查詞時會提示重新選擇；中國大陸商店則改用內建字典。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "先前選取的字典若已無法使用，查詞時會提示重新選擇；中國大陸商店則改用內建字典。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181268d15dedcc2ba0897",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "iOS 查詞介面",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "iOS 查詞介面",
+      "children": []
+    },
+    {
+      "id": "419c1b36c401812daeaedb5e3ceaf367",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詞改用系統工具列的搜尋列，輸入時以建議清單顯示最近查詢與查詢建議；緊湊版面從底部工具列開啟。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞改用系統工具列的搜尋列，輸入時以建議清單顯示最近查詢與查詢建議；緊湊版面從底部工具列開啟。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181588023ce09f18a1305",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "建議清單標題會顯示打字貓插圖，可在設定的「功能」關閉。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "建議清單標題會顯示打字貓插圖，可在設定的「功能」關閉。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c4018100bc23ce759f2995d3",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "查詞內容會延伸到工具列下方，捲動時的邊緣漸層恢復正常。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "查詞內容會延伸到工具列下方，捲動時的邊緣漸層恢復正常。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c4018191983ad2bae82de752",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "內建離線字典",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "內建離線字典",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181449303fdeaad52b82f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "內建 2026-10-01 的 English Wiktionary 英文版快照（StarDict 格式），免費用戶也能離線查詞。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "內建 2026-10-01 的 English Wiktionary 英文版快照（StarDict 格式），免費用戶也能離線查詞。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181e1a7e1d1a6016ba86f",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "無法使用線上字典時（例如中國大陸商店），預設選用這本字典，並提示「輸入單字即可離線查詢。」",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "無法使用線上字典時（例如中國大陸商店），預設選用這本字典，並提示「輸入單字即可離線查詢。」",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181fca5f6c602fb981e24",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "每筆釋義附上對應的 Wiktionary 來源連結與 CC BY-SA 4.0 授權標示；「關於 aDict」的「資源」可匯出字典檔與授權文件。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "每筆釋義附上對應的 Wiktionary 來源連結與 CC BY-SA 4.0 授權標示；「關於 aDict」的「資源」可匯出字典檔與授權文件。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181d39851dc894f9a476c",
+      "type": "sub_sub_header",
+      "richText": [
+        {
+          "text": "介面語言",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "介面語言",
+      "children": []
+    },
+    {
+      "id": "419c1b36c40181aebee1c38396a3b1dc",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "介面提供英文、繁體中文與簡體中文，包含 Pro 會員畫面及購買、回復的錯誤訊息。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "介面提供英文、繁體中文與簡體中文，包含 Pro 會員畫面及購買、回復的錯誤訊息。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c401814fa90de43edf121813",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "原本固定顯示中文的字典分類、字典按鈕與 iCloud 檔案狀態，以及搬移舊版 MDict 檔案的提示，現在會跟著介面語言顯示。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "原本固定顯示中文的字典分類、字典按鈕與 iCloud 檔案狀態，以及搬移舊版 MDict 檔案的提示，現在會跟著介面語言顯示。",
+      "children": []
+    },
+    {
+      "id": "419c1b36c4018107be3fd1d2ebd964af",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "智慧補充的預設規則名稱會隨介面語言顯示，已儲存的規則標題維持不變。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "智慧補充的預設規則名稱會隨介面語言顯示，已儲存的規則標題維持不變。",
       "children": []
     },
     {
