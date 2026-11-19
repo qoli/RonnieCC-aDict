@@ -88,6 +88,16 @@ aDict deployment needs no image renderer or font installation.
 
 ## Image Optimization
 
+The homepage TestFlight badge is served from `assets/testflight.png`, copied
+unchanged from the existing
+`docs/xiaohongshu-operations/assets/testflight-lockup-official.png` (440 × 150,
+SHA-256 `58f5c085f474cd847841a581a29e7b8960b869a649fd9be0dbacff427169cc58`).
+That snapshot records the original `https://askyourself.app/assets/testflight.png`
+asset in the assets README. On 2026-11-19 the homepage's GitHub Camo proxy URL
+returned HTTP 403, `text/plain`, and `Bad Signature`, so the homepage now uses
+this tracked local copy without a proxy or login requirement. Keep the badge
+local when updating the page.
+
 The landing page serves WebP images with optimized PNG fallbacks. After replacing or adding PNG files in `assets/`, optimize PNG files and regenerate top-level WebP files with:
 
 ```sh
