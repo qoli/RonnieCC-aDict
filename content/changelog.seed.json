@@ -3,7 +3,7 @@
     "id": "98075976818745c9bc3657e1088fdf7b",
     "url": "https://www.notion.so/qoli/aDict-98075976818745c9bc3657e1088fdf7b?source=copy_link",
     "title": "aDict 更新日誌",
-    "syncedAt": "2026-11-15T09:36:26.654Z"
+    "syncedAt": "2026-11-20T17:26:22.763Z"
   },
   "blocks": [
     {
@@ -17,6 +17,45 @@
         }
       ],
       "plainText": "更新日誌",
+      "children": []
+    },
+    {
+      "id": "41ec1b36c40181c39733f7f62eeb41d6",
+      "type": "sub_header",
+      "richText": [
+        {
+          "text": "3.6 Build 26",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "3.6 Build 26",
+      "children": []
+    },
+    {
+      "id": "41ec1b36c40181019fecd7f90e2bbf6d",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "在緊湊版面開啟查詞搜尋列時，顯示中的查詞內容不會重新載入或閃動，關閉搜尋後仍停在原本的捲動位置。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "在緊湊版面開啟查詞搜尋列時，顯示中的查詞內容不會重新載入或閃動，關閉搜尋後仍停在原本的捲動位置。",
+      "children": []
+    },
+    {
+      "id": "41ec1b36c40181788c6dfb7a83e32b54",
+      "type": "bulleted_list",
+      "richText": [
+        {
+          "text": "搜尋列出現時，查詞內容維持原位，不再被隱藏或推移。",
+          "annotations": [],
+          "href": ""
+        }
+      ],
+      "plainText": "搜尋列出現時，查詞內容維持原位，不再被隱藏或推移。",
       "children": []
     },
     {
